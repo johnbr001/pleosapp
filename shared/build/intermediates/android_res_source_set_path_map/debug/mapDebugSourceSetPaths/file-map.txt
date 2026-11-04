@@ -1,0 +1,9 @@
+com.ys.pleosapp.shared-pngs-0 E:\Samsung\PleosApp\shared\build\generated\res\pngs\debug
+com.ys.pleosapp.shared-updated_navigation_xml-1 E:\Samsung\PleosApp\shared\build\generated\updated_navigation_xml\debug
+com.ys.pleosapp.shared-mergeDebugResources-2 E:\Samsung\PleosApp\shared\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.ys.pleosapp.shared-mergeDebugResources-3 E:\Samsung\PleosApp\shared\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.ys.pleosapp.shared-debug-4 E:\Samsung\PleosApp\shared\build\intermediates\merged_res\debug\mergeDebugResources
+com.ys.pleosapp.shared-debug-5 E:\Samsung\PleosApp\shared\build\intermediates\packaged_res\debug\packageDebugResources
+com.ys.pleosapp.shared-debug-6 E:\Samsung\PleosApp\shared\src\debug\res
+com.ys.pleosapp.shared-main-7 E:\Samsung\PleosApp\shared\src\main\res
+gradleHome-0 C:\Users\san27\.gradle
