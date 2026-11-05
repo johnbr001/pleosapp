@@ -2,10 +2,13 @@ package com.ys.pleosapp.shared
 
 import android.os.Handler
 import android.os.Looper
+import android.content.pm.PackageManager
 import androidx.car.app.CarContext
+import androidx.car.app.OnRequestPermissionsListener
 import androidx.car.app.Screen
 import androidx.car.app.model.Action
 import androidx.car.app.model.MessageTemplate
+import androidx.car.app.model.ParkedOnlyOnClickListener
 import androidx.car.app.model.Template
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
@@ -24,7 +27,10 @@ class MyCarAppScreen(carContext: CarContext) : Screen(carContext) {
     init {
         lifecycle.addObserver(LifecycleEventObserver { _, event ->
             when (event) {
-                Lifecycle.Event.ON_START -> connectToVehicle()
+                Lifecycle.Event.ON_START -> {
+                    if (hasSpeedPermission()) connectToVehicle()
+                    else showStatus("Speed permission required. Select Grant permission while parked.")
+                }
                 Lifecycle.Event.ON_STOP -> disconnectFromVehicle()
                 else -> Unit
             }
@@ -45,8 +51,13 @@ class MyCarAppScreen(carContext: CarContext) : Screen(carContext) {
             readInitialSpeed(manager)
         } catch (_: SecurityException) {
             showStatus("Speed permission is not granted")
-        } catch (_: Exception) {
-            showStatus("Vehicle speed is unavailable")
+        } catch (error: Exception) {
+            val cause = generateSequence(error as Throwable?) { it.cause }.last()
+            val detail = cause.message?.takeIf { it.isNotBlank() }
+            showStatus(
+                if (detail == null) "Vehicle connection failed: ${cause.javaClass.simpleName}"
+                else "Vehicle connection failed: ${cause.javaClass.simpleName}: $detail"
+            )
         }
     }
 
@@ -56,10 +67,31 @@ class MyCarAppScreen(carContext: CarContext) : Screen(carContext) {
         car = null
     }
 
-    override fun onGetTemplate(): Template = MessageTemplate.Builder(speedText)
-        .setHeaderAction(Action.APP_ICON)
-        .setTitle("Current speed")
-        .build()
+    override fun onGetTemplate(): Template {
+        val builder = MessageTemplate.Builder(speedText)
+            .setHeaderAction(Action.APP_ICON)
+            .setTitle("Current speed")
+        if (!hasSpeedPermission()) {
+            builder.addAction(
+                Action.Builder()
+                    .setTitle("Grant permission")
+                    .setOnClickListener(ParkedOnlyOnClickListener.create {
+                        carContext.requestPermissions(
+                            listOf(SPEED_PERMISSION),
+                            OnRequestPermissionsListener { granted, _ ->
+                                if (SPEED_PERMISSION in granted) connectToVehicle()
+                                else showStatus("Speed permission was denied")
+                            }
+                        )
+                    })
+                    .build()
+            )
+        }
+        return builder.build()
+    }
+
+    private fun hasSpeedPermission(): Boolean =
+        carContext.checkSelfPermission(SPEED_PERMISSION) == PackageManager.PERMISSION_GRANTED
 
     private fun subscribeToSpeed(manager: Any) {
         val managerClass = Class.forName("android.car.hardware.property.CarPropertyManager")
@@ -70,8 +102,13 @@ class MyCarAppScreen(carContext: CarContext) : Screen(carContext) {
         val callback = Proxy.newProxyInstance(
             callbackClass.classLoader,
             arrayOf(callbackClass)
-        ) { _, method, args ->
+        ) { proxy, method, args ->
             when (method.name) {
+                // Java collections may call these Object methods while registering the proxy.
+                // A null return for hashCode() gets unboxed to int and crashes with an NPE.
+                "hashCode" -> System.identityHashCode(proxy)
+                "equals" -> proxy === args?.firstOrNull()
+                "toString" -> "VehicleSpeedCallback"
                 "onChangeEvent" -> {
                     val value = args?.firstOrNull()
                     val id = value?.javaClass?.getMethod("getPropertyId")?.invoke(value) as? Int
@@ -81,8 +118,8 @@ class MyCarAppScreen(carContext: CarContext) : Screen(carContext) {
                     }
                 }
                 "onErrorEvent" -> showStatus("Vehicle speed is unavailable")
+                else -> null
             }
-            null
         }
         speedCallback = callback
         val register = managerClass.methods.first {
@@ -98,7 +135,8 @@ class MyCarAppScreen(carContext: CarContext) : Screen(carContext) {
                 val getProperty = managerClass.methods.firstOrNull {
                     it.name == "getProperty" && it.parameterTypes.size == 3
                 }
-                val speed = if (getProperty != null) {
+                val speed = runCatching {
+                    if (getProperty == null) throw NoSuchMethodException("getProperty")
                     val value = getProperty.invoke(
                         manager,
                         Float::class.javaObjectType,
@@ -106,7 +144,7 @@ class MyCarAppScreen(carContext: CarContext) : Screen(carContext) {
                         0
                     )
                     value?.javaClass?.getMethod("getValue")?.invoke(value) as? Number
-                } else {
+                }.getOrNull() ?: run {
                     val getFloat = managerClass.getMethod(
                         "getFloatProperty",
                         Int::class.javaPrimitiveType,
@@ -116,8 +154,12 @@ class MyCarAppScreen(carContext: CarContext) : Screen(carContext) {
                 }
                 if (speed != null) showSpeed(speed.toFloat())
                 else showStatus("Waiting for vehicle speed...")
-            } catch (_: Exception) {
-                showStatus("Waiting for vehicle speed...")
+            } catch (_: SecurityException) {
+                showStatus("Speed permission is not granted")
+            } catch (error: Exception) {
+                // Keep the actual failure visible while diagnosing device/API differences.
+                val cause = error.cause ?: error
+                showStatus("Unable to read vehicle speed: ${cause.javaClass.simpleName}")
             }
         }
     }
@@ -152,6 +194,7 @@ class MyCarAppScreen(carContext: CarContext) : Screen(carContext) {
     }
 
     private companion object {
+        const val SPEED_PERMISSION = "android.car.permission.CAR_SPEED"
         // VehiclePropertyIds.PERF_VEHICLE_SPEED, in meters per second.
         const val PERF_VEHICLE_SPEED = 0x11600207
         const val NORMAL_SENSOR_RATE = 1.0f
