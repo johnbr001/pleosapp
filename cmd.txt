@@ -1,0 +1,6 @@
+cmds
+
+cd %LOCALAPPDATA%\Android\Sdk\platform-tools
+adb forward tcp:8088 tcp:8088
+
+• http://127.0.0.1:8088/
