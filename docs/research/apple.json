@@ -1,0 +1,2551 @@
+{
+  "checked": "2026-11-09",
+  "legacy_function_checked": "2026-10-27",
+  "annual_award_apps": [
+    {
+      "name": "Be My Eyes",
+      "category": "접근성·의사소통",
+      "features": [
+        "영상통화로 자원봉사자에게 주변 사물이나 글자 확인을 부탁한다.",
+        "사진을 AI에 보내 설명을 받고 추가 질문을 한다.",
+        "지원하는 기업의 담당자에게 제품·서비스 관련 도움을 연결한다."
+      ],
+      "sources": [
+        {
+          "title": "Be My Eyes 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/be-my-eyes/id905177575"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. AI 설명에는 오류가 있을 수 있으며 언어·기업 지원 범위가 다릅니다.",
+      "product_url": "https://apps.apple.com/us/app/be-my-eyes/id905177575",
+      "id": "app-be-my-eyes",
+      "alternate_names": [
+        "Be My Eyes"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. AI 설명에는 오류가 있을 수 있으며 언어·기업 지원 범위가 다릅니다."
+      ],
+      "description": "보이지 않는 정보를 사람이나 AI에게 물어보는 시각 지원 앱",
+      "awards": [
+        {
+          "year": 2025,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Cultural Impact Winners",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2025/12/apple-unveils-the-winners-of-the-2025-app-store-awards/",
+          "app_name": "Be My Eyes"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Detail",
+      "category": "창작·편집",
+      "features": [
+        "여러 카메라 각도를 촬영하고 화면 구성을 바꾼다.",
+        "AI 자동 편집으로 주요 장면을 찾고 침묵을 줄여 짧은 영상을 만든다.",
+        "자동 자막을 생성한 뒤 문구와 스타일을 편집한다."
+      ],
+      "sources": [
+        {
+          "title": "Detail 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/detail-ai-video-editor/id1673518618"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. AI 편집 결과와 자막은 사용자 검토가 필요합니다.",
+      "product_url": "https://apps.apple.com/us/app/detail-ai-video-editor/id1673518618",
+      "id": "app-detail",
+      "alternate_names": [
+        "Detail"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. AI 편집 결과와 자막은 사용자 검토가 필요합니다."
+      ],
+      "description": "촬영한 대화를 짧은 영상으로 정리하는 제작 앱",
+      "awards": [
+        {
+          "year": 2025,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "iPad App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2025/12/apple-unveils-the-winners-of-the-2025-app-store-awards/",
+          "app_name": "Detail"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Essayist",
+      "category": "생산성·기록",
+      "features": [
+        "선택한 학술 양식에 맞춰 여백·제목·간격·페이지 번호 등을 정리한다.",
+        "검색·URL·수동 입력으로 참고문헌 정보를 저장한다.",
+        "본문 인용·각주와 참고문헌 목록을 문서에 삽입한다."
+      ],
+      "sources": [
+        {
+          "title": "Essayist 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/essayist-academic-writing-app/id1537845384"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 자동 서식은 제출기관의 별도 규정을 확인해야 하며 자료의 사실성 자체를 검증하지 않습니다.",
+      "product_url": "https://apps.apple.com/us/app/essayist-academic-writing-app/id1537845384",
+      "id": "app-essayist",
+      "alternate_names": [
+        "Essayist"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 자동 서식은 제출기관의 별도 규정을 확인해야 하며 자료의 사실성 자체를 검증하지 않습니다."
+      ],
+      "description": "논문의 형식과 인용 처리를 자동화하는 문서 작성 앱",
+      "awards": [
+        {
+          "year": 2025,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Mac App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2025/12/apple-unveils-the-winners-of-the-2025-app-store-awards/",
+          "app_name": "Essayist"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Explore POV",
+      "category": "영상·음악·체험",
+      "features": [
+        "현장에서 촬영한 여러 나라의 자연 풍경을 입체 영상으로 감상한다.",
+        "국가와 장소별 라이브러리에서 보고 싶은 풍경을 고른다.",
+        "영상을 스트리밍하거나 내려받아 감상한다."
+      ],
+      "sources": [
+        {
+          "title": "Explore POV 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/explore-pov/id6479555991"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Vision Pro용 체험 콘텐츠이며 실제 이동·여행 예약 서비스는 아닙니다. 콘텐츠 제공 범위는 구독 조건에 따릅니다.",
+      "product_url": "https://apps.apple.com/us/app/explore-pov/id6479555991",
+      "id": "app-explore-pov",
+      "alternate_names": [
+        "Explore POV"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Vision Pro용 체험 콘텐츠이며 실제 이동·여행 예약 서비스는 아닙니다. 콘텐츠 제공 범위는 구독 조건에 따릅니다."
+      ],
+      "description": "실제 촬영한 자연 풍경을 공간 영상으로 보는 여행 경험",
+      "awards": [
+        {
+          "year": 2025,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Apple Vision Pro App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2025/12/apple-unveils-the-winners-of-the-2025-app-store-awards/",
+          "app_name": "Explore POV"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Focus Friend",
+      "category": "생산성·기록",
+      "features": [
+        "집중 타이머를 시작하고 잠금 화면에서도 진행 상황을 확인한다.",
+        "Deep Focus 모드로 집중 세션 중 방해되는 앱을 제한한다.",
+        "세션 완료 보상으로 방을 꾸미고 휴식 타이머로 쉬는 시간을 관리한다."
+      ],
+      "sources": [
+        {
+          "title": "Focus Friend 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/focus-friend-by-hank-green/id6742278016"
+        },
+        {
+          "title": "Focus Friend by Hank Green — 개발사 제공 스토어 설명",
+          "url": "https://play.google.com/store/apps/details?id=com.underthing.focus.friend"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 캐릭터 보상이 있지만 Apple은 생산성 목적의 Cultural Impact 앱으로 선정해 포함했습니다. 기능별 유료 조건을 확인해야 합니다.",
+      "product_url": "https://apps.apple.com/us/app/focus-friend-by-hank-green/id6742278016",
+      "id": "app-focus-friend",
+      "alternate_names": [
+        "Focus Friend",
+        "Focus Friend by Hank Green"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 캐릭터 보상이 있지만 Apple은 생산성 목적의 Cultural Impact 앱으로 선정해 포함했습니다. 기능별 유료 조건을 확인해야 합니다.",
+        "게임화 보상을 쓰는 집중 타이머로 포함했다. 플랫폼에 따라 세부 기능이 다를 수 있다.",
+        "여러 스토어의 수상 이력을 통합한 항목입니다. 운영체제·기기·요금제별 제공 기능은 다를 수 있으므로 연결된 제품 설명에서 확인하세요."
+      ],
+      "description": "집중한 시간에 따라 캐릭터와 방을 꾸미는 집중 타이머",
+      "awards": [
+        {
+          "year": 2025,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Cultural Impact Winners",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2025/12/apple-unveils-the-winners-of-the-2025-app-store-awards/",
+          "app_name": "Focus Friend"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Goodnotes / GoodNotes 5",
+      "category": "생산성·기록",
+      "features": [
+        "페이지에 손글씨·타이핑·사진을 함께 넣어 필기한다.",
+        "필기 내용의 단어를 검색해 필요한 부분을 찾는다.",
+        "노트와 PDF를 정리하고 작성한 내용을 PDF로 공유한다."
+      ],
+      "sources": [
+        {
+          "title": "GoodNotes 5 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/goodnotes-5/id1444383602"
+        },
+        {
+          "title": "Goodnotes: Notes, docs, PDF — 개발사 제공 스토어 설명",
+          "url": "https://play.google.com/store/apps/details?id=com.goodnotes.android.app"
+        },
+        {
+          "title": "Google Play 한국 2025 수상 발표",
+          "url": "https://blog.google/intl/ko-kr/products/android-play-hardware/googleplay-best-of-2025/"
+        },
+        {
+          "title": "2025 전체 앱 수상작 공식 이미지",
+          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/main1_BExm2na.width-1200.format-webp.webp"
+        },
+        {
+          "title": "공식 서비스·기능 소개",
+          "url": "https://play.google.com/store/apps/details?id=com.goodnotes.android.app"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 수상 당시 이름은 GoodNotes 5이며 현재는 Goodnotes로 안내됩니다. 최신 AI 기능은 본 핵심 기능 설명에서 제외했습니다.",
+      "product_url": "https://apps.apple.com/us/app/goodnotes-5/id1444383602",
+      "id": "app-goodnotes",
+      "alternate_names": [
+        "GoodNotes 5",
+        "Goodnotes: Notes, docs, PDF",
+        "Goodnotes"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 수상 당시 이름은 GoodNotes 5이며 현재는 Goodnotes로 안내됩니다. 최신 AI 기능은 본 핵심 기능 설명에서 제외했습니다.",
+        "기능은 수상 당시 공식 소개 기준. 일부 기능은 2026년 10월 27일 확인한 공식 서비스 소개로 보충했습니다.",
+        "여러 스토어의 수상 이력을 통합한 항목입니다. 운영체제·기기·요금제별 제공 기능은 다를 수 있으므로 연결된 제품 설명에서 확인하세요."
+      ],
+      "description": "손글씨 필기를 검색하고 문서와 함께 보관하는 디지털 노트",
+      "awards": [
+        {
+          "year": 2022,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "iPad App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2022/11/app-store-awards-celebrate-the-best-apps-and-games-of-2022/",
+          "app_name": "GoodNotes 5"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "HBO Max / Max",
+      "category": "영상·음악·체험",
+      "features": [
+        "영화·시리즈를 장르와 브랜드로 탐색하고 검색한다.",
+        "개인별 프로필과 시청 연령 설정으로 가족의 이용 환경을 나눈다.",
+        "여러 기기에서 이어 보고 지원 요금제에서는 영상을 내려받는다."
+      ],
+      "sources": [
+        {
+          "title": "HBO Max 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/hbo-max-stream-movies-tv/id1666653815"
+        },
+        {
+          "title": "Max — 개발사 제공 스토어 설명",
+          "url": "https://play.google.com/store/apps/details?id=com.wbd.stream"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Apple TV 수상. 다운로드는 지원 기기·요금제에서 제공되며 국가별 서비스 여부와 카탈로그가 다릅니다.",
+      "product_url": "https://apps.apple.com/us/app/hbo-max-stream-movies-tv/id1666653815",
+      "id": "app-hbo-max",
+      "alternate_names": [
+        "HBO Max",
+        "Max"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Apple TV 수상. 다운로드는 지원 기기·요금제에서 제공되며 국가별 서비스 여부와 카탈로그가 다릅니다.",
+        "미국 수상 서비스. 콘텐츠·기기·다운로드·라이브 제공 범위는 지역과 요금제에 따라 다르다. 수상 당시 이름은 Max이며 현재 스토어 표기는 HBO Max다.",
+        "여러 스토어의 수상 이력을 통합한 항목입니다. 운영체제·기기·요금제별 제공 기능은 다를 수 있으므로 연결된 제품 설명에서 확인하세요."
+      ],
+      "description": "HBO와 다양한 영화·시리즈를 모은 영상 구독 서비스",
+      "awards": [
+        {
+          "year": 2025,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Apple TV App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2025/12/apple-unveils-the-winners-of-the-2025-app-store-awards/",
+          "app_name": "HBO Max"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "StoryGraph",
+      "category": "학습·교육",
+      "features": [
+        "읽는 중·완독·중단 등의 상태로 책을 기록하고 독서 통계를 본다.",
+        "분위기·전개 속도와 취향에 맞춰 책을 필터링하고 추천받는다.",
+        "함께 읽는 사람과 진도에 맞춰 반응을 공유해 스포일러를 줄인다."
+      ],
+      "sources": [
+        {
+          "title": "StoryGraph 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/storygraph-reading-tracker/id1570489264"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. ",
+      "product_url": "https://apps.apple.com/us/app/storygraph-reading-tracker/id1570489264",
+      "id": "app-storygraph",
+      "alternate_names": [
+        "StoryGraph"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. "
+      ],
+      "description": "읽은 책의 성향을 분석하고 다음 책을 찾는 독서 기록 앱",
+      "awards": [
+        {
+          "year": 2025,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Cultural Impact Winners",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2025/12/apple-unveils-the-winners-of-the-2025-app-store-awards/",
+          "app_name": "StoryGraph"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Strava",
+      "category": "건강·운동",
+      "features": [
+        "달리기·자전거 등 여러 운동을 기록하고 이력을 모은다.",
+        "운동 경로를 발견하거나 자신의 경로를 만든다.",
+        "친구와 활동을 공유하고 기록을 비교하며 진행 상황을 돌아본다."
+      ],
+      "sources": [
+        {
+          "title": "Strava 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/strava-run-bike-walk/id426826309"
+        },
+        {
+          "title": "Google Play 한국 2021 수상 발표",
+          "url": "https://blog.google/intl/ko-kr/products/android-play-hardware/google-play-2021/"
+        },
+        {
+          "title": "2021 전체 앱 수상작 공식 이미지",
+          "url": "https://lh6.googleusercontent.com/O1AKp3nIxAw-thF0pMzRSTp-UlDvDAIe0WhNlmnfzktecbjFkyPS6IbyNyYyPyIMhOQFRYK_ru240nEC20FQGJ2DzrNIGyxaecADP5bMYEx_XsTEnYjPUnZuXu_sQf4Q_a-qqjYo=w607-h673"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 경로·심층 분석 등 일부 기능은 유료입니다. 기기와 연동 앱에 따라 수집 데이터가 다릅니다.",
+      "product_url": "https://apps.apple.com/us/app/strava-run-bike-walk/id426826309",
+      "id": "app-strava",
+      "alternate_names": [
+        "Strava"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 경로·심층 분석 등 일부 기능은 유료입니다. 기기와 연동 앱에 따라 수집 데이터가 다릅니다.",
+        "기능은 수상 당시 공식 소개 기준.",
+        "여러 스토어의 수상 이력을 통합한 항목입니다. 운영체제·기기·요금제별 제공 기능은 다를 수 있으므로 연결된 제품 설명에서 확인하세요."
+      ],
+      "description": "운동 기록을 분석하고 다른 사람과 나누는 활동 플랫폼",
+      "awards": [
+        {
+          "year": 2025,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Apple Watch App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2025/12/apple-unveils-the-winners-of-the-2025-app-store-awards/",
+          "app_name": "Strava"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Tiimo",
+      "category": "생산성·기록",
+      "features": [
+        "하루 일정을 색과 작업 블록으로 보여주고 끌어서 순서를 조정한다.",
+        "할 일을 입력해 AI 계획 도우미로 정리·우선순위 설정을 돕는다.",
+        "집중 타이머와 위젯으로 지금 할 일과 남은 시간을 확인한다."
+      ],
+      "sources": [
+        {
+          "title": "Tiimo 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/tiimo-ai-planner-to-do/id1480220328"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 일정 관리 보조 도구이며 ADHD 등의 치료 효과를 주장하지 않습니다. 무료·Pro 범위가 다릅니다.",
+      "product_url": "https://apps.apple.com/us/app/tiimo-ai-planner-to-do/id1480220328",
+      "id": "app-tiimo",
+      "alternate_names": [
+        "Tiimo"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 일정 관리 보조 도구이며 ADHD 등의 치료 효과를 주장하지 않습니다. 무료·Pro 범위가 다릅니다."
+      ],
+      "description": "해야 할 일과 시간을 눈에 보이는 일정으로 바꾸는 앱",
+      "awards": [
+        {
+          "year": 2025,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "iPhone App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2025/12/apple-unveils-the-winners-of-the-2025-app-store-awards/",
+          "app_name": "Tiimo"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Adobe Lightroom",
+      "category": "창작·편집",
+      "features": [
+        "노출·색상 등을 조정해 사진의 분위기와 디테일을 보정한다.",
+        "프리셋을 적용해 원하는 색감을 빠르게 만든다.",
+        "피사체나 배경의 특정 부분을 선택해 국소 보정한다."
+      ],
+      "sources": [
+        {
+          "title": "Adobe Lightroom 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/lightroom-photo-video-editor/id878783582"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Mac App of the Year 수상이며 연결된 공식 설명은 모바일 포함 제품군 기준입니다. 플랫폼·요금제별 기능 차이가 있습니다.",
+      "product_url": "https://apps.apple.com/us/app/lightroom-photo-video-editor/id878783582",
+      "id": "app-adobe-lightroom",
+      "alternate_names": [
+        "Adobe Lightroom"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Mac App of the Year 수상이며 연결된 공식 설명은 모바일 포함 제품군 기준입니다. 플랫폼·요금제별 기능 차이가 있습니다."
+      ],
+      "description": "사진의 밝기·색상·영역을 조정하는 사진 편집 도구",
+      "awards": [
+        {
+          "year": 2024,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Mac App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2024/12/apple-honors-2024-app-store-award-winners/",
+          "app_name": "Adobe Lightroom"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "DailyArt",
+      "category": "학습·교육",
+      "features": [
+        "매일 미술 작품 한 점과 짧은 해설을 제공한다.",
+        "작품과 작가 약력·미술관 컬렉션 정보를 탐색한다.",
+        "좋아하는 작품을 저장하고 다시 찾아본다."
+      ],
+      "sources": [
+        {
+          "title": "DailyArt 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/dailyart/id547982045"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 전체 콘텐츠 접근 등 일부 기능은 유료입니다.",
+      "product_url": "https://apps.apple.com/us/app/dailyart/id547982045",
+      "id": "app-dailyart",
+      "alternate_names": [
+        "DailyArt"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 전체 콘텐츠 접근 등 일부 기능은 유료입니다."
+      ],
+      "description": "하루 한 작품과 해설로 미술을 접하게 하는 앱",
+      "awards": [
+        {
+          "year": 2024,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Cultural Impact Winners",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2024/12/apple-honors-2024-app-store-award-winners/",
+          "app_name": "DailyArt"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "EF Hello",
+      "category": "학습·교육",
+      "features": [
+        "목표와 수준에 맞춘 학습 계획을 제공한다.",
+        "메시지나 음성 대화로 상황별 회화를 연습한다.",
+        "발음·문법·유창성 피드백으로 다음 연습에서 고칠 부분을 확인한다."
+      ],
+      "sources": [
+        {
+          "title": "EF Hello 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/english-learning-ef-hello-esl/id1324622665"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 2024 수상 당시와 현행 AI 튜터·지원 언어 구성은 다를 수 있습니다. 현행 공식 설명 기준입니다.",
+      "product_url": "https://apps.apple.com/us/app/english-learning-ef-hello-esl/id1324622665",
+      "id": "app-ef-hello",
+      "alternate_names": [
+        "EF Hello"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 2024 수상 당시와 현행 AI 튜터·지원 언어 구성은 다를 수 있습니다. 현행 공식 설명 기준입니다."
+      ],
+      "description": "실제 대화 상황을 짧게 연습하는 언어 학습 앱",
+      "awards": [
+        {
+          "year": 2024,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Cultural Impact Winners",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2024/12/apple-honors-2024-app-store-award-winners/",
+          "app_name": "EF Hello"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "F1 TV",
+      "category": "영상·음악·체험",
+      "features": [
+        "제공 요금제에서 F1 세션을 실시간 또는 다시보기로 시청한다.",
+        "드라이버별 온보드 카메라와 팀 라디오로 관심 차량을 따라간다.",
+        "랩타임·타이어 사용·텔레메트리·드라이버 지도로 경기 상황을 살핀다."
+      ],
+      "sources": [
+        {
+          "title": "F1 TV 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/f1-tv/id1315007279"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 라이브·온보드·다시보기 제공 범위는 국가와 요금제별로 다릅니다.",
+      "product_url": "https://apps.apple.com/us/app/f1-tv/id1315007279",
+      "id": "app-f1-tv",
+      "alternate_names": [
+        "F1 TV"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 라이브·온보드·다시보기 제공 범위는 국가와 요금제별로 다릅니다."
+      ],
+      "description": "경기 영상과 차량별 화면·데이터를 함께 보는 F1 서비스",
+      "awards": [
+        {
+          "year": 2024,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Apple TV App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2024/12/apple-honors-2024-app-store-award-winners/",
+          "app_name": "F1 TV"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Kino",
+      "category": "창작·편집",
+      "features": [
+        "촬영 시 색상 프리셋을 적용해 보정된 영상을 저장한다.",
+        "AutoMotion으로 영화적인 움직임 표현에 맞는 촬영 설정을 돕는다.",
+        "수동 노출·초점 보조와 파형·오디오 미터로 촬영 상태를 확인한다."
+      ],
+      "sources": [
+        {
+          "title": "Kino 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/kino-pro-video-camera/id6472380172"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 촬영 형식과 지원 기능은 iPhone 기종에 따라 달라집니다.",
+      "product_url": "https://apps.apple.com/us/app/kino-pro-video-camera/id6472380172",
+      "id": "app-kino",
+      "alternate_names": [
+        "Kino"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 촬영 형식과 지원 기능은 iPhone 기종에 따라 달라집니다."
+      ],
+      "description": "촬영 단계에서 영화 같은 색감과 움직임을 만드는 비디오 카메라",
+      "awards": [
+        {
+          "year": 2024,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "iPhone App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2024/12/apple-honors-2024-app-store-award-winners/",
+          "app_name": "Kino"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Lumy",
+      "category": "생활·편의",
+      "features": [
+        "위치에 따른 일출·일몰·골든아워·블루아워 시간을 계산한다.",
+        "태양과 달의 위치·월령 등 야외 계획에 필요한 정보를 보여준다.",
+        "알림과 Apple Watch 화면에서 다가오는 시간대를 확인한다."
+      ],
+      "sources": [
+        {
+          "title": "Lumy 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/lumy/id908905093"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. ",
+      "product_url": "https://apps.apple.com/us/app/lumy/id908905093",
+      "id": "app-lumy",
+      "alternate_names": [
+        "Lumy"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. "
+      ],
+      "description": "일출·일몰과 촬영에 좋은 빛의 시간을 알려주는 앱",
+      "awards": [
+        {
+          "year": 2024,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Apple Watch App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2024/12/apple-honors-2024-app-store-award-winners/",
+          "app_name": "Lumy"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Moises",
+      "category": "창작·편집",
+      "features": [
+        "노래에서 보컬·드럼·베이스 등 파트를 분리하고 각 음량을 조정한다.",
+        "음원의 속도와 조성을 바꿔 연주·가창 수준에 맞춘다.",
+        "코드 감지와 박자에 맞는 메트로놈으로 연습을 돕는다."
+      ],
+      "sources": [
+        {
+          "title": "Moises 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/moises-the-musicians-app/id1515796612"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 분리 품질은 음원에 따라 다르며 이용 가능한 파트와 기능은 요금제에 따라 다릅니다.",
+      "product_url": "https://apps.apple.com/us/app/moises-the-musicians-app/id1515796612",
+      "id": "app-moises",
+      "alternate_names": [
+        "Moises"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 분리 품질은 음원에 따라 다르며 이용 가능한 파트와 기능은 요금제에 따라 다릅니다."
+      ],
+      "description": "곡의 보컬과 악기를 분리해 맞춤 연습 반주를 만드는 앱",
+      "awards": [
+        {
+          "year": 2024,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "iPad App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2024/12/apple-honors-2024-app-store-award-winners/",
+          "app_name": "Moises"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Oko",
+      "category": "접근성·의사소통",
+      "features": [
+        "목적지를 검색하면 단계별 보행 경로를 안내한다.",
+        "교차로에 다가갈 때 관련 정보를 알려준다.",
+        "휴대폰을 들어 보행 신호를 비추면 통행 신호 상태를 알린다."
+      ],
+      "sources": [
+        {
+          "title": "Oko 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/oko-cross-streets-and-maps/id1583614988"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 신호 인식은 환경·지역에 영향을 받으며 단독 안전 판단이나 기존 이동 보조 수단을 대체하는 것으로 제시하지 않습니다.",
+      "product_url": "https://apps.apple.com/us/app/oko-cross-streets-and-maps/id1583614988",
+      "id": "app-oko",
+      "alternate_names": [
+        "Oko"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 신호 인식은 환경·지역에 영향을 받으며 단독 안전 판단이나 기존 이동 보조 수단을 대체하는 것으로 제시하지 않습니다."
+      ],
+      "description": "보행 경로와 교차로 신호 정보를 전달하는 이동 보조 앱",
+      "awards": [
+        {
+          "year": 2024,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Cultural Impact Winners",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2024/12/apple-honors-2024-app-store-award-winners/",
+          "app_name": "Oko"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "What If…? An Immersive Story",
+      "category": "영상·음악·체험",
+      "features": [
+        "Apple Vision Pro에서 혼합현실과 가상현실 공간을 오가며 이야기를 경험한다.",
+        "입체 영상과 캐릭터를 주변 공간에서 보는 방식으로 장면을 감상한다.",
+        "손동작과 시선으로 주문을 쓰거나 등장인물과 함께 행동한다."
+      ],
+      "sources": [
+        {
+          "title": "What If…? An Immersive Story 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/what-if-an-immersive-story/id6479251303"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Apple이 App 부문으로 선정한 상호작용형 영상 콘텐츠여서 포함했습니다. 범용 모바일 서비스와 구별해야 하며 Vision Pro가 필요합니다.",
+      "product_url": "https://apps.apple.com/us/app/what-if-an-immersive-story/id6479251303",
+      "id": "app-what-if-an-immersive-story",
+      "alternate_names": [
+        "What If…? An Immersive Story"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Apple이 App 부문으로 선정한 상호작용형 영상 콘텐츠여서 포함했습니다. 범용 모바일 서비스와 구별해야 하며 Vision Pro가 필요합니다."
+      ],
+      "description": "마블 이야기 안에 들어가 손동작으로 참여하는 공간 영상 경험",
+      "awards": [
+        {
+          "year": 2024,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Apple Vision Pro App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2024/12/apple-honors-2024-app-store-award-winners/",
+          "app_name": "What If…? An Immersive Story"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "AllTrails",
+      "category": "여행·이동",
+      "features": [
+        "위치·난이도·활동 종류와 이용 조건으로 코스를 검색한다.",
+        "방문자 후기·사진·코스 정보를 보고 일정을 준비한다.",
+        "지도에서 코스를 따라 이동하고 활동 경로와 기록을 남긴다."
+      ],
+      "sources": [
+        {
+          "title": "AllTrails 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/alltrails-hike-bike-run/id405075943"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 오프라인 지도 등 일부 기능은 유료이고 지도와 현장 조건은 다를 수 있습니다.",
+      "product_url": "https://apps.apple.com/us/app/alltrails-hike-bike-run/id405075943",
+      "id": "app-alltrails",
+      "alternate_names": [
+        "AllTrails"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 오프라인 지도 등 일부 기능은 유료이고 지도와 현장 조건은 다를 수 있습니다."
+      ],
+      "description": "조건에 맞는 산책·등산 코스를 찾고 따라가는 앱",
+      "awards": [
+        {
+          "year": 2023,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "iPhone App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2023/11/apple-unveils-app-store-award-winners-the-best-apps-and-games-of-2023/",
+          "app_name": "AllTrails"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Canva",
+      "category": "창작·편집",
+      "features": [
+        "발표자료와 소셜 게시물 등에 맞는 템플릿을 골라 내용을 바꾼다.",
+        "사진의 배경·밝기·색상과 그래픽 요소를 편집한다.",
+        "영상 클립에 자막·효과·음악을 더해 게시용 콘텐츠를 만든다."
+      ],
+      "sources": [
+        {
+          "title": "Canva 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/id897446215"
+        },
+        {
+          "title": "Canva: Design, Photo & Video — 개발사 제공 스토어 설명",
+          "url": "https://play.google.com/store/apps/details?id=com.canva.editor"
+        },
+        {
+          "title": "Google Play 한국 2023 수상 발표",
+          "url": "https://blog.google/intl/ko-kr/products/android-play-hardware/googleplay-best-of-2023/"
+        },
+        {
+          "title": "2023 전체 앱 수상작 공식 이미지",
+          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SaJin_1_GuGeulPeulLeI_OlHaeLeul_.width-1200.format-webp.webp"
+        },
+        {
+          "title": "공식 서비스·기능 소개",
+          "url": "https://play.google.com/store/apps/details?id=com.canva.editor"
+        },
+        {
+          "title": "2023 전체 수상 목록·등급",
+          "url": "https://korea.googleblog.com/2023/11/"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 유료 소재와 고급 편집 기능은 요금제에 따라 다릅니다.",
+      "product_url": "https://apps.apple.com/us/app/id897446215",
+      "id": "app-canva",
+      "alternate_names": [
+        "Canva",
+        "Canva: Design, Photo & Video"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 유료 소재와 고급 편집 기능은 요금제에 따라 다릅니다.",
+        "기능은 수상 당시 공식 소개 기준.",
+        "여러 스토어의 수상 이력을 통합한 항목입니다. 운영체제·기기·요금제별 제공 기능은 다를 수 있으므로 연결된 제품 설명에서 확인하세요."
+      ],
+      "description": "템플릿으로 발표자료·홍보물·영상을 만드는 디자인 도구",
+      "awards": [
+        {
+          "year": 2021,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Trend of the Year: Connection",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2021/12/app-store-awards-honor-the-best-apps-and-games-of-2021/",
+          "app_name": "Canva"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "MUBI",
+      "category": "영상·음악·체험",
+      "features": [
+        "큐레이터가 선정한 여러 국가와 감독의 영화를 탐색한다.",
+        "선택한 영화를 여러 지원 화면과 기기에서 스트리밍한다.",
+        "지원 기기에 영화를 내려받아 인터넷 연결 없이 감상한다."
+      ],
+      "sources": [
+        {
+          "title": "MUBI 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/mubi-stream-great-cinema/id626148774"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Apple TV 수상. 다운로드는 지원 모바일 기기 기능이며 콘텐츠와 이용권은 국가에 따라 다릅니다.",
+      "product_url": "https://apps.apple.com/us/app/mubi-stream-great-cinema/id626148774",
+      "id": "app-mubi",
+      "alternate_names": [
+        "MUBI"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Apple TV 수상. 다운로드는 지원 모바일 기기 기능이며 콘텐츠와 이용권은 국가에 따라 다릅니다."
+      ],
+      "description": "큐레이터가 고른 세계 영화를 발견하고 감상하는 서비스",
+      "awards": [
+        {
+          "year": 2023,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Apple TV App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2023/11/apple-unveils-app-store-award-winners-the-best-apps-and-games-of-2023/",
+          "app_name": "MUBI"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Photomator",
+      "category": "창작·편집",
+      "features": [
+        "밝기·색상 등을 비파괴 방식으로 조정한다.",
+        "피사체·하늘·배경을 자동 선택하거나 마스크로 선택 영역만 편집한다.",
+        "여러 사진에 보정값을 복사하거나 일괄 적용한다."
+      ],
+      "sources": [
+        {
+          "title": "Photomator 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/photomator-by-pixelmator-team/id1444636541"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Mac 수상작이며 플랫폼별 상세 기능은 다를 수 있습니다.",
+      "product_url": "https://apps.apple.com/us/app/photomator-by-pixelmator-team/id1444636541",
+      "id": "app-photomator",
+      "alternate_names": [
+        "Photomator"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Mac 수상작이며 플랫폼별 상세 기능은 다를 수 있습니다."
+      ],
+      "description": "피사체와 배경을 나누어 사진의 색과 디테일을 보정하는 앱",
+      "awards": [
+        {
+          "year": 2023,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Mac App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2023/11/apple-unveils-app-store-award-winners-the-best-apps-and-games-of-2023/",
+          "app_name": "Photomator"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Proloquo",
+      "category": "접근성·의사소통",
+      "features": [
+        "화면의 단어와 상징을 선택해 의사를 표현한다.",
+        "단어 검색·관련 단어·예측 입력을 활용해 표현을 확장한다.",
+        "가족·교사 등 지원하는 사람과 여러 기기에서 같은 도구를 사용할 수 있다."
+      ],
+      "sources": [
+        {
+          "title": "Proloquo 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/proloquo/id1521978238"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Proloquo와 Proloquo2Go는 다른 제품입니다. 언어·기기 지원과 구독 조건 확인이 필요합니다.",
+      "product_url": "https://apps.apple.com/us/app/proloquo/id1521978238",
+      "id": "app-proloquo",
+      "alternate_names": [
+        "Proloquo"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. Proloquo와 Proloquo2Go는 다른 제품입니다. 언어·기기 지원과 구독 조건 확인이 필요합니다."
+      ],
+      "description": "말로 표현하기 어려운 사람의 의사소통을 돕는 AAC 앱",
+      "awards": [
+        {
+          "year": 2023,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Cultural Impact Winners",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2023/11/apple-unveils-app-store-award-winners-the-best-apps-and-games-of-2023/",
+          "app_name": "Proloquo"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Prêt-à-Makeup",
+      "category": "창작·편집",
+      "features": [
+        "다양한 얼굴 도안을 골라 제품과 색상을 그려 넣는다.",
+        "매트·광택·글리터 등 질감을 적용하고 기기를 기울여 조명에 따른 느낌을 확인한다.",
+        "사용한 제품 이력과 디자인을 갤러리에 정리하고 공유한다."
+      ],
+      "sources": [
+        {
+          "title": "Prêt-à-Makeup 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/pr%C3%AAt-%C3%A0-makeup/id1434594204"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 실제 얼굴의 피부·조명 결과를 보장하는 시뮬레이션은 아닙니다.",
+      "product_url": "https://apps.apple.com/us/app/pr%C3%AAt-%C3%A0-makeup/id1434594204",
+      "id": "app-pr-t-makeup",
+      "alternate_names": [
+        "Prêt-à-Makeup"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 실제 얼굴의 피부·조명 결과를 보장하는 시뮬레이션은 아닙니다."
+      ],
+      "description": "얼굴 도안 위에 화장 조합을 시험하는 디지털 메이크업 도구",
+      "awards": [
+        {
+          "year": 2023,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "iPad App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2023/11/apple-unveils-app-store-award-winners-the-best-apps-and-games-of-2023/",
+          "app_name": "Prêt-à-Makeup"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "SmartGym",
+      "category": "건강·운동",
+      "features": [
+        "장비·운동 경험·목표 근육·시간에 맞춰 운동 계획을 만든다.",
+        "운동 중 수행 내용과 진행 상황을 기록하고 추적한다.",
+        "개인 운동 진행에 따른 피드백과 제안으로 루틴을 조정한다."
+      ],
+      "sources": [
+        {
+          "title": "SmartGym 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/smartgym-gym-home-workouts/id922744883"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 일부 기능은 구독이 필요하며 개인 의료·재활 계획을 대신하지 않습니다.",
+      "product_url": "https://apps.apple.com/us/app/smartgym-gym-home-workouts/id922744883",
+      "id": "app-smartgym",
+      "alternate_names": [
+        "SmartGym"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 일부 기능은 구독이 필요하며 개인 의료·재활 계획을 대신하지 않습니다."
+      ],
+      "description": "운동 루틴과 세트 기록을 손목에서 관리하는 앱",
+      "awards": [
+        {
+          "year": 2023,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Apple Watch App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2023/11/apple-unveils-app-store-award-winners-the-best-apps-and-games-of-2023/",
+          "app_name": "SmartGym"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Too Good To Go",
+      "category": "생활·편의",
+      "features": [
+        "지도에서 가까운 가게가 내놓은 잉여 음식 상품을 찾는다.",
+        "Surprise Bag의 가격과 수령 조건을 보고 앱에서 구매한다.",
+        "정해진 시간에 매장에 가서 예약한 음식을 받아온다."
+      ],
+      "sources": [
+        {
+          "title": "Too Good To Go 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/ca/app/too-good-to-go-end-food-waste/id1060683933"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 구성은 사전에 확정되지 않을 수 있으며 서비스 국가·매장과 수령 시간이 제한됩니다.",
+      "product_url": "https://apps.apple.com/ca/app/too-good-to-go-end-food-waste/id1060683933",
+      "id": "app-too-good-to-go",
+      "alternate_names": [
+        "Too Good To Go"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 구성은 사전에 확정되지 않을 수 있으며 서비스 국가·매장과 수령 시간이 제한됩니다."
+      ],
+      "description": "매장의 판매되지 않은 음식을 예약해 가져가는 서비스",
+      "awards": [
+        {
+          "year": 2023,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Cultural Impact Winners",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2023/11/apple-unveils-app-store-award-winners-the-best-apps-and-games-of-2023/",
+          "app_name": "Too Good To Go"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "BeReal",
+      "category": "관계·커뮤니티",
+      "features": [
+        "하루 중 임의 시각에 사진을 공유하라는 알림을 보낸다.",
+        "전면·후면 카메라로 자신의 모습과 주변 상황을 함께 촬영한다.",
+        "친구의 일상에 댓글과 자기 얼굴을 활용한 RealMoji로 반응한다."
+      ],
+      "sources": [
+        {
+          "title": "BeReal 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/bereal-your-friends-for-real/id1459645446"
+        },
+        {
+          "title": "BeReal — 개발사 제공 스토어 설명",
+          "url": "https://play.google.com/store/apps/details?id=com.bereal.ft"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. ",
+      "product_url": "https://apps.apple.com/us/app/bereal-your-friends-for-real/id1459645446",
+      "id": "app-bereal",
+      "alternate_names": [
+        "BeReal"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. ",
+        "여러 스토어의 수상 이력을 통합한 항목입니다. 운영체제·기기·요금제별 제공 기능은 다를 수 있으므로 연결된 제품 설명에서 확인하세요."
+      ],
+      "description": "하루 한 번 같은 시간에 실제 일상을 나누는 사진 SNS",
+      "awards": [
+        {
+          "year": 2022,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "iPhone App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2022/11/app-store-awards-celebrate-the-best-apps-and-games-of-2022/",
+          "app_name": "BeReal"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Gentler Streak",
+      "category": "건강·운동",
+      "features": [
+        "운동·건강 데이터를 모아 활동 상태와 변화를 보여준다.",
+        "그날의 준비 상태에 맞춰 운동에 관한 제안을 제공한다.",
+        "수면·활동 추세를 확인해 무리한 활동이나 회복 상태를 돌아본다."
+      ],
+      "sources": [
+        {
+          "title": "Gentler Streak 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/gentler-streak-workout-tracker/id1576857102"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. HealthKit 데이터와 지원 기기가 필요할 수 있으며 의료 진단 도구는 아닙니다.",
+      "product_url": "https://apps.apple.com/us/app/gentler-streak-workout-tracker/id1576857102",
+      "id": "app-gentler-streak",
+      "alternate_names": [
+        "Gentler Streak"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. HealthKit 데이터와 지원 기기가 필요할 수 있으며 의료 진단 도구는 아닙니다."
+      ],
+      "description": "활동과 휴식의 균형을 보며 운동 강도를 조절하는 앱",
+      "awards": [
+        {
+          "year": 2022,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Apple Watch App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2022/11/app-store-awards-celebrate-the-best-apps-and-games-of-2022/",
+          "app_name": "Gentler Streak"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "How We Feel",
+      "category": "건강·운동",
+      "features": [
+        "지금 느끼는 상태에 맞는 감정 단어를 찾아 체크인한다.",
+        "감정 기록과 수면·운동 등 생활 정보의 패턴을 돌아본다.",
+        "현재 감정을 다루는 데 도움이 되는 감정 조절 전략을 탐색한다."
+      ],
+      "sources": [
+        {
+          "title": "How We Feel 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/how-we-feel/id1562706384"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 자기 이해를 위한 도구이며 진단·치료 효과를 보장하지 않습니다.",
+      "product_url": "https://apps.apple.com/us/app/how-we-feel/id1562706384",
+      "id": "app-how-we-feel",
+      "alternate_names": [
+        "How We Feel"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 자기 이해를 위한 도구이며 진단·치료 효과를 보장하지 않습니다."
+      ],
+      "description": "막연한 기분을 구체적인 감정으로 기록하는 감정 일지",
+      "awards": [
+        {
+          "year": 2022,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Cultural Impact Winners",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2022/11/app-store-awards-celebrate-the-best-apps-and-games-of-2022/",
+          "app_name": "How We Feel"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Locket Widget",
+      "category": "관계·커뮤니티",
+      "features": [
+        "친구가 보낸 새 사진을 홈 화면 위젯에 표시한다.",
+        "위젯에서 카메라로 들어가 일상 사진을 찍어 친구에게 보낸다.",
+        "사진에 반응을 보내고 과거에 주고받은 사진 기록을 돌아본다."
+      ],
+      "sources": [
+        {
+          "title": "Locket Widget 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/locket-widget/id1600525061"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. ",
+      "product_url": "https://apps.apple.com/us/app/locket-widget/id1600525061",
+      "id": "app-locket-widget",
+      "alternate_names": [
+        "Locket Widget"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. "
+      ],
+      "description": "친구의 사진이 휴대폰 홈 화면에 도착하는 소규모 공유",
+      "awards": [
+        {
+          "year": 2022,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Cultural Impact Winners",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2022/11/app-store-awards-celebrate-the-best-apps-and-games-of-2022/",
+          "app_name": "Locket Widget"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "MacFamilyTree 10",
+      "category": "생산성·기록",
+      "features": [
+        "인물·가족 관계와 주요 사건을 입력하고 사진 등 자료를 연결한다.",
+        "가족 관계를 차트와 보고서·입체 가계도로 시각화한다.",
+        "CloudTree로 초대한 가족과 같은 가계도를 함께 수정한다."
+      ],
+      "sources": [
+        {
+          "title": "Synium MacFamilyTree 공식 제품 안내(현행 11)",
+          "url": "https://www.syniumsoftware.com/en/macfamilytree"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 수상은 버전 10, 현행 공식 제품은 버전 11입니다. 후속 제품의 공통 핵심 기능 설명이며 10의 모든 기능을 재현한 목록은 아닙니다.",
+      "product_url": "https://www.syniumsoftware.com/en/macfamilytree",
+      "id": "app-macfamilytree-10",
+      "alternate_names": [
+        "MacFamilyTree 10"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 수상은 버전 10, 현행 공식 제품은 버전 11입니다. 후속 제품의 공통 핵심 기능 설명이며 10의 모든 기능을 재현한 목록은 아닙니다."
+      ],
+      "description": "가족의 관계와 사료를 연결하는 디지털 가계도",
+      "awards": [
+        {
+          "year": 2022,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Mac App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2022/11/app-store-awards-celebrate-the-best-apps-and-games-of-2022/",
+          "app_name": "MacFamilyTree 10"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "ViX",
+      "category": "영상·음악·체험",
+      "features": [
+        "스페인어 영화·시리즈·텔레노벨라를 찾아 시청한다.",
+        "뉴스와 제공 대상 축구 콘텐츠를 함께 시청한다.",
+        "Premium 구독으로 독점 오리지널과 추가 영화·스포츠에 접근한다."
+      ],
+      "sources": [
+        {
+          "title": "ViX 공식 도움말: Gratis와 Premium",
+          "url": "https://ayuda.vix.com/hc/es-mx/articles/7639686687629--Qu%C3%A9-es-ViX-Gratis-y-ViX-Premium"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 광고·요금제·스포츠 권리와 이용 가능 국가는 지역마다 다릅니다.",
+      "product_url": "https://vix.com/",
+      "id": "app-vix",
+      "alternate_names": [
+        "ViX"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 광고·요금제·스포츠 권리와 이용 가능 국가는 지역마다 다릅니다."
+      ],
+      "description": "스페인어 드라마·영화·스포츠를 모은 스트리밍",
+      "awards": [
+        {
+          "year": 2022,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Apple TV App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2022/11/app-store-awards-celebrate-the-best-apps-and-games-of-2022/",
+          "app_name": "ViX"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Waterllama",
+      "category": "건강·운동",
+      "features": [
+        "물과 여러 음료의 섭취량을 입력한다.",
+        "개인 조건을 반영한 목표와 알림으로 하루 수분 섭취를 관리한다.",
+        "채워지는 캐릭터와 기록 차트·연속 달성으로 진행 상황을 보여준다."
+      ],
+      "sources": [
+        {
+          "title": "Waterllama 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/water-tracker-waterllama/id1454778585"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 목표는 일반적인 습관 관리용이며 개인 의료 지시보다 우선하지 않습니다.",
+      "product_url": "https://apps.apple.com/us/app/water-tracker-waterllama/id1454778585",
+      "id": "app-waterllama",
+      "alternate_names": [
+        "Waterllama"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 목표는 일반적인 습관 관리용이며 개인 의료 지시보다 우선하지 않습니다."
+      ],
+      "description": "마신 음료를 기록하고 물 마실 때를 알려주는 습관 앱",
+      "awards": [
+        {
+          "year": 2022,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Cultural Impact Winners",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2022/11/app-store-awards-celebrate-the-best-apps-and-games-of-2022/",
+          "app_name": "Waterllama"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Bumble",
+      "category": "관계·커뮤니티",
+      "features": [
+        "자기소개·사진·관심사와 원하는 관계를 프로필에 표현한다.",
+        "맞는 상대와 연결된 뒤 앱 안에서 채팅과 영상 대화를 한다.",
+        "차단·신고·매칭 해제 기능으로 원하지 않는 연락을 관리한다."
+      ],
+      "sources": [
+        {
+          "title": "Bumble 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/id930441707"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 2021 Connection 수상. 현재 데이팅 중심 설명이며 당시의 BFF·Bizz 제공 범위와 혼동하지 않습니다.",
+      "product_url": "https://apps.apple.com/us/app/id930441707",
+      "id": "app-bumble",
+      "alternate_names": [
+        "Bumble"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 2021 Connection 수상. 현재 데이팅 중심 설명이며 당시의 BFF·Bizz 제공 범위와 혼동하지 않습니다."
+      ],
+      "description": "프로필과 대화를 통해 실제 만남으로 연결하는 데이팅 서비스",
+      "awards": [
+        {
+          "year": 2021,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Trend of the Year: Connection",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2021/12/app-store-awards-honor-the-best-apps-and-games-of-2021/",
+          "app_name": "Bumble"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Carrot Weather",
+      "category": "생활·편의",
+      "features": [
+        "현재 날씨와 시간별·일별 예보를 확인한다.",
+        "날씨를 전달하는 캐릭터의 말투와 성격을 선택한다.",
+        "지원 지역에서 강수·기상 특보 알림을 받아 변화를 확인한다."
+      ],
+      "sources": [
+        {
+          "title": "Carrot Weather 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/id961390574"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 일부 데이터 소스와 알림은 유료이며 지역별 지원이 다릅니다.",
+      "product_url": "https://apps.apple.com/us/app/id961390574",
+      "id": "app-carrot-weather",
+      "alternate_names": [
+        "Carrot Weather"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 일부 데이터 소스와 알림은 유료이며 지역별 지원이 다릅니다."
+      ],
+      "description": "세부 예보와 개성 있는 말투를 결합한 날씨 앱",
+      "awards": [
+        {
+          "year": 2021,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Apple Watch App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2021/12/app-store-awards-honor-the-best-apps-and-games-of-2021/",
+          "app_name": "Carrot Weather"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Craft",
+      "category": "생산성·기록",
+      "features": [
+        "글·이미지 등을 구조화한 문서로 작성하고 관련 내용을 페이지 단위로 정리한다.",
+        "오프라인에서 문서를 작성한 뒤 인터넷 연결 시 변경 사항을 동기화한다.",
+        "iPhone·iPad·Mac·웹에서 같은 작업 공간에 접근한다."
+      ],
+      "sources": [
+        {
+          "title": "Craft 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/id1487937127"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. ",
+      "product_url": "https://apps.apple.com/us/app/id1487937127",
+      "id": "app-craft",
+      "alternate_names": [
+        "Craft"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. "
+      ],
+      "description": "문서와 메모를 구조화해 여러 기기에서 이어 쓰는 작업 공간",
+      "awards": [
+        {
+          "year": 2021,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Mac App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2021/12/app-store-awards-honor-the-best-apps-and-games-of-2021/",
+          "app_name": "Craft"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "DAZN",
+      "category": "영상·음악·체험",
+      "features": [
+        "권리를 보유한 스포츠 경기를 실시간으로 중계한다.",
+        "놓친 경기의 주문형 다시보기와 주요 장면 하이라이트를 제공한다.",
+        "경기 전후 프로그램과 분석 콘텐츠로 경기의 맥락을 설명한다."
+      ],
+      "sources": [
+        {
+          "title": "DAZN 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/id1129523589"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 종목·경기·구독 상품은 국가와 중계권에 따라 다르며 한국 제공을 뜻하지 않습니다.",
+      "product_url": "https://apps.apple.com/us/app/id1129523589",
+      "id": "app-dazn",
+      "alternate_names": [
+        "DAZN"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 종목·경기·구독 상품은 국가와 중계권에 따라 다르며 한국 제공을 뜻하지 않습니다."
+      ],
+      "description": "중계와 다시보기를 한곳에 모은 스포츠 스트리밍",
+      "awards": [
+        {
+          "year": 2021,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Apple TV App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2021/12/app-store-awards-honor-the-best-apps-and-games-of-2021/",
+          "app_name": "DAZN"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "EatOkra",
+      "category": "생활·편의",
+      "features": [
+        "흑인 소유 음식점·카페·푸드트럭 등을 지역에서 탐색한다.",
+        "음식 종류·평점·배달 옵션으로 후보를 좁힌다.",
+        "음식점 정보와 메뉴를 확인해 방문할 곳을 고른다."
+      ],
+      "sources": [
+        {
+          "title": "EatOkra 공식 App Store 설명",
+          "url": "https://apps.apple.com/us/app/eatokra/id1175921760"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 미국 중심 서비스이며 식당 정보와 기능은 지역에 따라 다릅니다.",
+      "product_url": "https://apps.apple.com/us/app/eatokra/id1175921760",
+      "id": "app-eatokra",
+      "alternate_names": [
+        "EatOkra"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 미국 중심 서비스이며 식당 정보와 기능은 지역에 따라 다릅니다."
+      ],
+      "description": "미국의 흑인 소유 음식점을 찾아 연결하는 식당 발견 서비스",
+      "awards": [
+        {
+          "year": 2021,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Trend of the Year: Connection",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2021/12/app-store-awards-honor-the-best-apps-and-games-of-2021/",
+          "app_name": "EatOkra"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "LumaFusion",
+      "category": "창작·편집",
+      "features": [
+        "영상·사진·음악을 여러 트랙에 배치해 컷을 자르고 순서를 바꾼다.",
+        "자막과 전환 효과를 넣고 색상 보정·LUT 적용으로 장면의 분위기를 맞춘다.",
+        "음성 해설을 녹음하고 음악·효과음의 음량을 조절해 영상에 결합한다."
+      ],
+      "sources": [
+        {
+          "title": "LumaFusion 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/id1062022008"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 일부 고급 기능은 추가 구매 조건을 확인해야 합니다.",
+      "product_url": "https://apps.apple.com/us/app/id1062022008",
+      "id": "app-lumafusion",
+      "alternate_names": [
+        "LumaFusion"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 일부 고급 기능은 추가 구매 조건을 확인해야 합니다."
+      ],
+      "description": "여러 영상과 소리를 타임라인에서 겹쳐 편집하는 영상 제작 도구",
+      "awards": [
+        {
+          "year": 2021,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "iPad App of the Year",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2021/12/app-store-awards-honor-the-best-apps-and-games-of-2021/",
+          "app_name": "LumaFusion"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    },
+    {
+      "name": "Peanut",
+      "category": "관계·커뮤니티",
+      "features": [
+        "가까운 지역과 비슷한 생활 단계의 엄마를 찾아 연결한다.",
+        "매칭된 사람과 대화하거나 육아 단계별 그룹에 참여한다.",
+        "수면·이유식·육아 고민을 질문하고 경험을 나누며 익명 질문도 이용한다."
+      ],
+      "sources": [
+        {
+          "title": "Peanut 공식 App Store 제품 설명",
+          "url": "https://apps.apple.com/us/app/id1178656034"
+        }
+      ],
+      "note": "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 동료 경험 공유 서비스이며 개인별 의료 판단을 제공하는 것으로 해석하지 않습니다.",
+      "product_url": "https://apps.apple.com/us/app/id1178656034",
+      "id": "app-peanut",
+      "alternate_names": [
+        "Peanut"
+      ],
+      "notes": [
+        "수상명은 해당 연도 기준. 기능은 2026-10-27 확인한 공식 제품 설명 기준으로, 수상 당시 제공 범위와 다를 수 있습니다. 동료 경험 공유 서비스이며 개인별 의료 판단을 제공하는 것으로 해석하지 않습니다."
+      ],
+      "description": "비슷한 육아 단계의 여성과 연결되는 생활 커뮤니티",
+      "awards": [
+        {
+          "year": 2021,
+          "platform": "Apple",
+          "region": "글로벌",
+          "category": "Trend of the Year: Connection",
+          "level": "수상",
+          "source": "https://www.apple.com/newsroom/2021/12/app-store-awards-honor-the-best-apps-and-games-of-2021/",
+          "app_name": "Peanut"
+        }
+      ],
+      "function_checked": "2026-10-27"
+    }
+  ],
+  "additional_research": {
+    "sections": [
+      {
+        "id": "programs",
+        "title": "세 제도의 대상과 선정 방식",
+        "paragraphs": [
+          "App Store Awards는 App Store 편집진이 이미 배포된 앱과 게임을 선정하는 연말 시상이다. Apple Design Awards는 디자인과 기술 구현을 평가하는 별도의 시상이다. Swift Student Challenge는 학생이 직접 제작한 app playground를 제출하는 참가형 경연이다. 서로의 수상 이력을 합쳐 하나의 공모전으로 표시하지 않는다."
+        ],
+        "table": {
+          "headers": [
+            "제도",
+            "대상·형식",
+            "확인된 선정 기준·구분",
+            "최신 확인 범위"
+          ],
+          "rows": [
+            [
+              "App Store Awards",
+              "App Store의 앱·게임; 편집진 선정",
+              "기기별 올해의 앱·게임 및 Cultural Impact 등 연도별 부문",
+              "2021~2025; 2026년 발표 미확인"
+            ],
+            [
+              "Apple Design Awards",
+              "Apple 플랫폼 앱·게임의 디자인 시상",
+              "2025·2026년 모두 6개 부문에서 앱 1개·게임 1개; 최종후보와 수상작 구분",
+              "2025·2026"
+            ],
+            [
+              "Swift Student Challenge",
+              "학생 개인이 app playground 제출",
+              "창의성·혁신·사회적 영향·포용성 등을 평가; 일반 수상자와 Distinguished Winner 구분",
+              "2026년 수상 결과·참가 요건"
+            ]
+          ]
+        },
+        "sources": [
+          "A01",
+          "A03",
+          "A04",
+          "A05"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "수록 범위와 날짜",
+        "paragraphs": [
+          "연말 App Store Awards는 기존 자료의 2021~2025년 비게임 앱 41종을 수록한다. 2025·2026 Apple Design Awards는 앱 부문 수상작 12종을 별도로 정리한다. 게임은 별도 표로 분리하되, 기기별 게임상과 Cultural Impact 게임 수상을 함께 표시한다.",
+          "2026-11-09 조사에서 확인한 최신 공식 연말 App Store Awards는 2025년판이다. 2026년 Apple Design Awards가 발표되었다는 사실은 2026년 연말 App Store Awards가 발표되었다는 뜻이 아니다.",
+          "수상 당시 앱 이름·수상 부문과 현재 제품 설명을 구분한다. 현재 웹페이지가 열리는 것만으로 한국에서 설치·결제·서비스 이용이 가능하다고 판단하지 않는다."
+        ],
+        "sources": [
+          "A03",
+          "A04",
+          "A23"
+        ]
+      },
+      {
+        "id": "design-categories",
+        "title": "Apple Design Awards의 6개 부문",
+        "paragraphs": [
+          "2025년과 2026년에는 각각 36개 최종후보에서 12개 수상작을 선정했다. 여섯 부문은 Delight and Fun(즐거움), Inclusivity(포용성), Innovation(혁신), Interaction(상호작용), Social Impact(사회적 영향), Visuals and Graphics(시각·그래픽)다. 이 문서의 앱 목록은 각 부문 최종 수상작만 포함한다.",
+          "예를 들어 Moises와 Lumy는 2024년 App Store Awards 수상작이지만 2025년 Apple Design Awards에서는 최종후보다. Detail은 2025년 App Store Awards 수상작이지만 2026년 Apple Design Awards에서는 Innovation 최종후보다. 같은 앱이라도 시상 제도와 연도에 따라 수상·최종후보 이력이 다르다."
+        ],
+        "sources": [
+          "A01",
+          "A03",
+          "A22",
+          "A23"
+        ]
+      },
+      {
+        "id": "student",
+        "title": "Swift Student Challenge: 참가 대상과 제출물",
+        "paragraphs": [
+          "참가자는 학생 등의 자격 요건을 충족해야 하며, 정규직 개발자로 고용된 사람은 지원할 수 없다. 한국의 최소 연령은 14세다. 인정 교육기관·홈스쿨·Apple Developer Academy 재학 또는 최근 졸업, STEM 교육과정 참여 등 세부 자격 중 하나를 충족해야 한다.",
+          "개인 제작 app playground를 .swiftpm 형식으로 ZIP에 담아 제출한다. 심사는 오프라인으로 진행하며, 필요한 자원을 ZIP 안에 포함해야 한다. 최대 용량은 25MB, 체험 시간은 3분 이내이며 콘텐츠는 영어여야 한다. 이는 확인일의 공개 규정이며 다음 회차 조건을 확정한 것은 아니다.",
+          "Apple은 2026년에 37개 국가·지역에서 350개 수상 제출물을 선정했다고 발표했다. 이 가운데 Distinguished Winner 50명은 Apple Park에서 열리는 3일간의 WWDC 프로그램에 초청됐다. 아래 네 사례는 Apple이 공개 소개한 수상작이며 전체 수상자 명단이 아니다."
+        ],
+        "sources": [
+          "A05",
+          "A06",
+          "A07"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "A01",
+        "title": "Apple Design Awards 2025 수상작·최종후보",
+        "url": "https://developer.apple.com/design/awards/2025/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A02",
+        "title": "Apple Design Awards 2025 공식 발표",
+        "url": "https://www.apple.com/newsroom/2025/06/apple-unveils-winners-and-finalists-of-the-2025-apple-design-awards/",
+        "published": "2025-06-03",
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A03",
+        "title": "Apple Design Awards 2026 공식 발표",
+        "url": "https://www.apple.com/newsroom/2026/06/apple-reveals-winners-of-the-2026-apple-design-awards/",
+        "published": "2026-06-02",
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A04",
+        "title": "App Store Awards 공식 안내: 2025년판",
+        "url": "https://developer.apple.com/app-store/app-store-awards-2025/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "일반 진입 주소 /app-store/app-store-awards/가 확인일에 2025년판으로 연결됨. 2026년 발표는 확인하지 못함."
+      },
+      {
+        "id": "A05",
+        "title": "Swift Student Challenge 안내",
+        "url": "https://developer.apple.com/swift-student-challenge/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A06",
+        "title": "Swift Student Challenge 참가 요건",
+        "url": "https://developer.apple.com/swift-student-challenge/eligibility/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A07",
+        "title": "2026 Swift Student Challenge 수상자 소개",
+        "url": "https://www.apple.com/newsroom/2026/05/ai-meets-accessibility-in-this-years-swift-student-challenge/",
+        "published": "2026-05-07",
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A08",
+        "title": "CapWords FAQ",
+        "url": "https://capwords.app/faqs",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A09",
+        "title": "Speechify 제품 안내",
+        "url": "https://speechify.com/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A10",
+        "title": "Play와 Spline 연동 문서",
+        "url": "https://docs.spline.design/integrations/integrating-with-play",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A11",
+        "title": "Watch Duty 제품 안내",
+        "url": "https://www.watchduty.org/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A12",
+        "title": "Feather 제품 안내",
+        "url": "https://www.feather.art/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A13",
+        "title": "grug: 개발자 제공 App Store 설명",
+        "url": "https://apps.apple.com/us/app/grug/id6751649802",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A14",
+        "title": "Guitar Wiz 공식 FAQ",
+        "url": "https://guitarwiz.app/faq/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A15",
+        "title": "NBA 앱: 개발자 제공 App Store 설명",
+        "url": "https://apps.apple.com/us/app/nba-live-games-scores/id484672289",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A16",
+        "title": "Moonlitt: 개발자 제공 App Store 설명",
+        "url": "https://apps.apple.com/us/app/moonlitt-moon-phase-tracker/id6444718902",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A17",
+        "title": "Primary: 개발자 제공 App Store 설명",
+        "url": "https://apps.apple.com/us/app/primary-news-in-depth/id6751006185",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A18",
+        "title": "Tide Guide 제품 안내",
+        "url": "https://tideguide.com/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "공식 발표 또는 개발사 제품 설명. 확인일의 웹페이지 내용이며 실제 설치·결제·실행은 검증하지 않음."
+      },
+      {
+        "id": "A19",
+        "title": "App Store Awards 2021 공식 발표",
+        "url": "https://www.apple.com/newsroom/2021/12/app-store-awards-honor-the-best-apps-and-games-of-2021/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "기존 조사에 저장된 공식 발표 본문과 수상 앱·부문을 대조. 기능 설명은 개별 제품 출처를 별도로 사용."
+      },
+      {
+        "id": "A20",
+        "title": "App Store Awards 2022 공식 발표",
+        "url": "https://www.apple.com/newsroom/2022/11/app-store-awards-celebrate-the-best-apps-and-games-of-2022/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "기존 조사에 저장된 공식 발표 본문과 수상 앱·부문을 대조. 기능 설명은 개별 제품 출처를 별도로 사용."
+      },
+      {
+        "id": "A21",
+        "title": "App Store Awards 2023 공식 발표",
+        "url": "https://www.apple.com/newsroom/2023/11/apple-unveils-app-store-award-winners-the-best-apps-and-games-of-2023/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "기존 조사에 저장된 공식 발표 본문과 수상 앱·부문을 대조. 기능 설명은 개별 제품 출처를 별도로 사용."
+      },
+      {
+        "id": "A22",
+        "title": "App Store Awards 2024 공식 발표",
+        "url": "https://www.apple.com/newsroom/2024/12/apple-honors-2024-app-store-award-winners/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "기존 조사에 저장된 공식 발표 본문과 수상 앱·부문을 대조. 기능 설명은 개별 제품 출처를 별도로 사용."
+      },
+      {
+        "id": "A23",
+        "title": "App Store Awards 2025 공식 발표",
+        "url": "https://www.apple.com/newsroom/2025/12/apple-unveils-the-winners-of-the-2025-app-store-awards/",
+        "published": null,
+        "checked": "2026-11-09",
+        "note": "기존 조사에 저장된 공식 발표 본문과 수상 앱·부문을 대조. 기능 설명은 개별 제품 출처를 별도로 사용."
+      }
+    ],
+    "apps": [
+      {
+        "name": "CapWords",
+        "year": 2025,
+        "program": "Apple Design Awards",
+        "region": "글로벌",
+        "category": "Delight and Fun",
+        "award_status": "수상",
+        "developer": "HappyPlan Tech · 중국",
+        "description": "주변 사물을 촬영해 외국어 단어와 발음을 학습하는 언어 학습 앱이다. 촬영한 사물을 개인 단어장에 스티커 형태로 모은다.",
+        "features": [
+          "물체를 촬영하면 선택한 학습 언어의 단어와 발음이 표시된다.",
+          "저장한 단어 스티커를 다시 열고 복습할 수 있다. 새 단어 인식에는 인터넷이 필요하며 저장된 스티커는 오프라인에서 복습할 수 있다고 안내한다."
+        ],
+        "award_reason": "사물 사진을 상호작용 가능한 단어 스티커로 바꾼 학습 경험.",
+        "platforms": [
+          "iPhone",
+          "iPad"
+        ],
+        "pricing": "제한된 무료 기능과 Pro 월간·연간 구독",
+        "status": "공식 제품 설명 페이지 확인. 지역별 설치·이용 가능 여부는 별도 검증하지 않음.",
+        "sources": [
+          "A01",
+          "A08"
+        ]
+      },
+      {
+        "name": "Speechify",
+        "year": 2025,
+        "program": "Apple Design Awards",
+        "region": "글로벌",
+        "category": "Inclusivity",
+        "award_status": "수상",
+        "developer": "Speechify · 미국",
+        "description": "문서나 웹페이지의 글을 음성으로 변환해 듣게 하는 텍스트 음성 변환 앱이다.",
+        "features": [
+          "PDF와 문서 등 읽을 자료를 음성으로 재생한다.",
+          "수상 발표는 50개 이상 언어, 여러 음성, Dynamic Type과 VoiceOver 지원을 소개한다."
+        ],
+        "award_reason": "음성 읽기와 접근성 지원.",
+        "platforms": [
+          "iPhone",
+          "iPad"
+        ],
+        "pricing": "확인하지 않음",
+        "status": "공식 제품 설명 페이지 확인. 지역별 설치·이용 가능 여부는 별도 검증하지 않음.",
+        "sources": [
+          "A01",
+          "A09"
+        ]
+      },
+      {
+        "name": "Play",
+        "year": 2025,
+        "program": "Apple Design Awards",
+        "region": "글로벌",
+        "category": "Innovation",
+        "award_status": "수상",
+        "developer": "Rabbit 3 Times · 미국",
+        "description": "SwiftUI 기반 요소를 이용해 실제 조작 가능한 iPhone 앱 시제품을 만드는 디자인 도구다. 아래 기능은 수상 당시 설명 기준이다.",
+        "features": [
+          "Mac과 iPhone에서 디자인을 확인하고 동기화하며 상호작용을 시험한다.",
+          "Apple 개발자 수상 페이지는 Xcode로 코드와 상호작용을 전달하고 App Clips로 시제품을 공유하는 기능을 설명한다."
+        ],
+        "award_reason": "네이티브 기술을 활용한 시제품 제작.",
+        "platforms": [
+          "Mac",
+          "iPhone"
+        ],
+        "pricing": "확인하지 않음",
+        "status": "2025년 수상 이력 확인. 현재 공식 제품 홈페이지 접근에 실패했으며 현재 배포·지원 여부 미확인.",
+        "sources": [
+          "A01",
+          "A02",
+          "A10"
+        ]
+      },
+      {
+        "name": "Taobao",
+        "year": 2025,
+        "program": "Apple Design Awards",
+        "region": "글로벌",
+        "category": "Interaction",
+        "award_status": "수상",
+        "developer": "Zhejiang Taobao Network · 중국",
+        "description": "온라인 쇼핑 서비스 Taobao의 Apple Vision Pro 경험이 수상했다. 일반 휴대전화 쇼핑 화면 전체가 수상 대상이라고 확대하지 않는다.",
+        "features": [
+          "상품의 3D 모델을 공간에 배치하고 크기와 위치를 살펴본다.",
+          "여러 상품을 나란히 놓고 비교하는 공간 인터페이스를 제공한다고 수상 발표가 설명한다."
+        ],
+        "award_reason": "공간 안에서의 상품 배치·비교 조작.",
+        "platforms": [
+          "Apple Vision Pro · 수상 대상"
+        ],
+        "pricing": "확인하지 않음",
+        "status": "수상 당시 Vision Pro 기능 확인. 현재 한국 스토어 제공 여부 미확인.",
+        "sources": [
+          "A02"
+        ]
+      },
+      {
+        "name": "Watch Duty: Wildfire Maps",
+        "year": 2025,
+        "program": "Apple Design Awards",
+        "region": "글로벌",
+        "category": "Social Impact",
+        "award_status": "수상",
+        "developer": "Sherwood Forestry Service · 미국",
+        "description": "산불 상황을 지도와 알림으로 전달하는 비영리 재난 정보 서비스다. 현재 공식 홈페이지는 홍수 정보도 소개한다.",
+        "features": [
+          "화재 위치·진행 상황, 기상 조건, 대피 명령과 대피소 정보를 제공한다.",
+          "일부 회원 기능으로 소방 항공기의 실시간 비행 경로를 표시한다. 취재자·전문 인력·자원봉사자가 재난 정보를 확인하는 운영 구조를 설명한다."
+        ],
+        "award_reason": "산불 정보를 전달하는 공익적 역할.",
+        "platforms": [
+          "iPhone",
+          "iPad · 수상 페이지 기준"
+        ],
+        "pricing": "기본 서비스와 일부 유료 회원 기능; 금액 미확인",
+        "status": "공식 제품 설명 페이지 확인. 지역별 설치·이용 가능 여부는 별도 검증하지 않음.",
+        "sources": [
+          "A01",
+          "A11"
+        ]
+      },
+      {
+        "name": "Feather: Draw in 3D",
+        "year": 2025,
+        "program": "Apple Design Awards",
+        "region": "글로벌",
+        "category": "Visuals and Graphics",
+        "award_status": "수상",
+        "developer": "Sketchsoft · 대한민국",
+        "description": "iPad에서 펜과 터치로 3차원 공간에 그림을 그리고 편집하는 제작 앱이다.",
+        "features": [
+          "그리는 시점을 회전하고, 조이스틱 조작으로 작업물을 이동·회전·확대한다.",
+          "3D Liquify로 형태를 밀거나 당기고, 압력 감지 브러시·조명·후처리 효과를 사용한다. 작업물을 3D 형식으로 내보낼 수 있다."
+        ],
+        "award_reason": "펜·터치를 이용한 3D 표현과 화면 구성.",
+        "platforms": [
+          "iPad"
+        ],
+        "pricing": "개발사 웹페이지 표기 US$14.99 일회 구매·구독 없음; 한국 가격 미확인",
+        "status": "공식 제품 설명 페이지 확인. 지역별 설치·이용 가능 여부는 별도 검증하지 않음.",
+        "sources": [
+          "A01",
+          "A12"
+        ]
+      },
+      {
+        "name": "grug",
+        "year": 2026,
+        "program": "Apple Design Awards",
+        "region": "글로벌",
+        "category": "Delight and Fun",
+        "award_status": "수상",
+        "developer": "Ocho · 네덜란드",
+        "description": "짧은 일상 문구를 원시인 캐릭터의 단순한 말투와 그림으로 보여주는 생활 앱이다.",
+        "features": [
+          "매일 새로운 문구를 읽고 그 위에 그림을 그리거나 다른 사람에게 공유한다.",
+          "위젯으로 문구를 표시하고 밝은 화면·어두운 화면·색상을 선택한다. 개발자 설명은 로그인 없이 사용하는 구조라고 안내한다."
+        ],
+        "award_reason": "간결한 문구·그림의 즐거운 표현.",
+        "platforms": [
+          "iPhone"
+        ],
+        "pricing": "미국 App Store 무료 표기",
+        "status": "공식 제품 설명 페이지 확인. 지역별 설치·이용 가능 여부는 별도 검증하지 않음.",
+        "sources": [
+          "A03",
+          "A13"
+        ]
+      },
+      {
+        "name": "Guitar Wiz",
+        "year": 2026,
+        "program": "Apple Design Awards",
+        "region": "글로벌",
+        "category": "Inclusivity",
+        "award_status": "수상",
+        "developer": "Bijoy Thangaraj · 인도",
+        "description": "기타 코드 검색, 조율, 박자와 연습을 한곳에서 다루는 기타 연습 도구다.",
+        "features": [
+          "코드 라이브러리에서 손가락 위치를 확인하고 튜너·메트로놈을 사용한다.",
+          "음높이와 손가락 위치를 음성으로 안내하며, 글자 크기 확대·대비 강화·색상 외 구별 수단을 지원한다고 수상 발표가 설명한다."
+        ],
+        "award_reason": "기타 학습의 접근성 지원.",
+        "platforms": [
+          "Apple 플랫폼; 상세 기기별 제공 범위 미확인"
+        ],
+        "pricing": "확인하지 않음",
+        "status": "공식 제품 설명 페이지 확인. 지역별 설치·이용 가능 여부는 별도 검증하지 않음.",
+        "sources": [
+          "A03",
+          "A14"
+        ]
+      },
+      {
+        "name": "NBA: Live Games & Scores",
+        "year": 2026,
+        "program": "Apple Design Awards",
+        "region": "글로벌",
+        "category": "Innovation",
+        "award_status": "수상",
+        "developer": "NBA Media Ventures, LLC · 미국",
+        "description": "NBA 경기의 점수·통계·일정·뉴스·영상과 중계 접근 기능을 제공한다. 수상은 Apple Vision Pro에서의 경기 시청 경험에 초점을 둔다.",
+        "features": [
+          "일반 앱은 팀·선수별 업데이트와 경기 하이라이트를 제공하며, 중계는 해당 서비스 로그인이나 구독이 필요할 수 있다.",
+          "수상 발표는 Vision Pro에서 여러 경기와 통계 창, 3D 코트 표현, 공간 오디오를 함께 제공하는 경험을 설명한다."
+        ],
+        "award_reason": "공간 컴퓨팅을 적용한 경기 시청.",
+        "platforms": [
+          "iPhone",
+          "iPad",
+          "Apple Vision Pro",
+          "Apple TV",
+          "Apple Watch"
+        ],
+        "pricing": "앱 무료 다운로드·인앱 구매; 중계 구독과 국가별 제한 존재",
+        "status": "공식 제품 설명 페이지 확인. 지역별 설치·이용 가능 여부는 별도 검증하지 않음.",
+        "sources": [
+          "A03",
+          "A15"
+        ]
+      },
+      {
+        "name": "Moonlitt: Moon Phase Tracker",
+        "year": 2026,
+        "program": "Apple Design Awards",
+        "region": "글로벌",
+        "category": "Interaction",
+        "award_status": "수상",
+        "developer": "Flipping Hues Srls · 이탈리아",
+        "description": "달의 위상·위치·출몰 시각과 월식·일식 정보를 보여주는 달 관측 앱이다.",
+        "features": [
+          "날짜별 달력에서 달의 밝기와 나이, 월출·월몰 시각을 확인한다.",
+          "AR과 나침반으로 달의 경로를 확인하고, 주요 천문 현상 알림과 위젯을 사용한다."
+        ],
+        "award_reason": "달 관측 정보를 탐색하는 인터페이스.",
+        "platforms": [
+          "iPhone",
+          "iPad",
+          "Mac",
+          "Apple Vision Pro",
+          "Apple Watch"
+        ],
+        "pricing": "무료 다운로드·인앱 구매",
+        "status": "공식 제품 설명 페이지 확인. 지역별 설치·이용 가능 여부는 별도 검증하지 않음.",
+        "sources": [
+          "A03",
+          "A16"
+        ]
+      },
+      {
+        "name": "Primary: News in Depth",
+        "year": 2026,
+        "program": "Apple Design Awards",
+        "region": "글로벌",
+        "category": "Social Impact",
+        "award_status": "수상",
+        "developer": "Wood Metal Rocks LLC · 미국",
+        "description": "현장 기자가 촬영한 공간 비디오 뉴스를 Apple Vision Pro로 보여주는 뉴스 앱이다.",
+        "features": [
+          "시위·분쟁·기후 재난 등 현장 영상을 깊이감이 있는 공간 비디오로 제공한다.",
+          "개발자 설명은 기자가 현장에서 촬영·확인한 영상을 사용하며, 기사 진행에 따라 영상과 맥락을 추가한다고 안내한다."
+        ],
+        "award_reason": "현장 뉴스에 대한 공간 영상 접근.",
+        "platforms": [
+          "Apple Vision Pro"
+        ],
+        "pricing": "무료; 개발자 설명상 구독·인앱 구매 없음",
+        "status": "공식 제품 설명 페이지 확인. 지역별 설치·이용 가능 여부는 별도 검증하지 않음.",
+        "sources": [
+          "A03",
+          "A17"
+        ]
+      },
+      {
+        "name": "Tide Guide: Charts & Tables",
+        "year": 2026,
+        "program": "Apple Design Awards",
+        "region": "글로벌",
+        "category": "Visuals and Graphics",
+        "award_status": "수상",
+        "developer": "Condor Digital · 미국",
+        "description": "해안의 조수 변화와 해양 기상 정보를 그래프·표로 제공하는 앱이다.",
+        "features": [
+          "시간대별 조수 그래프와 날짜별 만조·간조의 시각·높이를 비교한다.",
+          "일출·일몰·월출·월몰과 달의 위상을 함께 제공하고, 위젯과 Live Activity로 조수 진행 상황을 표시한다."
+        ],
+        "award_reason": "조수 데이터를 표현하는 그래픽·애니메이션.",
+        "platforms": [
+          "iPhone",
+          "iPad",
+          "Mac",
+          "Apple Watch"
+        ],
+        "pricing": "확인하지 않음",
+        "status": "공식 제품 설명 페이지 확인. 지역별 설치·이용 가능 여부는 별도 검증하지 않음.",
+        "sources": [
+          "A03",
+          "A18"
+        ]
+      },
+      {
+        "name": "Steady Hands",
+        "year": 2026,
+        "program": "Swift Student Challenge",
+        "region": "글로벌",
+        "category": "Distinguished Winner",
+        "award_status": "Distinguished Winner",
+        "developer": "Gayatri Goundadkar",
+        "description": "손 떨림이 있는 사람이 iPad에서 그림을 그리도록 돕는 app playground다.",
+        "features": [
+          "Apple Pencil 입력의 떨림 성분을 보정하고 그림을 3D 전시 공간에 표시한다."
+        ],
+        "award_reason": "공식 소개는 개별 점수·순위를 공개하지 않음.",
+        "platforms": [
+          "iPad"
+        ],
+        "pricing": "확인하지 않음",
+        "status": "수상 제출물 기준; 일반 배포 여부 미확인.",
+        "sources": [
+          "A07"
+        ]
+      },
+      {
+        "name": "pitch coach",
+        "year": 2026,
+        "program": "Swift Student Challenge",
+        "region": "글로벌",
+        "category": "Distinguished Winner",
+        "award_status": "Distinguished Winner",
+        "developer": "Anton Baranov",
+        "description": "발표 연습 중 말하기와 자세에 피드백을 제공하는 앱이다.",
+        "features": [
+          "불필요한 반복어와 발표 내용을 분석하고, AirPods를 이용한 자세 추적을 제공한다."
+        ],
+        "award_reason": "공식 소개는 개별 점수·순위를 공개하지 않음.",
+        "platforms": [
+          "Apple 플랫폼"
+        ],
+        "pricing": "확인하지 않음",
+        "status": "2026-05-07 공식 소개 당시 App Store 출시 확인; 현재 배포 여부 별도 검증하지 않음.",
+        "sources": [
+          "A07"
+        ]
+      },
+      {
+        "name": "Asuo",
+        "year": 2026,
+        "program": "Swift Student Challenge",
+        "region": "글로벌",
+        "category": "Distinguished Winner",
+        "award_status": "Distinguished Winner",
+        "developer": "Karen-Happuch Peprah Henneh",
+        "description": "홍수 지역 대피 경로를 다루는 app playground다.",
+        "features": [
+          "과거 홍수 데이터와 경로 탐색을 사용하며 VoiceOver와 음성 경고를 포함한다."
+        ],
+        "award_reason": "공식 소개는 개별 점수·순위를 공개하지 않음.",
+        "platforms": [
+          "Apple 플랫폼"
+        ],
+        "pricing": "확인하지 않음",
+        "status": "수상 제출물 기준; 일반 배포 여부 미확인.",
+        "sources": [
+          "A07"
+        ]
+      },
+      {
+        "name": "LeViola",
+        "year": 2026,
+        "program": "Swift Student Challenge",
+        "region": "글로벌",
+        "category": "Distinguished Winner",
+        "award_status": "Distinguished Winner",
+        "developer": "Yoonjae Joung",
+        "description": "실물 비올라 없이 손과 팔 동작으로 연주를 학습하는 app playground다.",
+        "features": [
+          "기기의 카메라와 온디바이스 머신러닝으로 손가락과 오른팔 움직임을 분석한다."
+        ],
+        "award_reason": "공식 소개는 개별 점수·순위를 공개하지 않음.",
+        "platforms": [
+          "iPhone"
+        ],
+        "pricing": "확인하지 않음",
+        "status": "수상 제출물 기준; 일반 배포 여부 미확인.",
+        "sources": [
+          "A07"
+        ]
+      }
+    ],
+    "game_awards": [
+      {
+        "year": 2024,
+        "program": "App Store Awards",
+        "category": "iPhone Game of the Year",
+        "name": "AFK Journey",
+        "award_status": "수상",
+        "sources": [
+          "A22"
+        ]
+      },
+      {
+        "year": 2024,
+        "program": "App Store Awards",
+        "category": "iPad Game of the Year",
+        "name": "Squad Busters",
+        "award_status": "수상",
+        "sources": [
+          "A22"
+        ]
+      },
+      {
+        "year": 2024,
+        "program": "App Store Awards",
+        "category": "Mac Game of the Year",
+        "name": "Thank Goodness You’re Here!",
+        "award_status": "수상",
+        "sources": [
+          "A22"
+        ]
+      },
+      {
+        "year": 2024,
+        "program": "App Store Awards",
+        "category": "Apple Vision Pro Game of the Year",
+        "name": "THRASHER: Arcade Odyssey",
+        "award_status": "수상",
+        "sources": [
+          "A22"
+        ]
+      },
+      {
+        "year": 2024,
+        "program": "App Store Awards",
+        "category": "Apple Arcade Game of the Year",
+        "name": "Balatro+",
+        "award_status": "수상",
+        "sources": [
+          "A22"
+        ]
+      },
+      {
+        "year": 2024,
+        "program": "App Store Awards",
+        "category": "Cultural Impact",
+        "name": "NYT Games",
+        "award_status": "수상",
+        "sources": [
+          "A22"
+        ]
+      },
+      {
+        "year": 2024,
+        "program": "App Store Awards",
+        "category": "Cultural Impact",
+        "name": "The Wreck",
+        "award_status": "수상",
+        "sources": [
+          "A22"
+        ]
+      },
+      {
+        "year": 2024,
+        "program": "App Store Awards",
+        "category": "Cultural Impact",
+        "name": "Do You Really Want to Know 2",
+        "award_status": "수상",
+        "sources": [
+          "A22"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "App Store Awards",
+        "category": "iPhone Game of the Year",
+        "name": "Pokémon TCG Pocket",
+        "award_status": "수상",
+        "sources": [
+          "A23"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "App Store Awards",
+        "category": "iPad Game of the Year",
+        "name": "DREDGE",
+        "award_status": "수상",
+        "sources": [
+          "A23"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "App Store Awards",
+        "category": "Mac Game of the Year",
+        "name": "Cyberpunk 2077: Ultimate Edition",
+        "award_status": "수상",
+        "sources": [
+          "A23"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "App Store Awards",
+        "category": "Apple Vision Pro Game of the Year",
+        "name": "Porta Nubi",
+        "award_status": "수상",
+        "sources": [
+          "A23"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "App Store Awards",
+        "category": "Apple Arcade Game of the Year",
+        "name": "WHAT THE CLASH?",
+        "award_status": "수상",
+        "sources": [
+          "A23"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "App Store Awards",
+        "category": "Cultural Impact",
+        "name": "Art of Fauna",
+        "award_status": "수상",
+        "sources": [
+          "A23"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "App Store Awards",
+        "category": "Cultural Impact",
+        "name": "Chants of Sennaar",
+        "award_status": "수상",
+        "sources": [
+          "A23"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "App Store Awards",
+        "category": "Cultural Impact",
+        "name": "despelote",
+        "award_status": "수상",
+        "sources": [
+          "A23"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "Apple Design Awards",
+        "category": "Delight and Fun",
+        "name": "Balatro",
+        "award_status": "수상",
+        "sources": [
+          "A01"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "Apple Design Awards",
+        "category": "Inclusivity",
+        "name": "Art of Fauna",
+        "award_status": "수상",
+        "sources": [
+          "A01"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "Apple Design Awards",
+        "category": "Innovation",
+        "name": "PBJ — The Musical",
+        "award_status": "수상",
+        "sources": [
+          "A01"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "Apple Design Awards",
+        "category": "Interaction",
+        "name": "DREDGE",
+        "award_status": "수상",
+        "sources": [
+          "A01"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "Apple Design Awards",
+        "category": "Social Impact",
+        "name": "Neva",
+        "award_status": "수상",
+        "sources": [
+          "A01"
+        ]
+      },
+      {
+        "year": 2025,
+        "program": "Apple Design Awards",
+        "category": "Visuals and Graphics",
+        "name": "Infinity Nikki",
+        "award_status": "수상",
+        "sources": [
+          "A01"
+        ]
+      },
+      {
+        "year": 2026,
+        "program": "Apple Design Awards",
+        "category": "Delight and Fun",
+        "name": "Is This Seat Taken?",
+        "award_status": "수상",
+        "sources": [
+          "A03"
+        ]
+      },
+      {
+        "year": 2026,
+        "program": "Apple Design Awards",
+        "category": "Inclusivity",
+        "name": "Pine Hearts",
+        "award_status": "수상",
+        "sources": [
+          "A03"
+        ]
+      },
+      {
+        "year": 2026,
+        "program": "Apple Design Awards",
+        "category": "Innovation",
+        "name": "Blue Prince",
+        "award_status": "수상",
+        "sources": [
+          "A03"
+        ]
+      },
+      {
+        "year": 2026,
+        "program": "Apple Design Awards",
+        "category": "Interaction",
+        "name": "Sago Mini Jinja’s Garden",
+        "award_status": "수상",
+        "sources": [
+          "A03"
+        ]
+      },
+      {
+        "year": 2026,
+        "program": "Apple Design Awards",
+        "category": "Social Impact",
+        "name": "Consume Me",
+        "award_status": "수상",
+        "sources": [
+          "A03"
+        ]
+      },
+      {
+        "year": 2026,
+        "program": "Apple Design Awards",
+        "category": "Visuals and Graphics",
+        "name": "Cyberpunk 2077: Ultimate Edition",
+        "award_status": "수상",
+        "sources": [
+          "A03"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "Play의 2025년 수상과 당시 기능은 공식 기록으로 확인되지만 현재 판매·지원 상태는 확인하지 못했다. 홈페이지 접속 실패나 검색 결과만으로 서비스 종료·인수 등을 단정하지 않았다.",
+      "Taobao Vision Pro 경험의 한국 제공 여부는 확인하지 않았다.",
+      "CapWords의 FAQ는 iOS 전용이라고 적지만 최근 개인정보 정책에는 Android와 대화 기능도 등장한다. 공식 페이지 간 갱신 시점 차이가 있어 이 보고서는 수상 대상 iPhone·iPad 범위와 사진 단어 학습만 기술한다.",
+      "기존 41종 앱 설명은 2026-10-27 조사 자료이며, 수상 당시 기능과 다를 수 있다. 이번 조사일을 일괄 덮어쓰지 않는다.",
+      "2026년 App Store Awards 결과는 확인하지 못했다. Apple Design Awards 2026 결과로 대체하지 않는다.",
+      "다운로드 수·인기 순위·시장 점유율은 수상 사실만으로 추정하지 않는다."
+    ]
+  }
+}

@@ -1,0 +1,293 @@
+﻿앱·기능,분류,목적,이용 대상,주요 기능,사용 방식,차량용 범위,계정·이용 조건,미확인 범위,출처 URL
+네이버 오토,Pleos,"네이버 서비스를 차량 환경에서 이용하도록 마련된 앱이다. 공식 출시 소개는 차량 전용으로 개발됐다는 점을 확인하지만, 이 앱 자체의 세부 서비스 구성은 설명하지 않는다.",Pleos Connect 차량에서 네이버 서비스를 이용하는 사용자.,"Pleos판 확인: 초기 제공 앱으로 이름이 명시되어 있다.
+Pleos판 확인: 차량 환경에 맞춘 앱으로 소개되며 차량 화면에서 실행한다.
+기능 범위: 별도의 네이버 지도도 보도자료에 함께 기재되어 있어, 네이버 오토 전체를 지도·길 안내 앱으로 분류할 근거는 확보하지 못했다.","공개 자료는 앱 마켓을 통한 차량 앱 설치와 실행을 안내한다.
+네이버 오토 내부의 로그인, 메뉴 선택, 서비스 실행 순서는 공개 자료에서 확인되지 않았다.",Pleos Connect 초기 라인업에 포함된 차량 앱.,"계정 필수 여부, 이용 요금, 국가별 기능과 정차 조건은 앱별 자료 미확인.",기존 네이버 모바일 앱의 검색·쇼핑·지도 기능을 이 차량 앱의 기능으로 간주하지 않았다.,"https://www.hyundaimotorgroup.com/ko/story/pleos-connect-next-generation-infotainment-system
+https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system"
+네이버 웨일,Pleos,웹사이트를 탐색하는 네이버의 브라우저를 차량 화면에서도 이용하는 앱이다. Pleos에서의 제공 사실과 일반 Whale의 세부 기능은 각각 다른 공식 자료로 확인된다.,차량에서 웹 기반 정보나 서비스를 이용하려는 사용자.,"Pleos판 확인: 차량 환경에 최적화된 초기 제공 앱으로 소개된다.
+일반 Android판: 현재 페이지를 유지하면서 퀵서치로 검색할 수 있다.
+일반 Android판: 북마크와 스크랩북에 사이트 및 콘텐츠를 저장한다.
+일반 Android판: 네이버 아이디로 로그인하면 PC·스마트폰 사이에서 북마크와 방문 기록을 동기화한다.","일반 Android 안내에서는 네이버 아이디 로그인 후 기기 간 동기화를 이용한다.
+Pleos판의 주소 입력·로그인 화면과 동기화 설정 절차는 별도 확인되지 않았다.",차량 직접 실행 앱으로 Pleos 제공 확인. PC·모바일 기능과 차량판의 동일성을 보장하는 자료는 없다.,웹 이용에는 네트워크가 필요하다. Pleos 정책은 주차용 앱의 주행 중 사용을 제한하지만 웨일의 개별 기능별 허용표는 미확인.,"확장 프로그램, 파일 다운로드, 화상회의, 북마크 동기화가 Pleos판에 그대로 제공되는지는 미확인.","https://www.hyundaimotorgroup.com/ko/story/pleos-connect-next-generation-infotainment-system
+https://play.google.com/store/apps/details?hl=ko&id=com.naver.whale
+https://document.pleos.ai/en/docs/pleos-only/vehicle-app-planning-guide/driving-restiction-policy"
+YouTube,여러 차량 플랫폼,영상 콘텐츠를 차량의 디스플레이에서 직접 재생하는 서비스다. Pleos 출시 발표는 스마트폰을 차량에 연결하지 않고 이용하는 미디어 앱에 YouTube를 포함한다.,차량 안에서 영상을 시청하는 탑승자.,"Pleos판 확인: 스마트폰 연결 없이 차량 내에서 서비스를 실행할 수 있다.
+일반 서비스: 시청 기록을 통해 최근 본 영상을 다시 찾을 수 있다.
+일반 서비스: 저장된 시청 기록은 영상 추천에 활용되며 사용자는 기록을 삭제하거나 중지할 수 있다.
+Google built-in용 발표: 정차 중 보던 영상에서 출발하면 음성만 이어 듣는 기능을 2026년 10월 순차 배포한다고 안내했다. 이 기능에는 YouTube Premium이 필요하다.","차량의 App Market에서 제공되는 YouTube를 설치·실행하는 방식이다.
+계정 시청 기록 관리는 일반 Google 도움말에서 로그인 후 YouTube 기록 관리로 접근한다. Pleos 내부의 동일 메뉴 경로는 확인되지 않았다.",Pleos뿐 아니라 Tesla·BMW·Audi·Porsche·GM·Ford 제공 근거를 각 플랫폼 목록에 기록했다. Google built-in의 배경 음성 전환은 별도 플랫폼 발표이며 Pleos·Tesla에 그대로 적용하지 않았다.,"Pleos는 주차용 앱의 주행 중 실행을 제한한다. YouTube의 Pleos판 로그인 방식, Premium 요구 범위와 국가별 콘텐츠 조건은 별도 미확인.","주행 전환 뒤 배경 음성 재생, 영상 다운로드, Shorts, 영상 화질 상한이 Pleos에서 지원되는지는 확인되지 않았다.","https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system
+https://support.google.com/youtube/answer/95725?hl=ko
+https://document.pleos.ai/en/docs/pleos-only/vehicle-app-planning-guide/driving-restiction-policy
+https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates/
+https://www.tesla.com/ownersmanual/model3/en_qa/GUID-79A49D40-A028-435B-A7F6-8E48846AB9E9.html
+https://www.bmw.co.kr/ko/digital-services/bmw-entertainment.html
+https://cariad.technology/de/en/news/stories/launch-application-store-for-volkswagen-group.html
+https://connect-store.porsche.com/offer/us/en-US/app-center
+https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/jun/0624-summer-drives-200-new-apps-google-play.html
+https://www.ford.com/technology/ford-digital-experience/"
+Spotify,여러 차량 플랫폼,음악과 팟캐스트를 스트리밍하는 서비스다. Pleos에서는 휴대전화의 오디오를 전달하는 방식 외에 차량에서 직접 실행하는 앱으로 제공된다.,Spotify의 음악·팟캐스트를 차량에서도 듣는 사용자.,"Pleos판 확인: 스마트폰 연결 없이 차량에서 직접 이용하는 초기 미디어 서비스에 포함된다.
+일반 차량 안내: 내장 앱에 계정으로 로그인하여 콘텐츠를 듣는다.
+일반 서비스: 음악과 팟캐스트, 플레이리스트를 차량에서 청취할 수 있다.
+Audi 2026년 10월 신규판: 음악 영상·실시간 가사·DJ를 제공한다. Jam에서는 동승자가 QR 코드로 공동 청취에 참여하고 재생 대기열에 곡을 추가한다.","Spotify의 일반 차량 안내는 차량 앱 스토어에서 Spotify를 검색하고 다운로드하도록 설명한다.
+설치된 앱에 로그인한 뒤 이용하며, 차량의 데이터 연결이 활성화되어 있어야 한다.","Pleos와 Tesla·BMW·Audi·Porsche·Volkswagen·GM의 제공 근거는 각 플랫폼 목록에 기재했다. 상세 기능은 공통 차량 안내와 Pleos 입점 자료, Audi의 2026년 10월 신규판 발표를 구분했다.","Spotify 공식 안내는 일부 차량 내장판이 Premium을 요구한다고 밝힌다. Pleos판의 Free/Premium 지원 범위와 요금제 조건은 별도 미확인. Audi 신규판은 지원 MY2026+ PPE/PPC 차량 대상이다. 주행 중 중앙 화면은 영상·가사·로그인·설정을 제한하며, 지원 조수석 화면의 조건은 다르다.","Pleos의 다운로드·오프라인 재생, 오디오북, DJ, 가사·영상 기능 및 자동 재생 구현은 확인되지 않았다.","https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system
+https://newsroom.spotify.com/2019-08-26/how-to-listen-to-spotify-in-the-car/
+https://support.spotify.com/us/article/spotify-in-the-car/
+https://www.audi.com/en/media-releases/audi-becomes-the-first-automaker-to-launch-spotifys-fully-native-in-car-app-18389
+https://www.bmw.co.kr/ko/digital-services/bmw-entertainment.html
+https://ask.porsche.com/international/spotify/
+https://www.volkswagen-vans.co.uk/en/connected-services/vw-connect/services.html/__layer/layers/connected_services/spotify/master.layer
+https://www.chevrolet.com/support/vehicle/entertainment/apps/spotify
+https://www.tesla.com/ownersmanual/model3/en_ie/GUID-7A85FB6B-9DF6-4C55-A2F9-793207E48E9D.html"
+SBS 고릴라,Pleos,SBS의 라디오와 방송 오디오 콘텐츠를 인터넷으로 제공하는 서비스다. Pleos 초기 제공 목록에 포함되어 차량에서 직접 이용할 수 있다.,SBS 생방송이나 방송 다시듣기를 듣는 사용자.,"Pleos판 확인: 차량용 초기 미디어 서비스로 제공된다.
+일반 서비스: 파워FM·러브FM·고릴라M 등 채널을 청취한다.
+일반 서비스: 놓친 프로그램 다시듣기와 분야별 팟캐스트를 제공한다.
+일반 서비스: 선곡표로 재생곡을 확인하고 MY에서 최근 재생·저장 팟캐스트를 찾는다.","일반 서비스에서는 원하는 라디오 채널을 선택해 생방송을 듣는다.
+지난 방송은 다시듣기·팟캐스트에서 선택한다. Pleos의 화면별 조작 경로는 별도 공개 확인되지 않았다.",Pleos 설치형 서비스 확인. 나열한 채널 및 보관 기능의 근거는 SBS 일반 소개다.,차량 데이터 연결과 서비스 제공 조건이 적용된다. Pleos판의 계정 요구 및 무료·유료 구분은 미확인.,"보는 라디오, 공감로그 작성, 출석·아이템 기능까지 차량에서 제공된다고 확인된 것은 아니다.","https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system
+https://www.sbs.co.kr/radio/gorealra.html"
+에센셜,Pleos,개별 곡을 고르는 대신 상황과 분위기에 맞는 플레이리스트를 감상하는 NHN벅스의 음악 큐레이션 서비스다. PV5용 공식 출시 자료에 실제 차량 기능이 설명되어 있다.,드라이브 목적이나 상황에 맞춰 플레이리스트를 듣는 사용자.,"PV5 Pleos판 확인: 곡을 하나씩 지정하지 않아도 운전 목적과 상황에 맞는 음악을 추천한다.
+PV5 Pleos판 확인: 최근 청취한 플레이리스트를 다시 재생할 수 있다.
+PV5 Pleos판 확인: Free essential 기능으로 이용권 구매 전 플레이리스트 분위기를 체험한다.","PV5의 Pleos App Market에서 essential 앱을 내려받는다.
+추천 플레이리스트를 감상하거나 최근 청취 목록을 다시 듣는다.
+이용권을 구매하기 전에는 Free essential로 미리 체험할 수 있다.",PV5용 Pleos App Market 출시는 2025년 9월 23일 확인된다. 2026년 Pleos Connect 초기 라인업에도 포함되지만 두 버전의 모든 화면이 동일하다는 뜻은 아니다.,"Free 체험과 이용권 구매가 구분된다. 가격, 계정 연동, 무료 체험 길이는 해당 발표에 명시되지 않는다.","자동으로 주행 상황을 어떤 센서에서 감지하는지, 벅스의 기존 이용권이 호환되는지는 미확인.","https://www.bugscorp.co.kr/prview/675
+https://www.hyundaimotorgroup.com/ko/story/pleos-connect-next-generation-infotainment-system"
+카카오내비,Pleos,목적지까지의 경로와 길 안내를 제공하는 카카오모빌리티의 내비게이션이다. Pleos판은 차량 화면에 맞춘 사용자 인터페이스를 제공한다고 공식 발표됐다.,목적지 검색과 길 안내가 필요한 운전자.,"Pleos판 확인: 차량에 최적화된 UI에서 길 안내를 제공한다.
+일반 서비스: 실제 운행 데이터와 실시간 교통정보를 바탕으로 경로 및 도착 예정 시간을 계산한다.
+일반 서비스: 지도와 탐색 태그로 주유소·주차장·충전소 등을 찾고 장소를 저장한다.
+일반 서비스: 현재 갈 만한 목적지와 자주 가는 장소를 제안한다.","일반 서비스에서는 지도나 탐색 태그로 장소를 찾거나 추천 목적지를 확인한다.
+목적지를 선택해 길 안내를 시작한다. Pleos판의 세부 버튼과 계정 연결 순서는 미확인이다.",국내 Pleos Connect용 직접 설치 앱으로 입점 확인. 스마트폰을 연결하는 Android Auto·CarPlay판과 별도다.,국내 제공이 확인되었다. Pleos판 로그인·요금 조건 및 전체 지원 차종 표는 확보하지 못했다.,모바일의 주차 예약·내차관리·홍수경보·AI 추천 전체가 Pleos에서도 제공되는지는 미확인.,"https://www.hyundaimotorgroup.com/ko/news/42dot-pleos-connect-app-market-new-apps
+https://www.kakaomobility.com/service-navi"
+what3words,Pleos,건물 주소만으로 특정하기 어려운 입구나 배송 지점을 세 단어로 지정하는 위치 서비스다. 전 세계를 3m×3m 구역으로 나누고 각 구역에 고유한 단어 조합을 부여한다.,정확한 출입구·집결지·도로변 위치 등을 목적지로 지정하는 운전자.,"Pleos판 확인: 자연어 음성 명령으로 세 단어 주소를 검색·입력한다.
+Pleos판 확인: 검색된 목적지를 선택해 정확한 위치까지 안내받는 흐름을 제공한다.
+일반 주소 체계: 일반 번지 주소가 없는 곳도 세 단어로 식별한다.","Pleos Connect App Market에서 what3words 차량 앱을 내려받는다.
+음성으로 목적지의 세 단어 주소를 말한다.
+결과에서 목적지를 선택하고 안내를 시작한다.",공식 제휴 발표가 유럽·영국·한국의 현대차그룹 지원 차량 제공을 명시한다.,내비게이션을 포함한 전체 기능 이용에는 what3words Pro 멤버십이 필요하다.,"한국어 음성 인식의 실제 품질, 오프라인 기능 및 구체적인 지도 엔진·차종별 화면은 실차 검증하지 않았다.",https://what3words.com/news/automotive/what3words-launches-in-hyundai-motor-group-vehicles-via-pleos-connect-app-market
+Make My Day - Route Planner,Pleos,"전기차의 이동 경로와 충전 정차를 함께 계획하는 경로 서비스다. 개발사 설명은 EV 운전자와 차량 운영자를 대상으로 하며, Pleos에서는 지도·내비게이션 앱으로 입점했다.",전기차 운전자 및 여러 전기차의 이동을 계획하는 차량 운영자. 운영자 기능의 근거는 Geotab 연동판이다.,"Pleos판 확인: Route Planner 명칭의 지도·내비게이션 앱 입점이 확인된다.
+Geotab판: 차량 위치와 충전 잔량을 받아 경로 계획에 활용한다.
+Geotab판: 방문 지점을 불러와 이동 순서와 충전 정차를 고려한 경로를 만들고 운전자에게 전달한다.
+Geotab판: 교통·날씨·도로 지형 및 차량 성능 데이터를 경로 계산 요소로 설명한다.","Geotab판의 문서상 흐름은 차량·충전 잔량 정보를 연결하고 방문 지점을 불러오는 것이다.
+경로를 계획한 뒤 운전자에게 전송한다. Pleos 앱의 실제 입력 화면과 단계는 공개 확인되지 않았다.","Pleos 차량 앱 입점은 확인되지만, 자세한 기능 설명은 별도의 Geotab 연동 제품이다.",Pleos판 구독료·계정·한국 충전소 데이터 범위와 차량 배터리 데이터 접근 여부는 미확인.,Geotab 관리 기능이나 충전 최적화의 모든 요소가 Pleos에도 구현됐다고 단정할 수 없다.,"https://www.hyundaimotorgroup.com/ko/news/42dot-pleos-connect-app-market-new-apps
+https://www.makemydayapp.com/geotab-addings/"
+멜론,Pleos,음악을 스트리밍하고 취향에 맞는 곡과 플레이리스트를 제공하는 카카오엔터테인먼트 서비스다. Pleos 출시 자료에서도 개인 맞춤 추천과 플레이리스트를 차량판의 제공 내용으로 설명한다.,멜론의 음악과 추천 목록을 차량에서 듣는 사용자.,"Pleos판 확인: 개인화된 음악 추천을 제공한다.
+Pleos판 확인: 여러 플레이리스트를 차량에서 이용할 수 있다.
+일반 모바일판: ForYou에서 맞춤 선곡을 찾고 탐색에서 장르·분위기별 음악을 검색한다.
+일반 모바일판: 음악서랍에 감상 기록과 저장 콘텐츠를 관리한다.","Pleos에서는 앱 마켓의 멜론을 설치해 실행하는 방식이다.
+일반 모바일판은 ForYou의 추천이나 탐색 결과에서 음악을 선택해 재생한다. 차량판의 메뉴명과 로그인 단계는 확인되지 않았다.",국내 Pleos Connect 직접 설치판 제공 확인. BMW 한국 페이지도 멜론의 차량 설치를 안내하지만 상세 기능의 동일성은 확인하지 않았다.,서비스에 이용권과 인앱 구매가 있으나 차량에서 사용할 수 있는 구체적인 이용권 종류·동시 재생 조건은 미확인.,"모바일의 다운로드, EQ·AI Master, 뮤직비디오, 가사 표시가 Pleos에서도 지원된다는 근거는 없다.","https://www.hyundaimotorgroup.com/ko/news/42dot-pleos-connect-app-market-new-apps
+https://play.google.com/store/apps/details?id=com.iloen.melon
+https://www.bmw.co.kr/ko/digital-services/bmw-entertainment.html"
+Radioline,Pleos,인터넷 라디오와 팟캐스트를 한 서비스에서 찾고 듣는 오디오 플랫폼이다. Pleos에서는 음악·오디오 분야에 입점한 것으로 확인된다.,국내외 라디오와 팟캐스트를 차량에서 듣는 사용자.,"Pleos판 확인: 음악·오디오 앱 입점이 발표되었다.
+일반 서비스: 라디오와 팟캐스트를 선택해 재생한다.
+일반 서비스 설정: 앱 실행 시 마지막에 들은 방송 또는 팟캐스트를 자동 재생하는 옵션이 있다.
+일반 서비스 설정: 계정을 연결해 방송 중인 곡을 음악 플레이리스트에 추가하는 기능이 있다.","일반 서비스에서 라디오나 팟캐스트를 선택해 듣는다.
+설정의 Autoplay를 켜면 다음 실행 시 마지막 콘텐츠를 자동 재생하도록 설정할 수 있다. Pleos판 동일 메뉴는 미확인이다.",국내 Pleos Connect의 입점 이력은 확인되지만 11월 9일 차량 내 실행 상태를 직접 확인하지 않았다.,"TuneIn 공식 FAQ는 Radioline 종료일을 2026년 11월 16일로 적으면서 과거형을 사용한다. 이 날짜는 확인일 11월 9일보다 미래이며, Pleos판 적용 범위도 별도 확인되지 않았다.",종료 완료로 단정하지 않았다. 일반 웹의 Premium 가격·광고 제거·계정 연결 기능이 차량판과 같은지도 미확인이다.,"https://www.hyundaimotorgroup.com/ko/news/42dot-pleos-connect-app-market-new-apps
+https://www.radioline.co/en/settings
+https://help.tunein.com/support/solutions/articles/151000237974-radioline-faqs"
+래디오오토 (RaiDIO Auto),Pleos,운전자의 취향과 주행 상황에 맞춘 음악 큐레이션을 지향하는 어플레이즈의 차량 음악 서비스다. 앱 입점 사실과 공급자의 차량 음악 솔루션 설명은 확인되지만 출시판의 상세 명세는 분리해야 한다.,차량 안에서 상황에 맞춰 추천되는 음악을 듣는 사용자.,"Pleos판 확인: 음악·오디오 앱으로 입점했다.
+공급자 차량 솔루션 설명: 취향·감정·상황·교통 조건을 반영한 음악을 제공한다.
+공급자 차량 솔루션 설명: 원하는 상황과 시간대의 루틴을 설정해 음악을 자동 재생한다.","공급자 솔루션 문서는 상황·시간대 루틴 설정 후 해당 조건에 맞춘 음악 자동 재생을 설명한다.
+출시된 RaiDIO Auto에서 루틴을 만드는 실제 메뉴와 초기 설정 순서는 공개 자료에서 확인되지 않았다.",국내 Pleos Connect 입점 확인. 제품 소개 페이지에는 아직 PoC 진행 문구가 함께 남아 있다.,"차량판의 계정, 구독 가격, 필요한 차량 데이터 및 개인정보 동의 항목은 미확인.",PoC·솔루션 설명을 현재 출시 앱의 확정 기능표로 간주하지 않았다. 매장용 RaiDIO Biz와 개인용 RaiDIO의 기능도 별개다.,"https://www.hyundaimotorgroup.com/ko/news/42dot-pleos-connect-app-market-new-apps
+https://www.aplayz.co.kr/product/car"
+픽클 (Pickle),Pleos,뉴스·어학·명상·인터뷰 등의 콘텐츠를 운전 중 연속해서 듣도록 구성한 오비고의 차량 전용 오디오 플랫폼이다. 예약이나 주문을 대신 수행하는 동명의 범용 AI 에이전트와는 다른 서비스다.,차량에서 음악 외의 방송·지식·이야기 콘텐츠를 듣는 사용자.,"차량 서비스 확인: Pickle Live는 취향과 운전 상황에 맞춘 콘텐츠를 한 번 선택하면 연속 청취하도록 구성한다.
+공급자 표기: MBC·KBS 등을 포함한 1,900개 이상 채널과 뉴스·영어·명상·인터뷰 콘텐츠를 제공한다.
+차량 서비스 확인: Pickle Music, 자연의 소리, 졸음케어 등 오리지널 콘텐츠를 마련한다.","Pleos App Market의 음악/오디오 카테고리에서 픽클을 찾는다.
+설치 버튼으로 다운로드한 뒤 앱을 연다.
+원하는 콘텐츠나 Pickle Live를 선택해 청취한다.",공식 사이트가 Pleos App Market과 TMAP Store 설치를 각각 안내한다. 국내 Pleos Connect 입점도 확인된다.,"전체 지원 차종 및 국가, 구독료와 무료 콘텐츠 범위는 본문에서 확정하지 않았다.",졸음케어는 콘텐츠 이름이다. 졸음 감지 기능이나 사고 예방 효과가 입증됐다는 뜻이 아니다.,"https://pickle.obigo.ai/
+https://www.hyundaimotorgroup.com/ko/news/42dot-pleos-connect-app-market-new-apps"
+픽나우 (PickNow),Pleos,주요 OTT와 여러 미디어 콘텐츠를 차량에서 이용하도록 제공하는 오비고의 콘텐츠 서비스다. 2026년 10월 회사 IR은 기아 PV5의 Pleos App Market에 픽나우를 공급했다고 밝혔다.,차량 안에서 OTT·미디어 콘텐츠를 이용하는 탑승자.,"PV5판 확인: 주요 OTT 및 미디어 콘텐츠의 차량 내 이용을 제공하는 서비스로 소개된다.
+PV5판 확인: Pleos App Market을 통해 이용하는 공급 사례가 발표됐다.","회사 발표는 PV5의 Pleos App Market을 통한 이용을 안내한다.
+앱 실행 뒤 OTT 선택·로그인·콘텐츠 재생으로 이어지는 정확한 화면 순서는 공개 자료에서 확인되지 않았다.",확인된 적용 사례는 기아 PV5다. 그랜저·아반떼 제공 여부는 별도 미확인.,"콘텐츠별 계정·구독 필요 여부, 국가 제한 및 정차·주차 조건의 상세 문서는 확보하지 못했다.",Netflix·Disney+ 등 특정 OTT 이름이나 모든 OTT 지원을 추정하지 않았다. 콘텐츠 제공·웹 연결·개별 앱 실행 중 어떤 방식인지도 미확인이다.,https://m.irgo.co.kr/IR자료/76808/TB/오비고-오비고-기아-PV5에-AI-콘텐츠-서비스-픽클픽나우-탑재픽시리즈-적용-확대
+Gleo AI,Pleos,차량 제어와 내비게이션·정보 검색을 음성 대화로 수행하는 Pleos의 내장 AI 에이전트다. 독립적으로 내려받는 외부 앱과 달리 차량 시스템에 통합되어 OTA로 기능이 갱신된다.,차량 기능과 경로 관련 정보를 음성으로 조작하는 운전자와 탑승자.,"기본 기능: 앞선 대화와 발화 좌석을 구분해 창문 등 차량 기능을 제어한다.
+2026년 10월 OTA: 휴게소·주유소·화장실 등을 요청하면 위치와 거리를 고려해 주행 경로상 장소를 제안한다.
+2026년 10월 OTA: 주유소의 유종별 가격 및 여러 경유지의 정보·남은 시간을 안내한다.
+2026년 10월 OTA: 온디바이스 TTS로 문자 내용을 읽어 준다.","지원 차량에서 음성으로 필요한 장소나 기능을 요청한다.
+경로상 장소 검색은 안내받은 후보를 바탕으로 목적지 설정까지 이어진다.
+업데이트는 차량 시동 시 표시되는 안내에 따라 OTA로 설치한다.",내장 기능. 2026년 10월 30일 발표된 첫 OTA의 명시 대상은 더 뉴 그랜저다.,뒷좌석 음성 명령을 통한 전화 발신과 문자 전송은 해당 업데이트에서 제한한다. 최신 기능은 대상 차량의 OTA 적용 여부에 따른다.,출시 당시 외부 앱 연동 확대는 향후 계획으로 설명됐다. 모든 스토어 앱을 Gleo가 현재 조작한다는 근거는 없다.,"https://www.hyundaimotorgroup.com/ko/story/pleos-connect-next-generation-infotainment-system
+https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system
+https://www.hyundaimotorgroup.com/ko/news/42dot-gleo-ai-first-ota-in-car-ai-experience-upgrade"
+방귀 모드 / Emissions,Tesla,차량 스피커로 방귀 효과음을 재생하는 놀이 기능이다.,정차 중 운전자와 동승자.,"효과음 종류와 소리가 나올 좌석 위치를 선택한다.
+왼쪽 스크롤 버튼이나 방향지시등 조작에 효과음을 연결한다.
+Tesla 모바일 앱의 빠른 제어 버튼을 길게 눌러 방귀 버튼을 등록하면 원격으로 재생할 수 있다.","주차 후 Toybox의 Emissions에서 소리와 좌석을 고른다.
+지정한 버튼으로 재생하거나 모바일 앱의 빠른 제어를 사용한다.",차량 Toybox 내장 기능; 모바일 앱은 원격 조작 수단이다.,외부 재생은 보행자 경고 스피커 장착 차량의 Park 상태에서 지원한다.,지역·연식별 제공과 좌석 감지 동작은 실차 미확인.,https://www.tesla.com/ownersmanual/model3/en_qa/GUID-79A49D40-A028-435B-A7F6-8E48846AB9E9.html
+Light Show,Tesla,음악과 차량 조명·지원 부위의 움직임을 맞춘 쇼를 재생한다.,정차한 차량 주변에서 쇼를 관람하거나 사용자 제작 쇼를 재생하는 사람.,"Toybox에서 쇼를 선택하고 재생을 예약한다.
+사용자 제작 쇼는 조명 시퀀스 .fseq와 같은 이름의 .mp3 또는 .wav 음악 파일을 한 쌍으로 준비한다.
+USB 하나에 여러 쇼를 저장하는 기능은 차량 소프트웨어 2023.44.25 이상에서 안내한다.
+Tesla가 공개한 xLights 프로젝트와 검사 도구로 시퀀스를 만들고 규격을 확인할 수 있다.","규격에 맞는 USB의 최상위 LightShow 폴더에 시퀀스·음악 파일을 넣는다.
+차량의 지원 USB 포트에 연결한 뒤 Toybox → Light Show → Schedule Show를 연다.
+목록에 나타나는 쇼를 골라 재생한다.",차량 내장 재생 기능과 외부 PC 제작 도구의 조합이다. USB 파일은 일반 앱 설치 패키지가 아니다.,Park 상태에서 사용. USB 형식·폴더 규칙을 충족해야 하며 TeslaCam 최상위 폴더가 있으면 안 된다.,조명·창문 등 지원 동작은 차종·하드웨어별로 다르다. 국내 특정 차량의 제공 여부는 미확인.,https://github.com/teslamotors/light-show
+Caraoke,Tesla,차량 오디오와 화면 가사를 이용해 노래를 따라 부르는 노래방 기능이다.,"정차 중 탑승자, 주행 중에는 가사를 보는 동승자.","곡 목록을 탐색해 노래를 선택한다.
+마이크 모양 아이콘으로 원곡 주보컬을 끄거나 켠다. 끄면 반주와 백보컬이 남는다.
+가사 아이콘으로 화면의 가사를 표시하거나 숨긴다.","Media Player의 소스 메뉴에서 Caraoke를 선택하거나 앱 런처에서 연다.
+노래를 고른 뒤 주보컬과 가사 표시를 조절한다.",차량 미디어에 통합된 기능. 스마트폰 노래방 앱을 차량에 설치하는 절차가 아니다.,확인한 아일랜드 설명서는 Premium Connectivity를 요구한다. 운전자는 주행 중 가사를 읽지 않도록 명시한다.,지역·구성별 곡 목록과 별도 마이크 지원은 이 문서에서 확인하지 못했다.,https://www.tesla.com/ownersmanual/model3/en_ie/GUID-7A85FB6B-9DF6-4C55-A2F9-793207E48E9D.html
+Photobooth,Tesla,차량 실내 카메라로 셀카를 찍고 꾸미는 기능이다.,정차 중 사진을 남기는 탑승자.,"장착된 실내 카메라를 사진 촬영에 사용한다.
+필터·스티커·이모지로 사진을 꾸민다.
+사진을 Tesla 모바일 앱으로 보내 가족·친구에게 공유한다.","주차 후 Photobooth를 열어 촬영한다.
+사진을 꾸민 후 Tesla 모바일 앱에서 공유한다.",차량 내장 촬영 기능; 모바일 앱은 공유에 사용한다.,실내 카메라 장착 차량. 모바일 공유는 Tesla 앱 4.51.5 이상이다.,저장 기간·원본 해상도·전체 지원 차종은 확인하지 못했다.,https://www.tesla.com/ownersmanual/model3/en_qa/GUID-79A49D40-A028-435B-A7F6-8E48846AB9E9.html
+Grok,Tesla,차량에서 음성으로 질문하고 지원 차량 기능이나 연결된 온라인 서비스 작업을 요청하는 AI 기능이다.,음성 대화·차량 조작·연결 서비스 이용을 원하는 탑승자.,"목적지 탐색, 전화, 음악 검색·재생, 온도 조절, 글로브박스 열기 등을 지원한다고 영국 안내가 명시한다.
+음성과 대화 성격을 고를 수 있다.
+Connectors로 이메일·일정·파일 서비스를 연결한다. Grok Bot은 주문·예약 같은 여러 단계 작업을 처리하도록 안내한다.","앱 런처의 Grok 또는 스티어링 휠 마이크 버튼으로 시작한다.
+음성 호출은 Controls → Audio → Grok Settings에서 활성화한다.
+연결 서비스는 휴대전화·PC에서 설정하고 같은 Grok 계정으로 차량에 로그인한다.",Tesla 차량 통합 기능. Connectors는 외부 계정 연결이며 별도 차량 앱 설치가 아니다.,"영국 안내: AMD, 2026.2.6+, Premium Connectivity 또는 Wi-Fi. Connectors·Bot은 2026.26+와 로그인; Bot은 SuperGrok 구독 필요. 기본 대화는 계정 없이 제한적으로 가능하다.",한국 제공·실차 명령별 동작은 미확인. 위치 기능에는 정밀 위치 공유 동의가 필요하다.,https://www.tesla.com/en_gb/support/grok
+Sentry Mode,Tesla,차량을 주차하고 잠근 동안 주변 움직임을 감지하고 위협 이벤트를 기록하는 보안 기능이다.,주차 중 차량 주변을 확인하려는 소유자.,"감지된 위협 정도에 따라 카메라 녹화와 경보로 반응한다. 경보 발생 시 Tesla 앱에 알림을 보낸다.
+녹화 보관에는 올바르게 설정한 Dashcam과 USB 저장 장치가 필요하다. USB가 없어도 알림 기능은 가능하지만 사건 영상은 남지 않는다.
+Live Camera로 모바일 앱에서 주변 영상을 보고, 지원 장비에서 경적·조명·외부 스피커를 사용할 수 있다.","차량의 Safety & Security → Sentry Mode에서 켜고 녹화용 USB를 확인한다.
+원격 영상은 차량에서 View Live Camera via Mobile App을 허용한다.
+Tesla 앱 Security & Drivers에서 Sentry Mode를 켜고 View live camera를 선택한다.",차량 카메라·보안 시스템에 통합된 기본 기능이며 Tesla 앱으로 원격 확인한다.,Live Camera는 Premium Connectivity와 Tesla 앱 4.2.1+가 필요하다. 2012~2020 Model S/X는 해당 원격 영상 기능 미지원으로 안내한다.,차종 설명서와 일반 지원 페이지의 Pet 동시 사용·저전력 조건이 다르게 안내되어 있다. 모든 손상·도난 방지 보장은 아니다.,https://www.tesla.com/support/vehicle-safety-security-features
+Pet / Dog Mode,Tesla,잠시 주차한 차량 안의 반려동물을 위해 설정한 실내 온도를 유지한다.,가까운 곳에서 자주 차량 상태를 확인할 수 있는 보호자.,"화면에 실내 온도를 표시한다.
+Tesla 앱에서 온도·상태를 확인하며 지원 차량은 실내 카메라도 볼 수 있다.
+창문 스위치를 통한 창문 내림을 막는다.","Park에서 온도를 조절하고 공조 화면의 Pet Mode를 켠다.
+휴대전화로 상태를 계속 확인하고 필요하면 즉시 돌아온다.",차량 공조 내장 모드; 앱은 상태 확인·제어에 사용한다.,단시간·근거리 사용. 차량과 휴대전화 통신 필요. 과열·공조 이상 시 활성화 불가.,한국 실차 미검증. 배터리 20% 미만·온도 이상 등 알림 조건이 있으며 안전 보장 기능은 아니다.,https://www.tesla.com/ownersmanual/model3/en_au/GUID-4F3599A1-20D9-4A49-B4A0-5261F957C096.html
+Camp Mode,Tesla,차량 안에 머무는 동안 온도·전원·화면을 유지하는 모드다.,차 안에서 쉬거나 숙박하는 탑승자.,"설정한 실내 온도를 유지한다.
+USB·저전압 전원으로 전자기기를 사용할 수 있다.
+화면을 켜 두어 음악·브라우저·Arcade·Theater를 이용한다.","저전력 모드가 아닌 상태에서 Park로 전환한다.
+온도를 설정한 뒤 공조 화면 또는 모바일 앱에서 Camp Mode를 켠다.",차량 공조·전원 내장 모드다.,작동 중 Sentry·차량 경보·하차 후 자동 잠금이 비활성화된다.,배터리 소모가 발생한다. 저전력 작동 조건은 차량별 설명서에 따라 다르다.,https://www.tesla.com/ownersmanual/model3/en_au/GUID-4F3599A1-20D9-4A49-B4A0-5261F957C096.html
+Beach Buggy Racing 2: Tesla Edition,Tesla,주차 중 차량 화면에서 즐기는 카트 레이싱 게임이다.,정차 중 게임을 하는 운전자·동승자.,"플레이어의 Tesla 차종과 도장·휠 같은 외형을 게임 차량에 반영한다.
+개발사는 실제 운전대·브레이크, 화면 터치, USB 게임패드를 조작 방식으로 소개한다.
+운전자와 동승자가 2인 화면 분할 경주를 할 수 있다.
+개발사 안내에는 22개 트랙, 14명 드라이버, 45개 이상 아이템과 3단계 난이도가 명시돼 있다.","지원 차량을 주차한 뒤 게임을 실행하고 조작 장치를 고른다.
+드라이버·트랙을 선택해 경주하거나 2인 화면 분할로 함께 플레이한다.",Vector Unit이 Tesla용으로 제공하는 차량 게임. 일반 모바일 BBR2판의 설치·계정과 구분한다.,지원 Tesla 차량·정차 상태가 전제이며 입력 장치 지원은 차량 구성에 따라 달라진다.,현재 차종별 배포 목록과 한국 차량별 설치 상태는 미확인. 개발사 페이지의 콘텐츠 수를 모든 최신 빌드의 고정 수로 보장하지 않는다.,https://www.vectorunit.com/bbr2tesla
+Tessie,Tesla,주행·충전 데이터를 장기간 기록하고 조건에 따라 차량 동작을 자동 실행하는 외부 관리 서비스다.,차량 기록 분석과 일정·장소 기반 자동 제어가 필요한 Tesla 소유자.,"주행·충전 기록과 주차 중 전력 소모, 배터리 추이를 추적한다.
+주행·충전·Sentry 이벤트 알림을 제공하고 웹·워치에서 차량을 제어한다.
+Automation은 시간·도착·출발·충전기 연결 같은 조건을 사용한다. 장소 제한도 붙일 수 있다.
+Automation은 클라우드에서 실행되므로 휴대전화가 켜져 있거나 차량 옆에 있을 필요가 없다. 차량 기본 예약인 Schedule과 독립적으로 작동한다.","Tessie에서 연결한 차량의 기록과 상태를 확인한다.
+Automation에서 반복 시간이나 도착·충전 연결 조건과 동작을 등록한다.
+필요한 규칙을 편집하고 기록·알림으로 결과를 확인한다.",스마트폰·워치·웹의 외부 서비스. 자동화는 Tessie 클라우드에서 실행하며 차량 화면에 설치하는 앱이 아니다.,차량 연동 권한과 통신이 필요하고 무료 체험 후 구독 또는 일회 결제를 안내한다.,한국 계정별 요금·특정 연식 명령 지원과 자동화 지연은 실차 검증하지 않았다.,"https://play.google.com/store/apps/details?id=io.tessie.app&hl=en_US
+https://help.tessie.com/article/46-automation"
+TezLab,Tesla,주행 거리·효율·충전 비용을 기록하고 차량 상태를 관리하는 전기차 동반 앱이다.,자신의 주행 기록을 보고 친구와 지표를 비교하려는 호환 전기차 소유자.,"개별 주행을 추적하고 거리·효율을 다른 사용자와 비교한다.
+모바일 앱에서 실내 공조와 최대 충전 수준을 조절한다.
+권한이 있는 Tesla 소유자 계정을 연결하면 Supercharging 비용을 동기화한다. 공유받은 운전자 계정은 비용 접근이 제한될 수 있다.
+무료판은 최근 3일의 제한된 기록을 제공하며 Pro는 무제한 이력과 상세 데이터를 안내한다.","차량 이름 → Manage Vehicle Connections → Connect Tesla Account에서 권한 있는 계정을 연결한다.
+주행·충전 후 기록을 확인한다. 비용 동기화는 다음 Supercharging 세션부터 반영된다고 안내한다.
+차량 브라우저 대시보드는 tezlab.app/dash를 열고 TezLab을 설치한 휴대전화로 QR을 읽어 연결한다.",외부 모바일 서비스이며 차량 브라우저용 대시보드도 제공한다. Tesla 네이티브 설치 앱과는 다르다.,호환 전기차와 연결 계정이 필요. 상세 기록은 Pro 유료 조건이다.,"차량 대시보드 문서는 2022년 갱신본으로, 현재 브라우저 기능·주행 중 사용 범위는 미검증.","https://play.google.com/store/apps/details?id=com.happyfuncorp.tesla&hl=en_US
+https://support.tezlabapp.com/article/63-sc-no-sync
+https://support.tezlabapp.com/article/91-in-car-dashboard
+https://support.tezlabapp.com/article/31-tezlab-free"
+Stats for Tesla,Tesla,Tesla의 배터리·충전·주행 추이를 분석하고 Apple 기기로 상태 확인과 원격 조작을 제공한다.,iPhone·iPad·Apple Watch를 사용하는 Tesla 소유자.,"배터리 용량 추정, 주행 효율·주행거리, 장소·기간별 대기 전력 소모를 그래프로 보여 준다.
+요일·시간별 충전과 공조 예약, 집에서 미연결·낮은 배터리 상태의 충전 알림을 제공한다.
+문·트렁크가 열려 있거나 잠기지 않은 상태를 알리고 선택적으로 자동 잠금을 지원한다.
+통계를 스프레드시트로 내보내고, 저장 장치를 iPhone·iPad에 연결해 Dashcam 영상을 본다. 위젯·Siri·Apple Watch도 지원한다.","앱이 연결하는 Tesla 공식 로그인 페이지에서 인증하고 iCloud Drive를 활성화한다.
+주행·충전 기록의 그래프를 보고 필요한 예약과 알림을 설정한다.
+영상 열람은 차량의 녹화 저장 장치를 iPhone·iPad에 연결해 사용한다.",Apple 기기의 외부 동반 앱. 영상 기능은 USB 자료를 읽는 방식으로 안내하며 차량 카메라 원격 스트리밍과 동일하지 않다.,Tesla 계정 연동과 iCloud Drive 필요. 기능 이용은 체험 후 구독 또는 평생 이용 결제 방식이다.,배터리 값은 추정치이며 정비 진단을 검증한 것은 아니다. Bluetooth 워치 키의 차종별 호환은 이번 조사에서 확인하지 않았다.,"https://apps.apple.com/us/app/stats-for-your-tesla/id1191100729
+https://www.maadotaa.com/"
+A Better Routeplanner (ABRP),Tesla,전기차 배터리와 충전 속도를 고려해 이동 경로와 충전 정차 계획을 계산한다.,장거리 충전 계획이 필요한 Tesla 및 다른 전기차 운전자.,"차종·출발 충전량·소비전력과 충전 조건을 사용해 이동·충전 계획을 만든다.
+경로 대안을 비교하고 휴대전화에서 길 안내를 시작한다.
+Tesla 실시간 데이터 연결을 사용하면 차량의 충전 상태를 자동으로 가져온다.
+Premium 안내에는 실시간 교통·날씨, 충전기 상태, 주행·충전 이력이 포함된다. 데이터 연결 방식에 따라 유료 조건이 다르다.","Settings → Car model에서 차종을 저장하고 Live data → Tesla로 연결 절차를 진행한다.
+출발지와 도착지를 입력하고 Plan을 누른다.
+경로 대안을 비교한 뒤 Drive로 길 안내를 시작한다.",Tesla에서는 외부 모바일·웹 경로 서비스와 차량 데이터 연동으로 확인했다. 다른 차량용 AAOS·CarPlay·Android Auto 지원을 Tesla 네이티브 설치로 해석하지 않는다.,기본 계획과 Premium 기능이 구분된다. Tesla 실시간 데이터에는 사용자 계정·권한 연결이 필요하다.,국내 충전망별 실시간 데이터 완전성과 Tesla 화면 실행·내비 목적지 전송의 상세 범위는 이번 확인에서 확정하지 못했다.,"https://abrp.featurebase.app/help/articles/8025463-live-data-via-tesla
+https://abrp.featurebase.app/help/articles/2516346-create-a-plan
+https://abetterrouteplanner.com/premium/"
+PlugShare,Tesla,차량과 호환되는 충전소를 찾고 위치·시설·사용자 경험을 확인하는 충전소 정보 서비스다.,Tesla를 포함한 여러 전기차의 충전소를 찾는 운전자.,"커넥터·충전 속도·사업자·주변 편의시설로 충전소 지도를 거른다.
+사용자 사진·이용 후기·체크인과 제공되는 충전기 상태를 확인한다.
+선택한 충전소를 내비게이션 앱에 전달하고, 제휴 지점에서는 Pay with PlugShare로 충전비를 결제한다.
+웹 Trip Planner에서 경로상 충전소를 직접 추가하고 예상 주행 가능 거리 안에 정차 지점이 있는지 비교한다.","차량에 맞는 커넥터와 충전 조건을 설정한다.
+지도에서 충전소를 선택해 최근 이용 정보·시설·접근 조건을 확인한다.
+여행 계획은 웹의 Plan a New Trip에서 경로를 입력하고 충전소의 Add to Trip을 눌러 저장한다.",외부 모바일·웹 서비스다. 다른 호환 차량의 Android Auto 지원을 Tesla 차내 설치 기능으로 집계하지 않는다.,일반 지도·후기와 제휴 충전 결제의 지원 범위가 다르다. 저장한 여행을 다른 기기에서 보려면 동일 계정이 필요하다.,한국 충전소별 실시간 상태·결제 지원은 미확인. 2026년 6월 개발자 답변은 Android에서 여행 생성 대신 웹 생성 계획 조회를 안내한다.,"https://play.google.com/store/apps/details?id=com.xatori.Plugshare&hl=en_US
+https://help.plugshare.com/hc/en-us/articles/7387256318227-Trip-Planner-Complete-Guide-To-Planning-Your-First-Trip"
+Waze,기타 차량 플랫폼,실시간 도로 정보에 따라 목적지까지 길을 안내한다.,Google built-in 지원 차량에서 내비게이션을 사용하는 운전자.,"교통 상황과 도로 폐쇄에 관한 실시간 보고를 차량 지도에 표시한다.
+경로 탐색·회전 안내·도로 알림을 제공하고 계정의 설정과 저장 장소를 사용한다.
+Google은 차량판에서 차량 플러그 규격에 맞는 주변·경로상 전기차 충전소 검색을 안내한다.","지원 차량의 Google Play에서 Waze를 설치한다.
+기존 계정 또는 새 계정으로 설정한 뒤 목적지나 저장 장소를 선택해 길 안내를 시작한다.",스마트폰 투사 Android Auto와 별도로 차량에 직접 설치되는 Google built-in 버전이다. Renault openR link에서 시작해 Google built-in 차량으로 배포가 확대됐다.,차량 스토어의 지원 여부와 데이터 연결이 적용된다. 최초 Renault 출시는 유럽 Austral Hybrid·Megane E-Tech electric 대상이었다.,한국 TMAP 차량에서 같은 앱이 제공된다는 근거는 확인하지 않았다. 모든 모바일판 기능이 동일하다고 단정하지 않는다.,"https://blog.google/waze/for-the-first-time-waze-navigation-is-built-in-to-your-car/
+https://blog.google/products-and-platforms/platforms/android/android-auto-new-features-google-io-2023/"
+AirConsole / UNO Car Party!,기타 차량 플랫폼,"차량 화면을 게임 화면으로, 스마트폰을 조작기로 사용해 함께 게임한다.",주차 중인 차량의 운전자와 동승자.,"게임 영상·음향은 차량에서 출력하고 각 참여자는 스마트폰으로 조작한다.
+UNO Car Party!는 최대 4명이 참여하며 자신의 패를 자기 휴대전화에서만 볼 수 있다.
+Volkswagen은 퀴즈·레이싱 등 AirConsole 게임을 온라인 스트리밍으로 제공한다고 설명한다.","차량을 주차하고 AirConsole을 연다.
+화면의 QR 코드를 각자의 휴대전화로 스캔해 연결한 뒤 게임을 선택한다.",BMW·MINI와 Volkswagen에서 별도로 통합한다. UNO는 AirConsole 안의 개별 게임이며 일반 휴대전화 UNO 앱을 차량에 투사하는 방식과 구분된다.,"게임은 주차 상태에서 실행한다. BMW는 OS·Digital Premium/ConnectedDrive 조건, VW는 VW Connect Plus·주사용자·온라인 연결 조건을 안내한다.",게임 목록·구독은 제조사·국가마다 다르다. BMW의 UNO 제공을 모든 VW 차량의 UNO 제공 근거로 사용하지 않는다.,"https://www.press.bmwgroup.com/usa/article/detail/T0444452EN_US/mattel-airconsole-and-bmw-group-announce-world-premiere-of-uno%C2%AE-car-party-for-in-car-gaming
+https://www.volkswagen-newsroom.com/en/the-new-id7-pro-s-and-id7-tourer-pro-s-international-media-drive-18617/interior-18626"
+SongPop for Renault,기타 차량 플랫폼,노래 일부를 듣고 제목을 맞히는 음악 퀴즈다.,Renault 탑승자; 운전자는 주차 중 참여.,"혼자 또는 여러 명이 게임할 수 있다.
+곡은 차량 오디오에서 재생하고 동승자는 스마트폰으로 답한다.
+대전은 10초짜리 음원 10개를 듣고 빠르게 답하는 방식이다.","휴대전화에 iOS·Android용 동반 앱을 받는다.
+openR link에서 게임 모드·음악 장르·설정을 고른 뒤 참여한다.",Renault openR link 전용 차량 앱과 휴대전화 동반 앱의 조합이다.,2023년 발표 대상은 프랑스·영국·독일·이탈리아·스페인이다. 운전자 플레이는 주차 중이다.,한국 제공과 현재 전체 지원 차종은 확인하지 않았다.,"https://media.renault.com/renault-expands-its-offer-of-partner-apps/?lang=eng
+https://www.renault.co.uk/renault-connect/partner-apps.html"
+Karacal for Renault,기타 차량 플랫폼,지나가는 장소의 역사와 이야기를 위치 기반 음성 콘텐츠로 들려준다.,Renault 차량으로 지역을 여행하는 탑승자.,"위치와 연결된 오디오 안내·팟캐스트를 제공한다.
+주변 마을·동네·도시 관련 콘텐츠를 알림으로 제시한다.
+차에서 내린 뒤에는 모바일 앱으로 이용을 이어갈 수 있다.","지원 openR link에서 차량 앱을 다운로드한다.
+주변 장소 알림의 음성 콘텐츠를 듣고 이동 후 모바일 앱에서 이어 이용한다.",Renault용 위치 기반 오디오 가이드이며 일반 지도 길 안내 앱과 기능이 다르다.,2023년 출시 발표는 프랑스 제공을 명시한다. 현재 Renault 파트너 목록에도 앱이 기재돼 있다.,한국어 콘텐츠·한국 제공·모든 장소의 자동 재생은 확인하지 않았다.,"https://media.renault.com/renault-expands-its-offer-of-partner-apps/?lang=eng
+https://www.renault.co.uk/renault-connect/partner-apps.html"
+Vivaldi,기타 차량 플랫폼,차량 화면에서 웹사이트와 웹 기반 서비스를 이용한다.,정차 중 웹 탐색·스트리밍을 이용하는 탑승자.,"웹사이트와 웹 기반 영상·음악·팟캐스트 서비스를 연다.
+광고 차단·추적 방지·번역·읽기 목록·메모 기능을 제공한다.
+Vivaldi 계정으로 로그인한 기기끼리 암호화 동기화를 지원한다.
+차량판은 정차 중 탐색하도록 제한하며 출발 시 스트리밍이 음성만 이어질 수 있다.","차량에서 지원하는 앱 스토어를 열어 Vivaldi를 설치한다.
+브라우저를 열어 사이트에 접속하고, 기기 동기화가 필요하면 Vivaldi 계정으로 로그인한다.","Android Automotive 차량용 브라우저다. 한국 Polestar는 TMAP STORE, Google built-in 차량은 Google Play 등 유통 경로가 다르다.",웹사이트별 로그인·구독과 데이터 연결이 필요할 수 있다. 개발사는 차량판에서 파일 다운로드를 제한한다고 안내한다.,"각 OEM 버전의 모든 기능이 같다고 보장할 수 없으며, 웹사이트의 DRM·영상 호환성도 별도다.","https://help.vivaldi.com/android/android-install/vivaldi-in-android-automotive-os/
+https://vivaldi.com/android/automotive/
+https://www.polestar.com/kr/tmap-infotainment"
+Webex,기타 차량 플랫폼,차량에서 업무 회의에 참가하고 음성으로 소통한다.,Webex 회의에 참석하는 지원 차량 이용자.,"Audi 차량판은 회의 참가를 간소화하고 주행 시 음성 모드로 전환한다.
+정차 시에는 참가자 영상·공유 콘텐츠·자막을 볼 수 있다.
+도로 소음 제거와 음성 최적화 기능을 안내한다.
+Mercedes E-Class는 장착된 차량 카메라를 Webex 영상회의에 사용할 수 있다.","Audi는 차량 Application Store에서 스마트폰 없이 Webex를 설치한다.
+회의에 참여하면 주행 여부에 따라 영상·음성 기능이 제한된다.",Audi·Mercedes의 직접 설치판과 Apple CarPlay·Android Auto 투사판을 구분한다. 브랜드별 카메라·표시 기능이 다르다.,Audi 발표는 2024년형 일부 차종과 유럽·미국·캐나다·멕시코 등을 대상으로 했다. E-Class 발표에서는 주행 중 영상 송출을 비활성화한다.,PC판의 전체 회의 관리 기능이나 한국 전 차종 제공은 확인되지 않았다.,"https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2023/m06/cisco-partners-with-audi-cariad-and-harman-to-elevate-hybrid-work-innovation-in-automotive.html
+https://media.mbusa.com/news/a-bridge-between-tradition-and-digitalization-the-new-e-class
+https://www.webex.com/us/en/solutions/webex-for-auto.html"
+Zoom,기타 차량 플랫폼,차량 실내에서 영상회의에 참가한다.,Zoom을 사용하는 지원 Mercedes-Benz 차량 이용자.,"E-Class는 중앙 디스플레이용 외부 앱으로 Zoom을 제공한다.
+옵션인 셀피·비디오 카메라를 회의 영상 송출에 활용한다.
+해당 E-Class 설명은 주행 중 영상 송출이 켜지지 않도록 제한한다고 명시한다.","Mercedes 계정과 차량을 연결하고 지원 앱 패키지에서 Zoom을 연다.
+정차 상태에서 회의를 이용하며 영상 기능은 차량 카메라 장착 여부에 따른다.",E-Class MBUX에 설치되는 차량용 앱이다. 이 조사에서 확인된 기능은 차량 화면·카메라를 통한 회의 이용 범위다.,Mercedes 계정·서비스 약관 동의·해당 엔터테인먼트 패키지·데이터가 필요하며 국가·장비 조건이 적용된다.,차량판의 녹화·화면 공유 발신·관리자 기능과 상세 로그인 버튼 순서는 공식 소개에서 확인하지 못했다. Teams의 주행 중 카메라 조건을 Zoom에 적용하지 않는다.,https://media.mbusa.com/news/a-bridge-between-tradition-and-digitalization-the-new-e-class
+Meetings for Teams,기타 차량 플랫폼,차량에서 Microsoft Teams 회의와 업무 연락을 이용한다.,기업 Teams 계정을 사용하는 지원 Mercedes-Benz 이용자.,"대시보드에 예정 회의와 자주 연락하는 대상을 표시한다.
+신형 CLA의 개선판은 국가별 허용 조건 아래 주행 중 운전자 카메라 영상을 회의 참가자에게 보낼 수 있다.
+운전자는 수신 회의 영상·공유 화면·슬라이드를 볼 수 없으며 카메라를 끌 수 있다.
+MB.OS의 Intune 연동은 회사 정책에 따른 업무 계정 접근 관리와 개인·업무 데이터 분리를 지원한다.","지원 차량에 업무 계정으로 로그인하고 회사가 요구하는 관리 설정을 적용한다.
+Meetings 앱의 예정 회의나 연락처로 접속하고 필요하면 카메라를 켜거나 끈다.",2025년 발표한 4세대 MBUX·MB.OS의 신형 CLA 개선판 기준이다. 과거 E-Class Zoom/Webex와 영상 제한이 동일하지 않다.,Entertainment Package Plus·데이터·지원 시장이 필요하다. Intune은 회사 IT 관리자의 활성화가 필요하며 발표 지역은 유럽·미국이다.,해당 출처의 Microsoft 365 Copilot은 개발 협력 내용이므로 이 앱의 이미 제공되는 기능으로 포함하지 않았다.,https://group.mercedes-benz.com/technology/digitalisation/connectivity/microsoft-collaboration.html
+Shelly Smart Control,기타 차량 플랫폼,집에 설치한 Shelly 기기를 원격으로 제어·확인한다.,Shelly 스마트홈 기기와 계정을 보유한 차량 이용자.,"Porsche는 차량 앱의 기능으로 Shelly 기기 제어·모니터링을 명시한다.
+일반 Smart Control 제품은 조명·문 등 연결 기기 상태 확인과 원격 조작을 제공한다.
+일반 제품의 장면·일정·센서 조건 자동화는 Porsche판에서의 생성·편집 지원이 별도 확인되지 않았다.","Porsche PCM App Center에서 앱을 설치한다.
+Shelly 계정과 연결 기기를 사용한다; Porsche판의 상세 로그인·기기 선택 화면 순서는 공개 안내에서 확인하지 못했다.",Porsche App Center 네이티브 앱이 제공된다. 별도 Android Auto판은 휴대전화에 로그인하고 표시할 기기를 고르는 투사 방식이다.,Porsche Connect·Porsche ID·Data Pass 또는 테더링이 필요하다. 외부에서 집 기기를 제어할 때에는 해당 기기의 원격 접속 구성이 필요하다.,Shelly 일반 제품의 로컬 전용 모드나 모든 자동화 편집 기능이 차량판에 동일하게 있다고 단정하지 않는다.,"https://connect-store.porsche.com/offer/us/en-US/app-center
+https://kb.shelly.cloud/knowledge-base/shelly-smart-control-guide
+https://support.shelly.cloud/en/support/solutions/articles/103000355560-add-shelly-devices-to-android-auto
+https://ask.porsche.com/gb/en-GB/app-center/"
+Home Assistant,기타 차량 플랫폼,Home Assistant에 연결한 집의 기기와 상태를 차량 화면에서 다룬다.,Home Assistant 서버·계정을 운영하는 이용자.,"조명·스위치·잠금장치·커버 등의 지원 기기를 조작한다.
+장면과 스크립트를 실행하고 센서 상태를 확인할 수 있다.
+위치가 있는 사람·구역·기기 항목으로 내비게이션을 연결한다.
+즐겨찾기 표시를 지원하지만 표시 가능한 항목 수는 차량 제한에 따른다.","AAOS판은 차량에서 Home Assistant 서버에 로그인한다.
+지원 빌드에서는 정차 중 Driving favorites에서 항목을 고른다.
+차량 앱을 다시 열어 기기 조작·상태 조회·위치 이동을 실행한다.",2023년 CARIAD가 Audi Application Store 출시 목록에 명시한 앱이다. Android Auto는 휴대전화 앱을 투사하고 AAOS판은 차량에서 직접 실행한다.,접속 가능한 Home Assistant 서버와 로그인이 필요하다. 현재 문서는 Google Play에서 설치한 AAOS판의 즐겨찾기 설정이 지원되지 않는다고 별도로 안내한다.,각 Audi 차대번호의 현재 다운로드 가능 여부와 휴대전화판의 모든 설정·장치 등록 기능은 확인하지 않았다.,"https://companion.home-assistant.io/docs/android-auto/
+https://cariad.technology/de/en/news/stories/launch-application-store-for-volkswagen-group.html"
+California App,기타 차량 플랫폼,캠핑 차량의 생활 설비를 확인·제어하고 캠핑 여행을 계획한다.,지원 Volkswagen California·Grand California 이용자.,"차량용 앱에서 물탱크·보조배터리 잔량을 확인한다.
+기울기 표시로 차량의 수평 상태를 보고 캠핑 모드·냉장고를 조작한다.
+유럽 캠핑장·주차지를 검색해 저장하고 여행 경로를 만든다.
+스마트폰 앱의 즐겨찾기·여행 계획을 동기화하고 캠핑장 예약을 문의한다.","지원 차량의 인포테인먼트에 Volkswagen ID로 로그인하고 In-Car Shop에서 차량용 앱을 받는다.
+앱에서 설비 상태를 확인하거나 캠핑 목적지를 검색한다.
+동일 계정의 모바일 앱과 저장 여행을 동기화한다.",인포테인먼트 내 In-Car App과 iOS·Android 모바일 앱은 별도다. 차량판은 New California 및 2025년형 이후 Grand California를 안내한다.,"VW Connect와 활성 주사용자가 필요하며, 다운로드·사용 데이터 비용은 VW Connect 계약에 포함된다. Grand California의 Composition 인포테인먼트는 제외되며 캠핑장 검색 범위는 유럽이다.",모바일판의 팝업 루프 원격 조작과 체크리스트를 차량판 기능으로 자동 간주하지 않는다. 한국 차량 제공은 확인되지 않았다.,https://www.volkswagen-vans.co.uk/en/connected-services/california-app.html
+Stingray Karaoke,기타 차량 플랫폼,차량 오디오의 반주와 가사로 노래를 부른다.,노래방 기능을 지원하는 차량의 탑승자.,"차량용 제품은 제목·가수·가사 검색 및 장르·시대·언어별 탐색을 안내한다.
+주보컬을 켜거나 끄고 반주에 맞춰 노래할 수 있다.
+지원 통합에서는 동승자가 QR 코드로 휴대전화를 연결해 가사·재생목록·재생을 조작한다.
+운전자 화면에는 주행 중 가사를 표시하지 않도록 제조사와 통합한다.","Porsche App Center에서 제공되는 경우 앱을 설치하고 연다.
+곡을 찾아 재생한다; QR 동반 조작이 제공되는 통합에서는 동승자가 휴대전화로 연결한다.",Porsche 미국 App Center는 Stingray Karaoke를 제공 예시로 명시한다. 상세 기능은 Stingray 차량용 제품 공통 설명이며 OEM마다 구현이 다르다.,Porsche Connect·로그인·데이터 연결 및 시장별 앱 제공 조건이 적용된다. 제조사 통합에 따라 주차·좌석·벨트 상태를 활용한다.,Porsche판의 마이크·보컬 채점·음정 보정·QR 기능 전체를 개별 검증하지 못했다. 일반 제품 소개를 모든 차종의 확정 기능으로 해석하지 않는다.,"https://connect-store.porsche.com/offer/us/en-US/app-center
+https://ask.porsche.com/gb/en-GB/app-center/
+https://www.stingray.com/consumer/products/stingray-karaoke/in-car/"
+Apple Music,오디오·콘텐츠,음악 스트리밍 서비스다. Tesla에서는 휴대폰 블루투스 재생과 별도로 차량 미디어 플레이어에서 음악을 검색하고 재생한다.,Apple Music의 곡·앨범·플레이리스트를 차량 오디오로 듣는 이용자.,"미디어 검색에서 곡·앨범·아티스트를 찾고 음성 명령으로 음악을 검색할 수 있다.
+곡을 다음에 재생하거나 대기열에 넣고, 보관함에 추가하거나 즐겨찾기로 지정할 수 있다고 현행 Model S 매뉴얼에 명시되어 있다.
+스티어링휠 왼쪽 스크롤 버튼으로 재생·일시정지와 음량을 조작한다.","미디어 플레이어의 소스에서 Apple Music을 선택한다.
+검색 또는 앨범·플레이리스트에서 곡을 선택한다. 곡 메뉴에서 다음 재생·보관함 등을 관리한다.",확인한 상세 조작은 미국 Model S 현행 매뉴얼 기준이다. 차량 화면에서 실행하는 제휴 미디어 서비스다.,"지원 지역과 차량 구성, 서비스 계정·이용권 및 인터넷 연결 조건이 적용된다.",휴대폰판의 오프라인 저장·무손실·공간 음향 기능이 Tesla판에서도 동일하게 제공된다는 근거는 이번 조사에서 확보하지 않았다.,"https://www.tesla.com/ownersmanual/models/en_us/GUID-7A85FB6B-9DF6-4C55-A2F9-793207E48E9D.html
+https://www.tesla.com/ownersmanual/model3/en_ie/GUID-7A85FB6B-9DF6-4C55-A2F9-793207E48E9D.html"
+Audible,오디오·콘텐츠,오디오북과 팟캐스트를 듣는 서비스다. Tesla판은 Audible 계정의 콘텐츠를 차량 화면과 스피커에서 재생한다.,이미 Audible 보관함을 이용하고 있으며 차 안에서 청취를 이어가려는 이용자.,"차량 화면의 QR 코드를 휴대폰으로 스캔해 Amazon/Audible 계정으로 로그인한다.
+보관함에서 작품을 골라 재생하고, 원하는 작품이 보이지 않으면 차량 검색이나 음성 검색을 사용한다.
+보관함 화면은 오디오북 100개까지만 표시하지만 검색으로 다른 보유 작품을 찾을 수 있다. Continue Listening 영역에는 최근 청취 항목이 나온다.","차량에서 Audible을 열고 QR 코드로 로그인한다.
+보관함·최근 청취 목록이나 검색에서 작품을 선택해 재생한다.",Tesla 내장 디스플레이의 Audible 앱에 대한 개발사 공식 도움말 기준이다.,Audible 계정에 연결된 이메일로 로그인한다. 작품별 구매·멤버십 이용 권한과 차량의 인터넷 연결이 필요하다.,"차량판에서는 작품 구매, 팟캐스트 팔로우, 보관함에 작품 추가가 지원되지 않는다고 공식 도움말에 명시되어 있다.","https://help.audible.com/s/article/listen-in-the-car
+https://www.tesla.com/ownersmanual/model3/en_ie/GUID-7A85FB6B-9DF6-4C55-A2F9-793207E48E9D.html"
+Pocket Casts,오디오·콘텐츠,팟캐스트 구독 목록과 에피소드 재생 상태를 관리하는 플레이어다. Android Automotive판은 휴대폰 없이 차량에 설치해 실행한다.,여러 팟캐스트를 구독하고 차량에서도 기존 계정의 콘텐츠를 듣는 이용자.,"계정에 로그인해 팟캐스트와 일반·스마트 플레이리스트를 탐색하고 에피소드를 재생한다.
+Now Playing 화면에서 재생을 조작한다. 휴대폰의 Up Next 대기열을 동기화하면 현재 에피소드 뒤에 다음 에피소드가 이어진다.
+차량의 재생 상태가 계정과 다르면 Settings의 Refresh now로 갱신하도록 공식 도움말이 안내한다.","차량 앱에서 Pocket Casts 계정에 로그인한다.
+팟캐스트 또는 플레이리스트에서 에피소드를 선택한다. 휴대폰의 재생 위치가 반영되지 않았으면 차량 설정에서 갱신한다.",상세 기능은 Google built-in의 Android Automotive판 문서 기준이다. Mercedes 공식 페이지에도 Pocket Casts 제공 안내가 있지만 MBUX판의 모든 세부 기능이 같은지는 확인하지 않았다.,"지원 차량의 스토어와 Pocket Casts 계정, 스트리밍 연결을 사용한다. Android Auto의 휴대폰 연결형과 독립 차량판은 다르다.","확인일의 공식 문서는 차량판 다운로드 불가, 별도 Up Next 화면 없음, 재생 진행 상태의 자동 동기화 미지원이라고 명시한다.","https://support.pocketcasts.com/knowledge-base/android-automotive/
+https://www.mercedes-benz.com.sg/passengercars/buy/digital-extras-overview/entertainment.html"
+윌라,오디오·콘텐츠,책을 음성으로 듣는 오디오북과 전자책·웹소설·강의 콘텐츠를 제공하는 독서 서비스다. TMAP 차량 앱에서는 오디오북 제공이 확인된다.,이동 중 낭독 도서나 강의를 듣는 독서 이용자.,"일반 서비스는 전문 성우가 책 전체를 낭독한 오디오북과 여러 성우·음향효과를 사용한 작품을 제공한다.
+일반 앱에는 오디오북 배속 재생, 전자책 TTS, 북마크·하이라이트와 독서 기록 기능이 있다.
+키즈 콘텐츠·외국어 강의 등도 제공한다. 일반 앱의 다운로드와 Android Auto 지원은 개발사 설명에 명시되어 있다.","폴스타의 TMAP STORE에서 윌라 앱을 설치·업데이트하는 경로가 공식 안내되어 있다.
+차량용 윌라에서 오디오북을 이용한다. 차량판의 세부 로그인·검색·배속 메뉴 순서는 공개 자료에서 확인하지 못했다.",폴스타 한국 공식 안내는 차량용 윌라 제공을 확인해 준다. 전자책 뷰어·독서 기록·오프라인 저장 등의 설명은 일반 앱 기준이며 TMAP판 기능으로 확정하지 않았다.,일반 서비스는 멤버십 자동 갱신 결제를 안내한다. 차량 데이터 이용 조건과 콘텐츠 이용권은 별개다.,"TMAP판에서 이용 가능한 전체 도서 목록, 배속 범위, 계정 동기화 방식과 차량 전용 요금은 미확인이다.","https://play.google.com/store/apps/details?id=kr.co.influential.youngkangapp&hl=ko
+https://www.polestar.com/kr/tmap-infotainment
+https://www.polestar.com/kr/polestar-2/infotainment"
+팟빵,오디오·콘텐츠,팟캐스트·시사·예능·오디오북·강연을 모아 듣는 오디오 콘텐츠 플랫폼이다. TMAP STORE를 통해 차량용 앱을 제공한다.,연재 방송이나 대화형 오디오 프로그램을 차 안에서 듣는 이용자.,"일반 서비스는 자체 제작 시사·과학·범죄 이야기 등의 프로그램과 독점 월간 오디오 매거진을 제공한다.
+배우·가수가 낭독하는 오디오북과 인문학·역사·경제 강연 등 말소리 중심 콘텐츠를 제공한다.
+일반 앱은 에피소드 다운로드, 음성 검색·라이브 방송 관련 기능을 안내하지만 차량판 지원 여부는 확인되지 않았다.","폴스타 한국 공식 안내에 따라 TMAP STORE에서 팟빵 앱을 설치한다.
+차량 화면에서 팟빵 오디오 콘텐츠를 이용한다. 차량판의 구독 목록·검색·이어듣기 메뉴를 확인할 상세 사용설명서는 확보하지 못했다.",차량 제공 근거는 폴스타 한국의 TMAP STORE 안내다. 콘텐츠 유형은 팟빵 개발사의 일반 서비스 소개로 확인했다.,모바일 스토어는 광고와 인앱 구매를 표시한다. 차량판의 무료·유료 콘텐츠 구분 및 광고 방식은 별도로 확인되지 않았다.,모바일 기능을 차량에서 모두 사용할 수 있다고 보지 않았다. 차량판 방송 목록·계정 연동·결제 조작 범위는 미확인이다.,"https://play.google.com/store/apps/details?id=com.makeshop.podbbang&hl=ko
+https://www.polestar.com/kr/tmap-infotainment
+https://www.polestar.com/kr/polestar-2/infotainment"
+FLO,오디오·콘텐츠,이용자의 취향에 맞춘 음악 추천과 곡·아티스트 탐색을 제공하는 음악 스트리밍 서비스다. 폴스타의 TMAP 환경과 지원 BMW 차량에서 제공된다.,음악을 선택해 듣거나 취향 기반 추천 목록을 이용하는 운전자·동승자.,"일반 앱은 AI 음악 추천과 아티스트 홈에서 음악·아티스트 정보를 탐색하는 기능을 제공한다.
+아티스트 응원·라이징 아티스트·라이브 콘텐츠와 Wear OS 지원은 일반 앱에서 안내하는 기능이다.
+폴스타는 FLO를 취향 기반 음악 앱으로 안내한다. BMW 한국 페이지는 FLO의 차량 다운로드·음악 청취를 안내한다.","지원하는 차량의 FLO 앱 또는 스토어 제공 항목을 연다. BMW와 TMAP의 설치·계정 절차는 서로 다를 수 있다.
+음악을 선택해 재생한다. 차량별 로그인 방식과 추천 목록 조작 순서는 이번에 확보한 공식 자료에 상세히 나오지 않는다.",TMAP과 BMW의 차량 제공은 각각 확인했다. 일반 앱의 팬 활동·라이브·워치 기능까지 차량용 버전에 포함된다는 의미는 아니다.,차종·OS·국가별 제공 조건과 콘텐츠 이용권이 적용된다. BMW의 연결 패키지 조건과 FLO 콘텐츠 요금은 구분된다.,"각 차량판의 음질, 오프라인 저장, 멀티 계정, 음성 명령 지원 범위와 무료 제공 기간은 전 차종 공통으로 확정하지 않았다.","https://play.google.com/store/apps/details?id=skplanet.musicmate&hl=ko
+https://www.polestar.com/kr/polestar-2/infotainment
+https://www.bmw.co.kr/ko/digital-services/bmw-entertainment.html"
+Netflix,오디오·콘텐츠,영화·시리즈 등 영상 콘텐츠를 스트리밍하는 서비스다. Tesla에서는 주차한 차량의 대시보드 화면에서 시청한다.,정차 중 Netflix 콘텐츠를 시청하는 탑승자.,"차량 Entertainment 메뉴에서 Netflix를 실행하고 본인 계정으로 로그인해 이용한다.
+공식 Tesla용 안내는 스트리밍 해상도 상한을 720p로 명시한다.
+세로형 차량 디스플레이에서는 영상이 가로 방향으로 표시되고 위아래에 여백이 생긴다.","차량을 주차한 뒤 Entertainment에서 Netflix를 연다.
+Sign In을 선택하고 화면 안내에 따라 계정으로 로그인한다.
+로그아웃은 Netflix의 Get Help 또는 Settings 메뉴에서 Sign out을 선택하는 방식이다.",Netflix가 직접 제공한 Tesla 디스플레이 안내 기준이다. 다른 차량 스토어의 Netflix 지원을 뜻하지 않는다.,"정차 상태, Netflix 이용 권한과 인터넷 연결이 필요하다. 공식 안내는 홍콩 및 Netflix 미제공 지역을 제외한 글로벌 제공을 설명한다.",개별 Tesla 차종·소프트웨어에서 직접 재생을 시험하지 않았다. 다운로드·오프라인 시청 기능은 이 차량용 도움말에서 확인되지 않았다.,"https://help.netflix.com/en/node/112323
+https://www.tesla.com/ownersmanual/model3/en_qa/GUID-79A49D40-A028-435B-A7F6-8E48846AB9E9.html"
