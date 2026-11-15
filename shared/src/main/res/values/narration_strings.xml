@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="cast_title">LIVE Drive Cast</string>
+  <string name="cast_welcome">Welcome to the Live Drive Cast! Start driving and I will call the action, comic style. Unsafe moves get a firm warning.</string>
+  <string name="cast_muted">Commentary muted. The crowd is holding its breath.</string>
+  <string name="action_mute">Mute</string>
+  <string name="action_unmute">Unmute</string>
+  <string name="action_replay">Replay last call</string>
+  <string name="action_demo">Demo lap (parked)</string>
+  <string name="grant_permission">Grant permission</string>
+</resources>

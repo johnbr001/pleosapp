@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Live Drive Cast commentary rule set. THIS FILE IS THE WHOLE "BRAIN":
+  developers change the show by editing rules here — no Kotlin changes needed.
+
+  How it works (deterministic):
+  1. Each drive update produces DriveEvents (see DriveEventDetector).
+  2. The engine scans <rule> top to bottom and fires the FIRST rule whose
+     event fired AND whose speed window, minRepeatCount and cooldownMs all hold.
+  3. A fired rule speaks its <line> entries round-robin, then goes quiet for
+     cooldownMs. Put specific rules (escalations, warnings) BEFORE general ones.
+
+  Attributes:
+    id             unique name (used for cooldown + round-robin state)
+    event          one of TRIP_START SMOOTH_CRUISE SUDDEN_LANE_CHANGE
+                   REPEATED_SHARP_MOVES HARD_BRAKE RAPID_ACCEL SPEEDING
+                   NAV_TURN_AHEAD NAV_ARRIVING
+    minSpeedKmh / maxSpeedKmh   speed window in km/h (optional)
+    minRepeatCount rule needs this many sharp moves in the last 60 s (optional)
+    cooldownMs     silence after this rule fires (default 8000)
+    severity       FUN (comic) | INFO (calm) | WARNING (unsafe driving)
+-->
+<narration-rules>
+
+  <!-- Escalation first: repeated sharp moves are unsafe, warn firmly. -->
+  <rule id="too_much"
+        event="REPEATED_SHARP_MOVES"
+        minRepeatCount="3"
+        cooldownMs="30000"
+        severity="WARNING">
+    <line>Whoa, that's one sharp move too many! Let's calm down, champ.</line>
+    <line>Okay, that is starting to look dangerous. Smooth it out, please!</line>
+  </rule>
+
+  <!-- The green light only happens once: it outranks everything but safety. -->
+  <rule id="trip_start"
+        event="TRIP_START"
+        cooldownMs="60000"
+        severity="FUN">
+    <line>And we're GREEN GREEN GREEN! The drive is underway!</line>
+    <line>Lights out and away we go! Welcome to today's Grand Prix of errands!</line>
+  </rule>
+
+  <!-- The user's example: a sudden lane change gets the sports-call treatment. -->
+  <rule id="sharp_lane_change"
+        event="SUDDEN_LANE_CHANGE"
+        minSpeedKmh="30"
+        cooldownMs="8000"
+        severity="FUN">
+    <line>OH! A sudden lane change! What a MOVE!</line>
+    <line>Unbelievable! They thread the needle between lanes!</line>
+    <line>And the crowd goes wild — another daring lane change!</line>
+  </rule>
+
+  <rule id="hard_brake"
+        event="HARD_BRAKE"
+        cooldownMs="15000"
+        severity="WARNING">
+    <line>Ouch! That was a HARD brake! Keep a safe distance, driver!</line>
+    <line>Whoa, emergency stop energy! Everybody breathe. Check your mirrors.</line>
+  </rule>
+
+  <rule id="speeding"
+        event="SPEEDING"
+        minSpeedKmh="100"
+        cooldownMs="30000"
+        severity="WARNING">
+    <line>Speeding past the limit! Even race cars respect the pit lane speed!</line>
+    <line>Fast and furious — but the speed limit still applies, superstar.</line>
+  </rule>
+
+  <rule id="rapid_accel"
+        event="RAPID_ACCEL"
+        cooldownMs="12000"
+        severity="FUN">
+    <line>And they're OFF! What a launch off the line!</line>
+    <line>Pedal to the metal! A rocket start worthy of the highlight reel!</line>
+  </rule>
+
+  <rule id="nav_turn_ahead"
+        event="NAV_TURN_AHEAD"
+        cooldownMs="20000"
+        severity="INFO">
+    <line>Heads up, a turn is coming up ahead. Set yourself up nicely.</line>
+    <line>The navigator whispers: turn approaching. Smooth and easy does it.</line>
+  </rule>
+
+  <rule id="smooth_cruise"
+        event="SMOOTH_CRUISE"
+        minSpeedKmh="40"
+        maxSpeedKmh="90"
+        cooldownMs="45000"
+        severity="INFO">
+    <line> textbook cruising — smooth, steady, beautiful to watch.</line>
+    <line>A masterclass in calm driving. The commentators can finally relax.</line>
+  </rule>
+
+  <rule id="arriving"
+        event="NAV_ARRIVING"
+        cooldownMs="60000"
+        severity="FUN">
+    <line>And across the line! What a finish! Welcome to your destination!</line>
+  </rule>
+
+</narration-rules>
