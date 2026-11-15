@@ -130,6 +130,244 @@ classDiagram
     CastDirector --> Narrator : 말해줘
 ```
 
+## 대사 규칙 파일: narration_rules.xml
+
+이 파일(`shared/src/main/res/raw/narration_rules.xml`)이 중계의 "대본집"이자
+"두뇌"입니다. 무슨 상황에서 무슨 말을 할지가 전부 여기 들어 있어서,
+멘트를 바꾸려면 코틀린 코드를 손댈 필요가 없고 이 파일만 고치면 됩니다
+(바꾼 뒤에는 재빌드가 필요합니다).
+
+### 구조
+
+파일은 `<narration-rules>` 안에 `<rule>`이 위에서 아래로 나열된 모양이고,
+각 규칙 안에 실제 대사 `<line>`이 한 줄 이상 들어 있습니다.
+
+| 항목 | 뜻 |
+|------|----|
+| `id` | 규칙 이름 (한 번 말하고 쉬는 시간, 대사 돌려쓰기 기준) |
+| `event` | 어떤 운전 상황에서 말할지 (아래 9가지 중 하나) |
+| `minSpeedKmh` / `maxSpeedKmh` | 이 속도 사이일 때만 말함 (없으면 속도 무관) |
+| `minRepeatCount` | 60초 안에 격한 움직임이 이 횟수 이상일 때만 말함 |
+| `cooldownMs` | 한 번 말하고 나서 이 시간만큼 조용히 있음 (기본 8000 = 8초) |
+| `severity` | 말투: `FUN`(신남 🎙️), `INFO`(차분함 📻), `WARNING`(경고 ⚠️) |
+
+빠진 항목은 기본값이 들어갑니다: 속도 제한 없음, 반복 조건 없음,
+쿨다운 8초, 말투 차분함. 대사가 한 줄도 없는 규칙은 무시됩니다.
+
+### 고르는 방법 (위에서부터 첫 번째만)
+
+차가 움직일 때마다 앱은 규칙을 위에서 아래로 훑으며, 조건이 맞는 **첫 번째
+규칙 하나**만 말합니다. 그래서 중요한 규칙(경고)이 위에, 일반적인 규칙이
+아래에 있습니다. 한 규칙이 말하면 쿨다운 동안은 조용하고, 대사가 여러 줄이면
+돌아가면서 말해서 매번 조금씩 다르게 들립니다.
+
+각 `event`가 언제 생기는지 (판정 기준):
+
+| 이벤트 | 생기는 때 |
+|--------|-----------|
+| `TRIP_START` | 속도가 5 km/h를 넘으면 (출발, 한 번만) |
+| `RAPID_ACCEL` | 3초 안에 20 km/h 이상 빨라지면 |
+| `SUDDEN_LANE_CHANGE` | 시속 30 km 이상에서 3초 안에 방향이 25° 이상 꺾이면 |
+| `REPEATED_SHARP_MOVES` | 위 급조작이 60초 안에 3번 쌓이면 |
+| `HARD_BRAKE` | 2초 안에 25 km/h 이상 느려지면 |
+| `SPEEDING` | 100 km/h 이상이 되면 (95 아래로 내려가야 해제) |
+| `NAV_TURN_AHEAD` | 300 m 안에 회전이 있으면 |
+| `NAV_ARRIVING` | 목적지 도착하면 |
+| `SMOOTH_CRUISE` | 시속 40~90으로 20초 동안 안정적이면 |
+
+### 지금 들어 있는 9개 규칙 (파일 순서대로)
+
+| 순서 | 이름 | 상황 + 조건 | 말투 | 대사 수 | 예시 대사 |
+|------|------|-------------|------|---------|-----------|
+| 1 | `too_much` | 격한 움직임 3회 | 경고 | 2 | "Whoa, that's one sharp move too many! Let's calm down, champ." |
+| 2 | `trip_start` | 출발 | 신남 | 2 | "And we're GREEN GREEN GREEN! The drive is underway!" |
+| 3 | `sharp_lane_change` | 급차선 변경, 시속 30 이상 | 신남 | 3 | "OH! A sudden lane change! What a MOVE!" |
+| 4 | `hard_brake` | 급제동 | 경고 | 2 | "Ouch! That was a HARD brake! Keep a safe distance, driver!" |
+| 5 | `speeding` | 시속 100 이상 | 경고 | 2 | "Speeding past the limit! Even race cars respect the pit lane speed!" |
+| 6 | `rapid_accel` | 급가속 | 신남 | 2 | "And they're OFF! What a launch off the line!" |
+| 7 | `nav_turn_ahead` | 전방 회전 | 차분함 | 2 | "Heads up, a turn is coming up ahead. Set yourself up nicely." |
+| 8 | `smooth_cruise` | 시속 40~90 안정 주행 | 차분함 | 2 | "A masterclass in calm driving. The commentators can finally relax." |
+| 9 | `arriving` | 목적지 도착 | 신남 | 1 | "And across the line! What a finish! Welcome to your destination!" |
+
+콩트 순서가 중요한 예: 데모 주행을 누르면 출발 → 급가속 → 급차선 변경 →
+"진정하세요" 경고 → 급제동 → 과속 → 전방 회전 → 도착 순서로 말합니다.
+파일이 없거나 비어 있으면 앱에 내장된 예비 2개 규칙(급차선 변경, 진정
+경고)으로 중계가 이어지므로, 대사가 완전히 멈추지는 않습니다.
+
+### 고치고 싶으면
+
+- 대사 바꾸기: 해당 `<line>` 글자만 고치세요.
+- 말 안 나오게 하기: 규칙을 지우거나 쿨다운(`cooldownMs`)을 크게 하세요.
+- 순서 바꾸기: `<rule>` 블록째로 잘라서 위·아래로 옮기세요. 위에 있을수록
+  먼저 말할 기회를 잡습니다.
+
+## 쓰는 Pleos API (자세히)
+
+이 앱이 쓰는 Pleos SDK는 4개입니다. 공통 규칙이 하나 있습니다: 전부
+**리플렉션 + 실패 무시(`runCatching`)** 로 묶습니다. 그래서 Pleos 서비스가
+없는 일반 에뮬레이터에서도 앱이 죽지 않고, 없는 신호는 그냥 기본값으로
+둡니다. 진짜 헤드유닛에서는 클라이언트 라이브러리가 붙어 실제 SDK가
+켜집니다.
+
+| 용도 | SDK (버전) | 쓰는 것 |
+|------|-----------|---------|
+| 차량 상태(문) | Vehicle 2.3.2 | `Vehicle`, `initialize()`, `getDoor()`, `Door.getCurrentDoorPosition(구역, 성공콜백, 실패콜백)`, `release()` |
+| 내비 상태 | NaviHelper 3.0.5 | `NaviHelper`, `initialize()`, `addListener()`, `NaviHelperEventListener`(아래 표), `removeListener()`, `release()` |
+| 움직임 | FusedLocation 1.1.3 | `FusedLocation`, `isSupported()`, `initialize()`, `registerFusedLocationCallback(리스너의 onChanged/onError)`, 등록 해제, `release()` |
+| 음성 | TextToSpeech 3.3.1 | `TextToSpeech(앱, Mode)`, `initialize()`, `addEventListener(리스너)`, `speak(문장)`, `stop()`, `release()` |
+| 속도 | AAOS 기본 속성 (Pleos 아님) | `Car.createCar`, `getCarManager("property")`, 속도 콜백 등록 |
+
+버전은 `PLEOS_SDK_NOTES.md`와 같고, 실제 클라이언트 라이브러리는 이
+의존성으로 묶습니다:
+
+```gradle
+implementation "ai.pleos.playground:Vehicle:2.3.2"
+implementation "ai.pleos.playground:NaviHelper:3.0.5"
+implementation "ai.pleos.playground:TextToSpeech:3.3.1"
+implementation "ai.pleos.playground:FusedLocation:1.1.3"
+```
+
+### 1. 차량 상태 — Vehicle (문 열림 확인용)
+
+- 쓰는 순서: `Vehicle(앱)` 만들기 → `initialize()` → `getDoor()`로 문
+  객체 가져오기 → `getCurrentDoorPosition(구역, 성공할 때, 실패할 때)` 호출
+  → 끝난 뒤 `release()`.
+- 구역은 `DoorArea` + `DoorValue.ROW_1_LEFT`(앞좌석 문)로 지정합니다.
+- 결과 숫자가 0이면 "문 닫힘", 아니면 "문 열림"으로 기록해 자막에
+  "🚪 문 열림!"을 띄웁니다.
+- 없으면 로그에 `pleos vehicle unavailable`이 남고 문 상태는 모름으로 둡니다.
+
+### 2. 내비 상태 — NaviHelper (길안내 중인지, 도착했는지)
+
+- 쓰는 순서: `NaviHelper(앱)` 만들기 → `initialize()` →
+  `addListener(리스너)` → 안 쓰면 `removeListener()`, `release()`.
+- 리스너가 받는 신호와 앱의 반응:
+
+| 오는 신호 | 앱이 이해하는 것 |
+|-----------|------------------|
+| `onRouteStarted`, `onRoutingCompleted`, `onReRouteEnded`, `onDestinationChanged`, `onWaypointChanged` | 길안내 중 |
+| `onRouteCancelled` | 길안내 끝 (리셋) |
+| `onDestinationArrived`, `onWayPointArrived` | 목적지 도착 |
+| `onBoardInfo`, `onRouteOptionChanged` | 무시 |
+
+- 없으면 로그에 `navihelper unavailable, nav status idle`이 남고,
+  "📍 내비 휴식 중" 상태로 둡니다.
+
+### 3. 움직임 — FusedLocation (방향과 속도)
+
+- 쓰는 순서: `FusedLocation(앱)` 만들기 → `isSupported()` 확인 →
+  `initialize()` → `registerFusedLocationCallback(리스너)` → 안 쓰면 등록
+  해제, `release()`.
+- 리스너의 `onChanged`가 올 때마다 위치 데이터에서 방향(`getBearing` 등
+  여러 이름으로 시도)과 속도(`getSpeed` 등)를 읽습니다. 속도는 m/s로 오므로
+  3.6을 곱해 km/h로 바꿉니다.
+- 없으면 로그에 `fused location unavailable, speed-only mode`가 남고,
+  아래 4번의 차량 속성 속도로만 움직입니다.
+
+### 4. 속도 — AAOS 차량 속성 (Pleos SDK가 아님)
+
+- `Car.createCar(앱)` → `getCarManager("property")` → 속도 콜백 등록
+  (`PERF_VEHICLE_SPEED`, 초당 미터) → m/s 값을 3.6배 해 km/h로 씁니다.
+- Pleos Connect가 AAOS 기반이라 이 속성은 헤드유닛에 그대로 있습니다.
+- 붙으면 로그에 `speed bound via vehicle property`, 안 붙으면
+  `vehicle speed unavailable`이 남습니다.
+
+### 5. 음성 — TextToSpeech (멘트 읽기)
+
+- 쓰는 순서: `TextToSpeech(앱, Mode)` 만들기 → `initialize()` →
+  `addEventListener(리스너)` → `speak(문장)` → 안 쓰면 `stop()`, `release()`.
+- `Mode.ON_DEVICE`는 인터넷도 가입 승인도 필요 없어서 오프라인으로
+  말합니다. `HYBRID`로 바꾸면 서버 음성을 쓰지만 내 프로젝트 등록이
+  필요합니다.
+- Pleos TTS가 없으면 플랫폼 기본 TTS로 넘어갑니다. 플랫폼 TTS 초기화도
+  실패하면 조용히 무한 반복하지 않고, 약 20초 재시도 뒤 대사를 버리고
+  로그에 남깁니다 (`TtsRetryTest` 참고).
+- 붙으면 로그에 `tts: pleos engine` 또는 `tts: platform engine`이 남습니다.
+
+## 이벤트 판정과 핵심 로직
+
+"언제 무슨 일이 일어났다고 볼 것인가"의 기준은 전부 코드에 숫자로 박혀
+있습니다. 핵심 로직은 파일 3개에 들어 있고, 흐름은 이렇습니다.
+
+```
+스냅샷(속도·방향·내비·문) → DriveEventDetector.update() → 이벤트 목록
+→ NarrationRuleEngine.pick() → 대사 하나 (또는 없음)
+```
+
+### 1단계: 스냅샷 만들기 (`PleosDriveMonitor`)
+
+1초마다 지금 상태를 한 장 찍습니다: 시간, 속도, 방향, 문 열림 여부, 내비
+상태. 데모 주행 버튼을 누르면 가짜 11장을 1.4초 간격으로 직접 만들어
+넣습니다 (아래 데모 순서 참고).
+
+### 2단계: 이벤트 판정 (`DriveEventDetector.update()`)
+
+스냅샷을 전 장과 비교해 아래 기준에 맞으면 이벤트를 붙입니다.
+숫자는 전부 `DriveEventDetector` 맨 위 기본값입니다.
+
+| 이벤트 | 판정 기준 |
+|--------|-----------|
+| `TRIP_START` | 속도가 5 km/h를 넘으면 (출발, 한 번만) |
+| `RAPID_ACCEL` | 3초 안에 20 km/h 이상 빨라지면 |
+| `SUDDEN_LANE_CHANGE` | 시속 30 km 이상에서 3초 안에 방향이 25° 이상 꺾이면 (방향 차이는 360°가 이어지도록 계산) |
+| `REPEATED_SHARP_MOVES` | 위 급조작이 60초 안에 3번 쌓이면 |
+| `HARD_BRAKE` | 2초 안에 25 km/h 이상 느려지면 |
+| `SPEEDING` | 100 km/h 이상이 되면 시작, 95 아래로 내려가야 끝 |
+| `NAV_TURN_AHEAD` | 300 m 안에 회전이 있으면 |
+| `NAV_ARRIVING` | 목적지 도착 표시가 오면 (한 번만, 도착 취소되면 리셋) |
+| `SMOOTH_CRUISE` | 시속 40~90 사이에서 앞뒤 속도 차가 3 이내로 20초 유지되면 |
+
+방향은 그대로 두면 한 방향으로 계속 쌓이므로, 60초 지난 기록은 버리고
+`repeatedSharpCount`를 다시 셉니다. 속도가 조금씩 올라도 급가속이 아니고,
+잠깐 느려졌다가도 과속 해제가 바로 안 되는 식으로, 경계에서 멘트가
+깜빡이지 않게 여유를 두었습니다.
+
+### 3단계: 대사 고르기 (`NarrationRuleEngine.pick()`)
+
+순서는 이렇고, 하나라도 어긋나면 다음 규칙으로 넘어갑니다:
+
+1. 이번에 온 이벤트가 없으면 바로 끝 (말하지 않음).
+2. 규칙을 파일 순서대로 봅니다.
+3. 규칙의 이벤트가 이번 이벤트 안에 있어야 합니다.
+4. 속도가 규칙의 속도 구간 안이어야 합니다.
+5. 격한 움직임 횟수가 규칙의 최소 횟수 이상이어야 합니다.
+6. 이 규칙이 쿨다운(마지막으로 말한 지 정해진 시간) 안에 말했으면 건너뜁니다.
+7. 다 맞은 첫 번째 규칙의 대사를 돌려쓰기 순서대로 하나 골라 말합니다.
+   (같은 규칙 안에서 매번 다음 줄이 나와서 반복 청취가 덜 지겹습니다.)
+
+고른 대사는 `Narration(문장, 말투, 규칙이름)` 하나로 묶여 화면 자막과
+음성에 같이 쓰이고, 로그에는
+`call [심각도/규칙이름]: 문장` 형태로 남습니다.
+
+### 화면 글자와 말투 꾸미기 (`CastDirector`)
+
+- 말투 표시: 신남은 🎙️, 차분함은 📻, 경고는 ⚠️ 를 문장 앞에 붙입니다.
+- 상태 줄은 항상 새로 만듭니다:
+  `🚗 몇 km/h • 🧭 몇 ° • 📍 내비 상태 • (문 열리면 🚪 문 열림!)`
+- 음소거 중이면 새 멘트가 와도 자막 제목은 🔇 로 바뀌고 말은 하지 않습니다.
+  대신 `speak suppressed (muted)` 로그가 남습니다.
+
+### 데모 주행 대본 (`CastDirector.runDemo()`)
+
+데모 버튼은 11장짜리 정해진 주행을 1.4초 간격으로 흘려보냅니다.
+숫자는 (속도, 방향)이며, 마지막 두 장에는 내비 정보가 붙습니다:
+
+```
+정지(0, 90°) → 출발(22, 90°) → 가속(60, 90°) → 급차선(62, 122°) →
+연속(61, 155°) → 3번째(63, 188°) → 유지(64, 188°) → 급제동(34, 188°) →
+과속(105, 188°) → 회전 approaching(55, 188°, 250 m 앞) → 도착(20, 185°)
+```
+
+그래서 실제 로그에는 출발 → 급가속 → 급차선 변경 → "진정하세요" 경고 →
+급제동 → 과속 → 전방 회전 → 도착 순서로 `call [...]` 줄이 찍힙니다.
+
+### 파일 위치 정리
+
+- 판정 숫자 전부: `shared/.../drive/DriveEventDetector.kt` 맨 위
+- 고르는 순서 전부: `shared/.../narration/NarrationRules.kt`의 `pick()`
+- 엮는 순서 전부: `shared/.../cast/CastDirector.kt`의 `onSnapshot()`
+- 대본 글자 전부: `shared/src/main/res/raw/narration_rules.xml`
+
 ## 주요 파일 위치
 
 | 파일 | 하는 일 |
