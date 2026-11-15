@@ -26,6 +26,36 @@
 4. 내비게이션 길안내를 시작하면 화면은 내비게이션이 차지하지만,
    음성과 알림으로는 중계가 계속됩니다. 알림에서 멈출 수 있습니다.
 
+## 테스트 환경 및 필요한 설정
+
+### 에뮬레이터
+
+- Android Emulator 37.2.12에 Pleos Connect Emulator + Virtual Console
+  조합으로 실행합니다 (자세한 설치는 `PLEOS_SDK_NOTES.md`의
+  `setup-connect-sdk-emulator` 가이드를 보세요).
+- 화면 규격 (실행 로그에서 확인된 값): 2560 x 1210, 160dpi, 60fps.
+- Car-app 버전: 앱 라이브러리 1.7.0, 호스트와 맞춘 API는 최대 4.
+- 지금 켜진 에뮬레이터가 궁금하면: `adb shell getprop ro.build.version.release`.
+
+### 빌드 설정
+
+- Gradle wrapper 9.6.0, AGP 9.4.1, Kotlin 2.2.10, Java 11,
+  `compileSdk`/`targetSdk` 37 (차량용 최소 34, 휴대폰용 최소 35).
+- 처음 빌드할 때는 네트워크가 필요합니다. Pleos 전용 저장소
+  (`settings.gradle.kts`의 nexus-playground)에서 라이브러리를 받습니다.
+- `local.properties`에 Android SDK 경로가 있어야 합니다.
+
+### APK 파일 위치
+
+빌드하면 아래에 생깁니다. `installDebug`는 설치까지 한 번에 해줍니다.
+
+| 명령 | 생기는 파일 |
+|------|-------------|
+| `./gradlew :automotive:installDebug` | 바로 설치 (파일은 `automotive/build/outputs/apk/debug/automotive-debug.apk`) |
+| `./gradlew :automotive:assembleRelease` | `automotive/build/outputs/apk/release/automotive-release.apk` (서명 없으면 `-unsigned`) |
+| `./gradlew :mobile:assembleRelease` | `mobile/build/outputs/apk/release/mobile-release.apk` (서명 없으면 `-unsigned`) |
+| `./gradlew :automotive:bundleRelease` | `automotive/build/outputs/bundle/release/automotive-release.aab` (스토어용) |
+
 ## 동작 원리 (쉽게 설명)
 
 이 앱은 **중계 방송국**이라고 생각하면 쉽습니다.
