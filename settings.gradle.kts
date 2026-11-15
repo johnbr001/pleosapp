@@ -19,6 +19,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // Pleos Connect SDK artifacts (Vehicle, NaviHelper, TextToSpeech,
+        // FusedLocation). See https://document.pleos.ai/docs/pleos-only/connect-sdk-pleos/
+        maven("https://nexus-playground.pleos.ai/repository/maven-releases/")
     }
 }
 

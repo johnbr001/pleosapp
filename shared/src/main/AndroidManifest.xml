@@ -1,7 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base movement signal (AAOS property, also present on Pleos Connect). -->
     <uses-permission android:name="android.car.permission.CAR_SPEED" />
-
-    <uses-permission android:name="android.car.permission.CAR_SPEED" />
+    <!-- Pleos SDK: FusedLocation (driving movement) and Vehicle CAR_DRIVE
+         domain (DrivingMode/Brake/Odometer car status). Pleos permissions need
+         App Market consultation/approval per the Vehicle SDK review guide. -->
+    <uses-permission android:name="pleos.car.permission.FUSED_LOCATION" />
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />
+    <!-- Keep-alive commentary: foreground service with an ongoing notification. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application>
         <!-- Minimum Car API level -->
@@ -18,5 +26,13 @@
                 <category android:name="androidx.car.app.category.POI" />
             </intent-filter>
         </service>
+
+        <!-- Commentary keep-alive: foreground service + ongoing notification,
+             so voice and caption survive the navigator taking the screen. -->
+        <service
+            android:name="com.ys.pleosapp.shared.cast.CastService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback"
+            android:stopWithTask="false" />
     </application>
 </manifest>

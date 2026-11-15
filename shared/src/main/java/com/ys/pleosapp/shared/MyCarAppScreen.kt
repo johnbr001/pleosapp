@@ -1,8 +1,10 @@
 package com.ys.pleosapp.shared
 
+import android.content.Intent
+import android.content.pm.PackageManager
 import android.os.Handler
 import android.os.Looper
-import android.content.pm.PackageManager
+import android.os.SystemClock
 import androidx.car.app.CarContext
 import androidx.car.app.OnRequestPermissionsListener
 import androidx.car.app.Screen
@@ -12,191 +14,211 @@ import androidx.car.app.model.ParkedOnlyOnClickListener
 import androidx.car.app.model.Template
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
-import java.lang.reflect.Proxy
-import java.util.concurrent.Executors
+import com.ys.pleosapp.shared.cast.CastDirector
+import com.ys.pleosapp.shared.cast.CastService
+import com.ys.pleosapp.shared.util.CastLog
 
-/** Displays the AAOS vehicle speed without requiring android.car at compile time. */
+/**
+ * "Live Drive Cast" template: a thin observer of [CastDirector].
+ *
+ * The host owns the foreground and may replace this screen with the
+ * navigator while driving. The commentary itself lives in [CastDirector]
+ * (kept alive by [CastService]), so the voice and the notification caption
+ * continue regardless of which template is showing.
+ */
 class MyCarAppScreen(carContext: CarContext) : Screen(carContext) {
     private val mainHandler = Handler(Looper.getMainLooper())
-    private val ioExecutor = Executors.newSingleThreadExecutor()
-    private var car: Any? = null
-    private var propertyManager: Any? = null
-    private var speedCallback: Any? = null
-    private var speedText = "Connecting to vehicle..."
+
+    private var headline = carContext.getString(R.string.cast_welcome)
+    private var statusLine = "Connecting to vehicle..."
+    private var muted = false
+    private var hasReplay = false
+
+    // Last template actually sent to the host. Every invalidate() produces a
+    // new MessageTemplate and the host allows only 5 per flow, so refreshes
+    // are coalesced through shouldRefreshTemplate instead of going out on
+    // every director tick (speed ticker, demo-lap feeds).
+    private var lastRenderedHeadline: String? = null
+    private var lastRenderedStatus: String? = null
+    private var lastRenderedMuted = false
+    private var lastRenderedHasReplay = false
+    private var lastRenderedPermissions = false
+    private var lastRefreshMs = 0L
+    private var autoRefreshesUsed = 0
+
+    /** User gestures start a new host flow, which resets the refresh budget. */
+    private fun resetRefreshBudget() {
+        autoRefreshesUsed = 0
+        lastRefreshMs = 0L
+    }
+
+    private val ui = CastDirector.UiListener { h, s ->
+        val newMuted = CastDirector.muted
+        val newHasReplay = CastDirector.lastCall != null
+        val newPermissions = hasPermissions()
+        val now = SystemClock.uptimeMillis()
+        headline = h
+        statusLine = s
+        muted = newMuted
+        hasReplay = newHasReplay
+        if (shouldRefreshTemplate(
+                lastRenderedHeadline,
+                lastRenderedStatus,
+                lastRenderedMuted,
+                lastRenderedHasReplay,
+                lastRenderedPermissions,
+                h,
+                s,
+                newMuted,
+                newHasReplay,
+                newPermissions,
+                now - lastRefreshMs,
+                autoRefreshesUsed
+            )
+        ) {
+            lastRenderedHeadline = h
+            lastRenderedStatus = s
+            lastRenderedMuted = newMuted
+            lastRenderedHasReplay = newHasReplay
+            lastRenderedPermissions = newPermissions
+            lastRefreshMs = now
+            autoRefreshesUsed += 1
+            mainHandler.post { invalidate() }
+        }
+    }
 
     init {
         lifecycle.addObserver(LifecycleEventObserver { _, event ->
             when (event) {
-                Lifecycle.Event.ON_START -> {
-                    if (hasSpeedPermission()) connectToVehicle()
-                    else showStatus("Speed permission required. Select Grant permission while parked.")
-                }
-                Lifecycle.Event.ON_STOP -> disconnectFromVehicle()
+                Lifecycle.Event.ON_START -> onStart()
+                Lifecycle.Event.ON_STOP -> CastDirector.removeListener(ui)
                 else -> Unit
             }
         })
     }
 
-    private fun connectToVehicle() {
-        try {
-            val carClass = Class.forName("android.car.Car")
-            car = carClass.getMethod("createCar", android.content.Context::class.java)
-                .invoke(null, carContext)
-            val connectedCar = car ?: throw IllegalStateException("Car service unavailable")
-            val manager = carClass.getMethod("getCarManager", String::class.java)
-                .invoke(connectedCar, "property")
-                ?: throw IllegalStateException("Vehicle property service unavailable")
-            propertyManager = manager
-            subscribeToSpeed(manager)
-            readInitialSpeed(manager)
-        } catch (_: SecurityException) {
-            showStatus("Speed permission is not granted")
-        } catch (error: Exception) {
-            val cause = generateSequence(error as Throwable?) { it.cause }.last()
-            val detail = cause.message?.takeIf { it.isNotBlank() }
-            showStatus(
-                if (detail == null) "Vehicle connection failed: ${cause.javaClass.simpleName}"
-                else "Vehicle connection failed: ${cause.javaClass.simpleName}: $detail"
+    private fun onStart() {
+        // Pipeline always runs in-process; the service adds keep-alive.
+        CastDirector.start(carContext)
+        runCatching {
+            carContext.startForegroundService(Intent(carContext, CastService::class.java))
+        }.onFailure { CastLog.w("keep-alive service unavailable: ${it.message}") }
+        headline = CastDirector.headline.ifEmpty { headline }
+        statusLine = CastDirector.status.ifEmpty { statusLine }
+        muted = CastDirector.muted
+        hasReplay = CastDirector.lastCall != null
+        CastDirector.addListener(ui)
+        if (!hasPermissions()) {
+            val denied = REQUIRED_PERMISSIONS.filter {
+                carContext.checkSelfPermission(it) != PackageManager.PERMISSION_GRANTED
+            }
+            statusLine = "Permissions needed for the full commentary."
+            CastLog.w("permissions denied: $denied")
+        }
+        resetRefreshBudget()
+        val now = SystemClock.uptimeMillis()
+        if (shouldRefreshTemplate(
+                lastRenderedHeadline,
+                lastRenderedStatus,
+                lastRenderedMuted,
+                lastRenderedHasReplay,
+                lastRenderedPermissions,
+                headline,
+                statusLine,
+                muted,
+                hasReplay,
+                hasPermissions(),
+                now - lastRefreshMs,
+                autoRefreshesUsed
             )
+        ) {
+            lastRenderedHeadline = headline
+            lastRenderedStatus = statusLine
+            lastRenderedMuted = muted
+            lastRenderedHasReplay = hasReplay
+            lastRenderedPermissions = hasPermissions()
+            lastRefreshMs = now
+            autoRefreshesUsed += 1
+            invalidate()
         }
     }
 
-    private fun disconnectFromVehicle() {
-        unsubscribeFromSpeed()
-        runCatching { car?.javaClass?.getMethod("disconnect")?.invoke(car) }
-        car = null
+    override fun onGetTemplate(): Template {
+        // Never let a template bug kill the app: fall back to a bare message.
+        return runCatching { buildTemplate() }.getOrElse { error ->
+            CastLog.e("template failed, showing fallback", error)
+            MessageTemplate.Builder("$headline\n\n$statusLine")
+                .setHeaderAction(Action.APP_ICON)
+                .setTitle("🏁 ${carContext.getString(R.string.cast_title)}")
+                .build()
+        }
     }
 
-    override fun onGetTemplate(): Template {
-        val builder = MessageTemplate.Builder(speedText)
+    private fun buildTemplate(): Template {
+        val builder = MessageTemplate.Builder("$headline\n\n$statusLine")
             .setHeaderAction(Action.APP_ICON)
-            .setTitle("Current speed")
-        if (!hasSpeedPermission()) {
-            builder.addAction(
-                Action.Builder()
-                    .setTitle("Grant permission")
-                    .setOnClickListener(ParkedOnlyOnClickListener.create {
-                        carContext.requestPermissions(
-                            listOf(SPEED_PERMISSION),
-                            OnRequestPermissionsListener { granted, _ ->
-                                if (SPEED_PERMISSION in granted) connectToVehicle()
-                                else showStatus("Speed permission was denied")
-                            }
-                        )
-                    })
-                    .build()
-            )
+            .setTitle("🏁 ${carContext.getString(R.string.cast_title)}")
+        // The host allows at most 2 body actions; selectActions enforces it.
+        for (action in selectActions(hasPermissions(), hasReplay)) {
+            builder.addAction(buildAction(action))
         }
         return builder.build()
     }
 
-    private fun hasSpeedPermission(): Boolean =
-        carContext.checkSelfPermission(SPEED_PERMISSION) == PackageManager.PERMISSION_GRANTED
-
-    private fun subscribeToSpeed(manager: Any) {
-        val managerClass = Class.forName("android.car.hardware.property.CarPropertyManager")
-        val callbackClass = Class.forName(
-            "android.car.hardware.property.CarPropertyManager\$CarPropertyEventCallback"
-        )
-        val propertyId = PERF_VEHICLE_SPEED
-        val callback = Proxy.newProxyInstance(
-            callbackClass.classLoader,
-            arrayOf(callbackClass)
-        ) { proxy, method, args ->
-            when (method.name) {
-                // Java collections may call these Object methods while registering the proxy.
-                // A null return for hashCode() gets unboxed to int and crashes with an NPE.
-                "hashCode" -> System.identityHashCode(proxy)
-                "equals" -> proxy === args?.firstOrNull()
-                "toString" -> "VehicleSpeedCallback"
-                "onChangeEvent" -> {
-                    val value = args?.firstOrNull()
-                    val id = value?.javaClass?.getMethod("getPropertyId")?.invoke(value) as? Int
-                    if (id == propertyId) {
-                        val speed = value.javaClass.getMethod("getValue").invoke(value) as? Number
-                        if (speed != null) showSpeed(speed.toFloat())
+    private fun buildAction(action: CastAction): Action = when (action) {
+        CastAction.GRANT -> Action.Builder()
+            .setTitle(carContext.getString(R.string.grant_permission))
+            .setOnClickListener(ParkedOnlyOnClickListener.create {
+                carContext.requestPermissions(
+                    REQUIRED_PERMISSIONS,
+                    // User gesture resets the host flow, so refresh at once
+                    // and record it to keep the throttle bookkeeping exact.
+                    OnRequestPermissionsListener { _, _ ->
+                        resetRefreshBudget()
+                        lastRenderedHeadline = headline
+                        lastRenderedStatus = statusLine
+                        lastRenderedMuted = muted
+                        lastRenderedHasReplay = hasReplay
+                        lastRenderedPermissions = hasPermissions()
+                        lastRefreshMs = SystemClock.uptimeMillis()
+                        invalidate()
                     }
-                }
-                "onErrorEvent" -> showStatus("Vehicle speed is unavailable")
-                else -> null
-            }
-        }
-        speedCallback = callback
-        val register = managerClass.methods.first {
-            it.name == "registerCallback" && it.parameterTypes.size == 3
-        }
-        register.invoke(manager, callback, propertyId, NORMAL_SENSOR_RATE)
+                )
+            })
+            .build()
+        CastAction.MUTE -> Action.Builder()
+            .setTitle(if (muted) carContext.getString(R.string.action_unmute) else carContext.getString(R.string.action_mute))
+            .setOnClickListener(ParkedOnlyOnClickListener.create {
+                resetRefreshBudget()
+                CastDirector.setMuted(!muted)
+            })
+            .build()
+        CastAction.REPLAY -> Action.Builder()
+            .setTitle(carContext.getString(R.string.action_replay))
+            .setOnClickListener(ParkedOnlyOnClickListener.create {
+                resetRefreshBudget()
+                CastDirector.replay()
+            })
+            .build()
+        CastAction.DEMO -> Action.Builder()
+            .setTitle(carContext.getString(R.string.action_demo))
+            .setOnClickListener(ParkedOnlyOnClickListener.create {
+                resetRefreshBudget()
+                CastDirector.demoLap()
+            })
+            .build()
     }
 
-    private fun readInitialSpeed(manager: Any) {
-        ioExecutor.execute {
-            try {
-                val managerClass = manager.javaClass
-                val getProperty = managerClass.methods.firstOrNull {
-                    it.name == "getProperty" && it.parameterTypes.size == 3
-                }
-                val speed = runCatching {
-                    if (getProperty == null) throw NoSuchMethodException("getProperty")
-                    val value = getProperty.invoke(
-                        manager,
-                        Float::class.javaObjectType,
-                        PERF_VEHICLE_SPEED,
-                        0
-                    )
-                    value?.javaClass?.getMethod("getValue")?.invoke(value) as? Number
-                }.getOrNull() ?: run {
-                    val getFloat = managerClass.getMethod(
-                        "getFloatProperty",
-                        Int::class.javaPrimitiveType,
-                        Int::class.javaPrimitiveType
-                    )
-                    getFloat.invoke(manager, PERF_VEHICLE_SPEED, 0) as? Number
-                }
-                if (speed != null) showSpeed(speed.toFloat())
-                else showStatus("Waiting for vehicle speed...")
-            } catch (_: SecurityException) {
-                showStatus("Speed permission is not granted")
-            } catch (error: Exception) {
-                // Keep the actual failure visible while diagnosing device/API differences.
-                val cause = error.cause ?: error
-                showStatus("Unable to read vehicle speed: ${cause.javaClass.simpleName}")
-            }
-        }
-    }
+    // ---- Permissions ----
 
-    private fun unsubscribeFromSpeed() {
-        val manager = propertyManager
-        val callback = speedCallback
-        if (manager != null && callback != null) {
-            runCatching {
-                val unregister = manager.javaClass.methods.first {
-                    it.name == "unregisterCallback" && it.parameterTypes.size == 2
-                }
-                unregister.invoke(manager, callback, PERF_VEHICLE_SPEED)
-            }
-        }
-        propertyManager = null
-        speedCallback = null
-    }
-
-    private fun showSpeed(metersPerSecond: Float) {
-        mainHandler.post {
-            speedText = "${(metersPerSecond * 3.6f).toInt()} km/h"
-            invalidate()
-        }
-    }
-
-    private fun showStatus(message: String) {
-        mainHandler.post {
-            speedText = message
-            invalidate()
-        }
+    private fun hasPermissions(): Boolean = REQUIRED_PERMISSIONS.all {
+        carContext.checkSelfPermission(it) == PackageManager.PERMISSION_GRANTED
     }
 
     private companion object {
-        const val SPEED_PERMISSION = "android.car.permission.CAR_SPEED"
-        // VehiclePropertyIds.PERF_VEHICLE_SPEED, in meters per second.
-        const val PERF_VEHICLE_SPEED = 0x11600207
-        const val NORMAL_SENSOR_RATE = 1.0f
+        val REQUIRED_PERMISSIONS = listOf(
+            "android.car.permission.CAR_SPEED",
+            "pleos.car.permission.FUSED_LOCATION"
+        )
     }
 }

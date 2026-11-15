@@ -18,4 +18,5 @@ android {
 }
 dependencies {
     implementation libs.androidx.app
+    testImplementation libs.junit
 }
