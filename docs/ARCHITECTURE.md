@@ -85,13 +85,15 @@ sequenceDiagram
         D->>E: update(snapshot) → List~DriveEvent~
         D->>R: pick(events, speedKmh, repeatedSharpCount, nowMs) → Narration?
         alt narration != null
-            D->>D: lastCall = it; headline = decorate(it)
+            D->>D: lastCall = it
+            D->>D: headline = decorate(it)
             D->>N: speak(text)
         end
         D->>Scr: publish() → UiListener.onUpdate(h, s)
         Scr->>Scr: shouldRefreshTemplate(last…, new…, elapsedMs, autoRefreshesUsed)
         opt gate passes
-            Scr->>Scr: snapshot = latest; autoRefreshesUsed += 1
+            Scr->>Scr: snapshot = latest
+            Scr->>Scr: autoRefreshesUsed += 1
             Scr->>H: invalidate() → getTemplate() → onGetTemplate()
         end
     end
@@ -129,7 +131,8 @@ sequenceDiagram
                 N->>L: w("platform speak returned ERROR (missing voice data?)")
             end
         else not ready and shouldKeepRetryingTts(retries)
-            N->>N: bindPlatformTts(); retries += 1
+            N->>N: bindPlatformTts()
+            N->>N: retries += 1
             opt retries == 20
                 N->>L: w("platform tts not ready after ~10s, engine may be missing")
             end
@@ -144,10 +147,10 @@ sequenceDiagram
 
 ```mermaid
 flowchart TD
-    S[Narrator.start] --> B{bindPleosTts()?}
+    S[Narrator.start] --> B{"bindPleosTts()?"}
     B -- "Class.forName OK, initialize OK" --> P["tts: pleos engine"]
     B -- "missing/unavailable" --> F[bindPlatformTts]
     F --> W{OnInitListener status?}
-    W -- SUCCESS --> R["isLanguageAvailable → language = US; tts ready"]
+    W -- SUCCESS --> R["isLanguageAvailable → language = US, tts ready"]
     W -- ERROR --> E["w(init failed + engines list from PackageManager)"]
 ```
